@@ -1,14 +1,10 @@
 # BẢNG TỔNG HỢP DANH MỤC BỆNH LÝ KHỞI PHÁT ĐAU PHỤC VỤ KHÁM LÂM SÀNG (MERGED)
 
-> **Tài liệu:** Bảng dữ liệu lâm sàng hợp nhất giữa `60_benh.md` và `thong_ke_nhom_benh_43_chuyen_khoa.md`.
-> **Ngày hợp nhất:** 16/09/2026
 > **Tổng số bệnh chuẩn hóa:** **47 bệnh lý lâm sàng ngoại trú**
 > **Số nhóm chuyên khoa:** **6 nhóm**
 > **Tiêu chí chuẩn hóa:**
 > 1. **Khởi phát là Đau:** 100% bệnh lý có triệu chứng khởi phát ban đầu điển hình là Đau.
-> 2. **Phục vụ Khám lâm sàng / Ngoại trú:** Đã loại bỏ hoàn toàn các bệnh lý cấp cứu đe dọa tính mạng (cần hồi sức/mổ cấp cứu khẩn).
-> 3. **Hợp nhất dữ liệu:** Khử trùng lặp 25 bệnh; tích hợp bổ sung **Mã ICD-10** và **Dấu hiệu / Nghiệm pháp khám lâm sàng tiêu biểu**.
-> 4. **Nguồn tham khảo:** Bộ Y tế (QĐ 361), Vinmec, MSD Manuals, BV Tâm Anh, Medlatec, Apollo Hospitals, Gleneagles Hospital.
+> 2. **Nguồn tham khảo:** Bộ Y tế (QĐ 361), Vinmec, MSD Manuals, BV Tâm Anh, Medlatec, Apollo Hospitals, Gleneagles Hospital.
 
 ---
 
