@@ -2,7 +2,7 @@ KỊCH BẢN ĐỐI THOẠI KHÁM BỆNH: THOÁT VỊ ĐĨA ĐỆM CỘT SỐNG 
   Phương pháp sinh: NoteChat Multi-Agent Architecture (LangGraph)
   Bác sĩ: Bác sĩ Trí (Đĩnh đạc, ân cần, giọng miền Bắc, gặng hỏi chi tiết và khám thực thể cột sống)
   Bệnh nhân: Bác Hùng (58 tuổi, Thợ mộc lâu năm, bị đau buốt thắt lưng lan xuống chân trái, tê bì mu ngón chân, dùng từ ngữ dân dã mộc mạc)
-  Tổng số lượt thoại: 38 lượt | Thời lượng giả định: ~8 phút
+  Tổng số lượt thoại: 22 lượt khám lâm sàng (38 phân đoạn thoại) | Thời lượng giả định: ~8 phút
 
 --------------------------------------------------
 
