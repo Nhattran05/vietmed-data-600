@@ -1,0 +1,42 @@
+KỊCH BẢN ĐỐI THOẠI KHÁM BỆNH: HỘI CHỨNG KHÔ MẮT DO DÙNG THIẾT BỊ ĐIỆN TỬ KÉO DÀI (DRY EYE SYNDROME) - KHÔ MẮT THỂ GIẢM TIẾT NƯỚC MẮT DO DÙNG MÀN HÌNH 12H/NGÀY
+  Phương pháp sinh: NoteChat Multi-Agent Architecture (LangGraph)
+  Bác sĩ: Bác sĩ Linh (Nhẹ nhàng, cẩn trọng, chuyên khoa Mắt, soi sinh hiển vi nhuộm giác mạc)
+  Bệnh nhân: Bạn Hiếu (25 tuổi, Lập trình viên nhìn màn hình 12 tiếng/ngày, mắt cộm xốn như có cát, cay rát khó chịu)
+  Tổng số lượt thoại: 34 lượt | Thời lượng giả định: ~8 phút
+
+--------------------------------------------------
+
+[00:00 - 00:02] Bác sĩ Linh: Chào em Hiếu, mời em ngồi xuống đây nhé.
+[00:02 - 00:04] Bạn Hiếu: Dạ.
+[00:04 - 00:12] Bác sĩ Linh: Hôm nay em đến khám mắt vì mình đang gặp những triệu chứng khó chịu thế nào, em cứ thong thả kể cho bác sĩ nghe nhé.
+[00:12 - 00:38] Bạn Hiếu: Dạ em chào bác sĩ. Em ngồi đây ạ. Chả là mấy nay mắt mũi em chán lắm bác sĩ ơi, từ sáng tới tối em cứ dán mặt vào cái màn hình code suốt mười mấy tiếng đồng hồ nên tối về mắt nó cứ cộm xốn lên như có hạt cát trong ấy, cay rát khó chịu lắm, nhiều lúc nhìn chữ cứ mờ mờ nhòe đi xong phải chớp chớp mấy cái nó mới rõ lại được đấy bác ạ.
+[00:38 - 00:55] Bác sĩ Linh: Bác nghe em mô tả là bác đã hình dung được cái cảm giác cộm xốn như có hạt cát và nhìn mờ phải chớp chớp mới rõ lại rồi đấy. Thế còn khi em đi đường gặp gió hoặc ngồi phòng máy lạnh nhiều, mắt mình có hay bị chảy nước mắt sống ra không em?
+[00:55 - 01:15] Bạn Hiếu: Vâng đúng rồi đấy bác sĩ ạ, bác sĩ nói chuẩn không cần chỉnh luôn. Ngồi cái phòng lạnh cơ quan từ sáng đến tối đã đành, lúc đi đường về gặp gió cái là nước mắt nước mũi cứ giàn giụa ra, không tài nào mở nổi mắt để nhìn đường mà đi nữa cơ, cứ phải nheo nheo lại nguy hiểm phết đấy ạ.
+[01:15 - 01:37] Bác sĩ Linh: Bác rất đồng cảm với Hiếu, vừa phải căng mắt nhìn màn hình cả ngày trong phòng lạnh, vừa gặp gió là nước mắt tuôn ra như vậy thì vất vả cho đôi mắt lắm. Bác thấy triệu chứng này của em rõ ràng là cứ dán mắt vào máy tính lâu là nó nặng lên, còn lúc được nghỉ ngơi hoặc chớp mắt nhiều thì lại đỡ phải không em?
+[01:37 - 02:04] Bạn Hiếu: Vâng chuẩn luôn bác sĩ ạ, đúng là lúc làm việc căng thẳng thì nó mới hành hạ thế, chứ dạo này ngày nghỉ ở nhà cắm mặt vào game ít hơn tí thì thấy nó đỡ cộm hơn một chút. Nhưng mà khổ nỗi cái nghề của bọn em thì ngày nào cũng phải cày cuốc với cái màn hình chứ có né được đâu, nhiều lúc nghĩ cứ thế này thì không biết mắt mũi sau này có mù luôn không nữa cơ bác sĩ ạ.
+[02:04 - 02:18] Bác sĩ Linh: Bác hiểu lo lắng của em chứ, làm nghề IT mà mắt cứ mờ mỏi và cộm xốn liên tục thế này thì chắc chắn là ảnh hưởng rất nhiều đến hiệu suất công việc cũng như sự thoải mái hằng ngày của em đúng không nào.
+[02:18 - 02:20] Bạn Hiếu: Vâng ạ.
+[02:20 - 02:33] Bác sĩ Linh: Bây giờ, để bác mời em sang máy soi sinh hiển vi bên này, bác xin phép soi nhẹ nhàng kiểm tra kỹ hơn bề mặt giác mạc và màng phim nước mắt của em một chút nhé, em cứ thả lỏng người ra nha.
+[02:33 - 02:48] Bạn Hiếu: Dạ vâng bác sĩ cứ xem giúp em kỹ kỹ vào nhé, chứ em cũng lo lắm rồi đấy ạ, ngồi trước cái màn hình máy tính từ sáng đến tối mịt, mắt thì cứ cay xè ra thế này thì làm ăn gì được nữa đâu cơ chứ.
+[02:48 - 03:04] Bác sĩ Linh: Bác nghe Hiếu kể là biết em dành phần lớn thời gian trong ngày gắn liền với màn hình máy tính rồi đấy, việc ngồi làm việc với thiết bị điện tử liên tục như vậy chính là nguyên nhân lớn khiến đôi mắt của mình bị quá tải và khô rát.
+[03:04 - 03:06] Bạn Hiếu: Dạ vâng.
+[03:06 - 03:41] Bác sĩ Linh: Bây giờ, qua quá trình bác soi sinh hiển vi kết hợp với việc nhỏ một chút dung dịch huỳnh quang nhẹ để kiểm tra kỹ hơn, bác đã thấy rõ những tổn thương biểu mô nhỏ xíu trên bề mặt giác mạc và màng phim nước mắt của em bị vỡ rất nhanh, lượng nước mắt tiết ra không đủ để giữ ẩm cho mắt trong suốt thời gian em làm việc. Để khắc phục tình trạng này, bác sẽ kê cho em loại nước mắt nhân tạo không chất bảo quản Sodium Hyaluronate 0,18 phần trăm, mình nhỏ từ bốn đến sáu lần mỗi ngày để cấp ẩm trực tiếp cho mắt nhé.
+[03:41 - 04:09] Bạn Hiếu: Dạ vâng bác sĩ, cứ phải nhỏ thuốc đều đặn là tốt rồi chứ mắt mũi thế này em cũng sợ lắm rồi. Mà bác sĩ ơi, ngoài việc nhỏ mấy cái giọt nước mắt đấy ra thì em có phải kiêng khem gì hay là phải tập tành gì cho mắt nó đỡ không hả bác, chứ cứ đà này ngày nào cũng ngồi code từ sáng tới tối mù mịt thế này thì em lo lắm, không khéo sau này lại phải đeo đít chai dày cộp thì chết dở.
+[04:09 - 04:19] Bác sĩ Linh: Bác rất hiểu nỗi lo của Hiếu, làm việc với máy tính nhiều mà mắt cứ khô rát, lo lắng cho thị lực sau này là hoàn toàn dễ hiểu em ạ.
+[04:19 - 04:21] Bạn Hiếu: Vâng bác sĩ.
+[04:21 - 04:39] Bác sĩ Linh: Em cứ yên tâm nhé, ngoài việc dùng nước mắt nhân tạo không chất bảo quản để cấp ẩm trực tiếp cho mắt từ bốn đến sáu lần mỗi ngày, bác sẽ hướng dẫn thêm cho em cách chườm ấm mí mắt mười phút mỗi ngày để làm thông tuyến bã Meibomius, giúp giữ nước mắt tốt hơn.
+[04:39 - 04:41] Bạn Hiếu: Dạ vâng ạ.
+[04:41 - 05:03] Bác sĩ Linh: Thêm vào đó, mình sẽ áp dụng quy tắc hai mươi hai mươi hai mươi, nghĩa là cứ làm việc hai mươi phút với màn hình thì em hãy nhìn xa hai mươi feet trong thời gian hai mươi giây để đôi mắt được nghỉ ngơi, kết hợp đặt màn hình thấp hơn tầm mắt từ mười đến mười lăm độ và tập chớp mắt chủ động đều đặn hơn nữa nhé.
+[05:03 - 05:44] Bạn Hiếu: Dạ em cảm ơn bác sĩ nhiều nhé, nghe bác sĩ dặn dò chi tiết thế này là em cũng thấy yên tâm hơn hẳn rồi đấy ạ. Cái quy tắc hai mươi hai mươi hai mươi gì đấy nghe lạ tai phết nhưng mà để em ráng tập thói quen xem sao, chứ cứ để mắt mũi nó khô khốc như chà nhám thế này thì chắc em trầm cảm mất thôi. Còn cái vụ chườm ấm mí mắt với lại đặt lại cái màn hình thấp xuống thì tối về em làm luôn, công nhận là từ sáng giờ ngồi nghe bác sĩ tư vấn xong thấy nhẹ cả người, đúng là phải đi khám sớm chứ không cứ để liều mạng thì khổ cái thân em ra bác sĩ ạ.
+[05:44 - 05:54] Bác sĩ Linh: Bác rất hiểu và ghi nhận sự cố gắng của Hiếu, nghe em chia sẻ là bác biết em đã quyết tâm thay đổi thói quen để bảo vệ đôi mắt rồi đấy.
+[05:54 - 05:56] Bạn Hiếu: Em hiểu rồi ạ.
+[05:56 - 06:56] Bác sĩ Linh: Để bác chia sẻ thêm với em một chút về kết quả vừa rồi qua máy soi sinh hiển vi nhé, ban nãy khi bác dùng một loại chất nhuộm sinh học màu vàng cam nhẹ nhàng nhỏ vào mắt để quan sát, trên bề mặt giác mạc của em đã xuất hiện những chấm tổn thương biểu mô nhỏ xíu do lớp phim nước mắt bị vỡ quá nhanh và lượng tiết nước mắt của em đo được thấp hơn mức bình thường rất nhiều. Chính cái tình trạng thiếu hụt lượng nước mắt bảo vệ đó kết hợp với việc bề mặt tròng đen bị khô rát đã làm cho mắt em có cảm giác cay xốn, đỏ nhẹ và mờ nhòe mỗi khi tập trung làm việc lâu đấy em ạ. Thế nên bây giờ Hiếu cứ tuân thủ thật kỹ các hướng dẫn điều trị của bác, kết hợp nhỏ nước mắt nhân tạo đều đặn, chườm ấm mí mắt mỗi ngày và áp dụng ngay quy tắc nhìn xa nghỉ ngơi mà bác vừa dặn nhé, đôi mắt của em sẽ dần hồi phục và dễ chịu hơn rất nhiều thôi.
+[06:56 - 07:19] Bạn Hiếu: Dạ vâng bác sĩ, em hiểu rồi ạ. Cái vụ "cứ 20 phút nhìn màn hình nhìn xa 20 feet trong 20 giây" nghe cũng có vẻ hợp lý bác ạ, để em cố gắng tập xem sao. Chứ dạo này cứ nhìn màn hình lâu là mắt nó lại sưng lên, khó chịu lắm. Cảm ơn bác sĩ đã chỉ bảo tận tình, em về sẽ thực hiện đúng theo lời bác sĩ dặn ạ.
+[07:19 - 07:24] Bác sĩ Linh: Buổi khám của chúng ta hôm nay đến đây là kết thúc rồi em Hiếu ạ.
+[07:24 - 07:26] Bạn Hiếu: Dạ vâng em nhớ rồi.
+[07:26 - 07:32] Bác sĩ Linh: Qua thăm khám, bác thấy tình trạng mắt của em cần được theo dõi và điều trị tích cực.
+[07:32 - 07:33] Bạn Hiếu: Vâng ạ.
+[07:33 - 07:41] Bác sĩ Linh: Em nhớ uống thuốc theo đúng chỉ định của bác, đừng quên áp dụng các biện pháp giữ gìn mắt mà bác đã dặn nhé.
+[07:41 - 07:42] Bạn Hiếu: Dạ.
+[07:42 - 07:51] Bác sĩ Linh: Hẹn em tái khám sau hai tuần để bác kiểm tra lại tình hình mắt của mình. Chúc em luôn khỏe mạnh và giữ gìn đôi mắt thật tốt!
+[07:51 - 07:59] Bạn Hiếu: Dạ vâng, cảm ơn bác sĩ nhiều lắm. Tôi về sẽ uống thuốc và tập luyện đúng như bác sĩ dặn. Chào bác sĩ tôi về ạ.

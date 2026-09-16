@@ -1,0 +1,15 @@
+# ==============================================================================
+# .gitignore: Chỉ theo dõi thư mục Output/ và file merged.md
+# ==============================================================================
+
+# 1. Bỏ qua toàn bộ file và thư mục ở cấp gốc theo mặc định
+/*
+
+# 3. File tài liệu chính
+!.gitignore
+!README.md
+!merged.md
+
+# 4. Chỉ theo dõi và upload thư mục Output cùng toàn bộ nội dung/thư mục con bên trong
+!Output/
+!Output/**

@@ -1,0 +1,34 @@
+KỊCH BẢN ĐỐI THOẠI KHÁM BỆNH: VIÊM BÀNG QUANG CẤP TÍNH KHÔNG BIẾN CHỨNG Ở PHỤ NỮ (ACUTE CYSTITIS) - VIÊM BÀNG QUANG CẤP TÍNH LẦN ĐẦU Ở PHỤ NỮ TRẺ (HỘI CHỨNG TUẦN TRĂNG MẬT)
+  Phương pháp sinh: NoteChat Multi-Agent Architecture (LangGraph)
+  Bác sĩ: Bác sĩ Thảo (Tế nhị, ân cần, giải thích cặn kẽ đường tiết niệu, kiểm tra nước tiểu)
+  Bệnh nhân: Bạn Lan (24 tuổi, Mới lập gia đình, ngại ngùng, đi tiểu buốt thấu ruột gan, vừa đi xong lại mót tiểu, nước tiểu đục)
+  Tổng số lượt thoại: 26 lượt | Thời lượng giả định: ~8 phút
+
+--------------------------------------------------
+
+[00:00 - 00:02] Bác sĩ Thảo: Chào Lan, mời em ngồi xuống ghế nhé.
+[00:02 - 00:04] Bạn Lan: Dạ.
+[00:04 - 00:12] Bác sĩ Thảo: Hôm nay em thấy trong người thế nào, có vấn đề gì khó chịu khiến em phải đến gặp bác sĩ vậy em?
+[00:12 - 00:46] Bạn Lan: Dạ, em chào bác sĩ ạ. Dạo này em cứ thấy người khó chịu sao ấy bác sĩ ơi, mà ngại chết đi được. Em. em mới lấy chồng được hơn tháng nay thôi, mà tự dưng mấy hôm nay cứ bị đi tiểu buốt thấu ruột gan luôn bác sĩ ạ. Cứ vừa đứng lên đi xong được một tí, chưa kịp làm gì đã lại thấy mót tiểu rồi. Đã thế nước tiểu lại còn đục đục nữa, với cả bụng dưới cứ ê ẩm đau tức khó chịu lắm bác sĩ ạ.
+[00:46 - 01:14] Bác sĩ Thảo: Chào em, bác sĩ rất hiểu và thông cảm với những lo lắng của em lúc này, chuyện mới lập gia đình mà gặp phải mấy triệu chứng này rất hay gặp ở các chị em phụ nữ mình, em cứ bình tĩnh nhé. Vừa rồi nghe em chia sẻ thì thấy mình bị tiểu buốt, tiểu rắt nhiều lần và nước tiểu lại đục, kèm theo cả cảm giác đau tức ê ẩm vùng bụng dưới nữa đúng không em?
+[01:14 - 01:16] Bạn Lan: Vâng ạ.
+[01:16 - 01:31] Bác sĩ Thảo: Em có thể chia sẻ thêm với bác sĩ là cái cảm giác đau tức vùng bụng dưới đó diễn ra thế nào, nó cứ âm ỉ suốt hay chỉ đau nhiều lúc đi tiểu thôi, và có lan đi đâu không em?
+[01:31 - 01:59] Bạn Lan: Dạ, cái vụ đau bụng dưới này nó cứ ê ẩm âm ỉ suốt thôi bác sĩ ạ, lúc đi tiểu thì nó lại càng đau hơn, cứ như ai châm kim vào ấy ạ. Chứ nó cũng không có lan đi đâu hết, chỉ quanh quẩn ở chỗ bụng dưới này thôi. Mới lấy chồng xong mọi thứ vui vẻ mà tự dưng gặp cái này ngại quá bác sĩ ơi, đi đâu cũng thấy bất tiện hết ạ.
+[01:59 - 02:01] Bác sĩ Thảo: Hiểu cảm giác của em.
+[02:01 - 02:03] Bạn Lan: Dạ vâng.
+[02:03 - 02:30] Bác sĩ Thảo: Em vừa chia sẻ là nước tiểu đục, và giờ lại thêm là nước tiểu còn có mùi hôi hay có vệt máu nữa đúng không em? Em có thể mô tả rõ hơn về màu sắc và mùi của nước tiểu những ngày gần đây cho bác sĩ biết được không? Em có để ý thấy nước tiểu có lẫn chút máu đỏ tươi hoặc màu nước tiểu có đậm hơn bình thường không?
+[02:30 - 03:00] Bạn Lan: Dạ, nước tiểu của em mấy hôm nay nó đục lắm bác sĩ ơi, kiểu như có vẩn đục ấy ạ. Còn mùi thì. ừm. nó cũng hơi hôi hôi lạ lắm, chứ không còn trong như trước nữa. Em cũng có để ý thấy cuối bãi tiểu nó cứ hơi đỏ đỏ một tí, nhưng mà ít lắm bác sĩ, nhìn thoáng qua cứ tưởng lẫn tí máu nhưng không chắc nữa ạ. Chứ nói chung là nó cứ đục đục với có mùi á bác sĩ.
+[03:00 - 03:35] Bác sĩ Thảo: Cảm ơn em đã chia sẻ rất chi tiết ạ. Em yên tâm, những triệu chứng em mô tả như tiểu buốt, tiểu rắt, cảm giác đau tức nhẹ vùng bụng dưới, nước tiểu đục và hơi có mùi lạ, thỉnh thoảng có vệt đỏ cuối bãi, là những dấu hiệu thường gặp của một tình trạng viêm nhiễm ở đường tiết niệu dưới đó em. Bác sĩ rất muốn hỏi thêm một chút để chắc chắn nhé, là dạo gần đây em có cảm thấy sốt, người nóng lên hay có bị đau vùng hông lưng không em?
+[03:35 - 04:11] Bạn Lan: Dạ không bác sĩ ơi, em không thấy bị sốt hay ngây ngấy nóng gì đâu ạ. Mấy chỗ hông lưng đằng sau cũng bình thường, không đau đớn gì hết ạ. Chỉ có mỗi cái vùng bụng dưới đằng trước này nó cứ đau ê ẩm, với cả mỗi lần đi tiểu là nó buốt thót cả ruột gan thôi ạ. Ngượng với chồng lắm bác sĩ ơi, mới cưới về chưa được bao lâu mà đã bị thế này, đi làm hay dọn dẹp nhà cửa em cứ phải chạy vào nhà vệ sinh suốt, khổ sở vô cùng.
+[04:11 - 04:40] Bác sĩ Thảo: Thảo rất hiểu sự ngại ngùng và những bất tiện mà em đang phải trải qua trong những ngày đầu bước vào cuộc sống gia đình, Lan cứ yên tâm nhé vì đây là một tình trạng rất thường gặp ở các chị em mới lập gia đình mà tụi mình hay gọi là hội chứng tuần trăng mật đấy. Cho bác sĩ hỏi thêm một chút, đây là lần đầu tiên em gặp phải tình trạng viêm đường tiết niệu này đúng không em?
+[04:40 - 05:02] Bạn Lan: Dạ đúng rồi bác sĩ ơi, đây là lần đầu tiên trong đời em bị như thế này luôn đấy ạ. Trước giờ em có bao giờ bị thế này đâu, tự dưng mới lấy chồng được hơn tháng mà đã dính phải cái món này, làm em cứ lo ngay ngáy không biết có bị làm sao nặng lắm không nữa.
+[05:02 - 05:13] Bác sĩ Thảo: Hiểu những lo lắng của em, đây là lần đầu tiên gặp phải tình trạng này nên việc em thấy bỡ ngỡ và phiền toái là hoàn toàn dễ hiểu em nhé.
+[05:13 - 05:16] Bạn Lan: Vâng bác sĩ.
+[05:16 - 05:34] Bác sĩ Thảo: Lát nữa bác sĩ sẽ kiểm tra kĩ càng cho em. Bây giờ, em cho bác sĩ xin phép được thăm khám vùng bụng dưới một chút nhé; khi bác ấn nhẹ vào vùng trên xương mu này, em cảm thấy thế nào, có thấy đau tức nhiều hơn không em?
+[05:34 - 06:00] Bạn Lan: Dạ, bác sĩ cứ ấn nhẹ vào đấy là em thấy nó nhói lên đau tức khó chịu lắm luôn ạ, đúng ngay cái chỗ vùng bụng dưới mà em vừa bảo với bác sĩ đấy ạ. Đau thế này thì chắc là em bị nặng lắm rồi hả bác sĩ, không biết có phải uống thuốc lâu không chứ cứ thế này thì em mệt mỏi với lại ngại với chồng lắm ạ.
+[06:00 - 06:12] Bác sĩ Thảo: Cảm giác đau tức ê ẩm ngay vùng xương mu khi bác sĩ ấn vào cùng với những triệu chứng nãy giờ em kể rất phù hợp với tình trạng viêm bàng quang cấp.
+[06:12 - 06:14] Bạn Lan: Dạ vâng ạ.
+[06:14 - 06:39] Bác sĩ Thảo: Vừa xem lại kết quả xét nghiệm nước tiểu của em rồi, trong nước tiểu có sự xuất hiện của các tế bào bạch cầu, là những tế bào miễn dịch cơ thể huy động đến để chống lại vi khuẩn, cùng với chất nitrit, đây là dấu hiệu cho thấy có sự hiện diện của vi khuẩn gây bệnh trong đường tiết niệu của mình đấy em ạ.
+[06:39 - 07:14] Bạn Lan: Dạ nghe bác sĩ giải thích có vi khuẩn với lại bạch cầu gì đó là em lại thấy sợ rồi đấy ạ. Chắc là em bị viêm nhiễm nặng lắm rồi phải không bác sĩ? Bệnh này có nguy hiểm lắm không, rồi em phải uống thuốc bao lâu mới khỏi hả bác sĩ? Chứ cứ thế này thì em khóc mất thôi, người ngợm thì cứ mót tiểu liên tục mà mỗi lần đi là buốt thấu tận tim gan, chồng em nhìn thấy cứ lo lắng hỏi hoài mà em ngại không dám nói thật nữa cơ ạ.
+[07:14 - 07:50] Bác sĩ Thảo: Lan đừng quá lo lắng nhé, bệnh này hoàn toàn có thể điều trị khỏi hẳn nếu em uống thuốc đúng giờ, đủ liều theo toa của bác sĩ, kết hợp uống nhiều nước và giữ gìn vệ sinh cá nhân thật tốt. Bây giờ bác sĩ sẽ kê đơn thuốc cho em, độ 3-5 ngày là các triệu chứng khó chịu sẽ giảm hẳn thôi, và em nhớ quay lại tái khám sau một tuần để bác sĩ kiểm tra lại cho chắc chắn nhé, chúc em mau khỏe lại để tận hưởng trọn vẹn niềm vui bên gia đình nhỏ!
+[07:50 - 08:00] Bạn Lan: Dạ vâng, cảm ơn bác sĩ nhiều lắm. Tôi về sẽ uống thuốc và tập luyện đúng như bác sĩ dặn. Chào bác sĩ tôi về ạ.
