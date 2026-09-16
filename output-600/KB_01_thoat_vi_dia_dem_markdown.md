@@ -2,29 +2,45 @@
 > **Phương pháp sinh:** NoteChat Multi-Agent Architecture (LangGraph)
 > **Bác sĩ:** Bác sĩ Trí (Đĩnh đạc, ân cần, giọng miền Bắc, gặng hỏi chi tiết và khám thực thể cột sống)
 > **Bệnh nhân:** Bác Hùng (58 tuổi, Thợ mộc lâu năm, bị đau buốt thắt lưng lan xuống chân trái, tê bì mu ngón chân, dùng từ ngữ dân dã mộc mạc)
-> **Tổng số lượt thoại:** 22 lượt | **Thời lượng giả định:** ~8 phút
+> **Tổng số lượt thoại:** 38 lượt | **Thời lượng giả định:** ~8 phút
 
 ---
 
-- **`[00:00 - 00:14]` Bác sĩ Trí:** Chào bác Hùng, bác cứ thong thả ngồi xuống. Thế hôm nay bác thấy trong người thế nào mà lại đi khám ạ?
-- **`[00:14 - 01:03]` Bác Hùng:** Dạ chào bác sĩ. Chả là dạo này cái lưng tôi nó cứ đau buốt lắm bác sĩ ạ. Nó không chỉ đau ở thắt lưng đâu mà nó cứ chạy dọc xuống mông rồi lan xuống cả cái chân trái của tôi nữa, nhói như điện giật ấy. Đã thế cái mu bàn chân với ngón chân nó cứ tê bì, châm chích khó chịu lắm, làm tôi chẳng làm ăn gì được cả.
-- **`[01:03 - 01:23]` Bác sĩ Trí:** Bác bị đau nhói như điện giật và tê bì cả mu bàn chân trái. Thế khi bác ho hay hắt hơi, cái đau đó có tăng lên không ạ?
-- **`[01:23 - 01:52]` Bác Hùng:** Dạ đúng rồi bác sĩ, cứ hễ tôi ho một cái hay hắt hơi một phát là cái lưng nó lại nhói lên một phát, đau như có ai cầm dao cắt vào ấy, rồi nó lại chạy rần rần xuống tận chân luôn.
-- **`[01:52 - 01:55]` Bác sĩ Trí:** Vâng ạ.
-- **`[01:55 - 02:08]` Bác Hùng:** Khổ lắm, đang nằm nghỉ mà hắt hơi một cái là giật cả người, đau không chịu nổi bác ạ.
-- **`[02:08 - 02:23]` Bác sĩ Trí:** Dạ, cứ hắt hơi là đau giật cả người bác nhỉ. Thế khi nằm nghỉ thì cái đau có giảm đi không ạ?
-- **`[02:23 - 02:43]` Bác Hùng:** Dạ có bác sĩ ạ. Tôi cứ nằm ngửa trên cái giường cứng, hơi co cái chân trái lên một tí thì mới thấy nó dịu đi được một chút.
-- **`[02:43 - 02:46]` Bác sĩ Trí:** Vâng.
-- **`[02:46 - 03:07]` Bác Hùng:** Chứ nằm giường mềm hay nằm nghiêng là cái lưng nó lại nhức thấu xương, không tài nào chợp mắt nổi. Cả đêm cứ trằn trọc mãi, khổ sở quá bác sĩ ạ.
-- **`[03:07 - 03:25]` Bác sĩ Trí:** Dạ, trằn trọc mãi thế thì mệt lắm. Thế còn việc đi lại, đi bộ hay lên xuống cầu thang bác có thấy khó khăn không ạ?
-- **`[03:25 - 04:22]` Bác Hùng:** Dạ khó chứ bác sĩ, khó lắm chứ lạ gì. Cái chân trái tôi nó cứ tê bì, yếu xìu, bước đi cứ như đi trên mây ấy, không chắc chắn gì cả. Mỗi lần phải leo cầu thang là cái lưng nó lại nhức thốn lên, chân thì run cầm cập, tôi cứ phải bám vào lan can mãi mới lên được. Cứ cái đà này chắc tôi bỏ nghề mộc mất, chứ làm sao mà bê vác, di chuyển linh hoạt như trước được nữa.
-- **`[04:22 - 04:39]` Bác sĩ Trí:** Dạ, bác làm nghề mộc nên chắc vất vả lắm. Thế trước đây khi làm việc, bác có hay phải cúi người bê vác nặng không ạ?
-- **`[04:39 - 05:31]` Bác Hùng:** Dạ, cái đó thì quá là nhiều luôn bác sĩ ơi. Nghề mộc nhà tôi bao nhiêu năm nay, suốt ngày cứ phải khom lưng cưa đục, rồi lại bê vác mấy thanh gỗ to, nặng trịch. Có mấy lần đang bê tấm gỗ lớn mà tự dưng cái lưng nó khục một cái, đau điếng cả người, nhưng tôi cứ nghĩ chắc chỉ mỏi thôi nên lại cố làm tiếp, ai ngờ giờ nó lại hành thế này.
-- **`[05:31 - 05:44]` Bác sĩ Trí:** Dạ, vất vả cho bác quá. Bây giờ bác nằm xuống giường để tôi kiểm tra cái lưng một chút nhé.
-- **`[05:44 - 06:11]` Bác Hùng:** Dạ vâng, để tôi cố lồm cồm nằm xuống một tí. Chỉ sợ cái lưng nó lại giật một cái thì khổ quá bác sĩ ạ, cứ nghĩ đến lúc phải cử động là tôi lại thấy lo lo rồi.
-- **`[06:11 - 06:28]` Bác sĩ Trí:** Dạ, bác cứ nằm yên nhé. Kết quả MRI cho thấy đĩa đệm L4-L5 và L5-S1 bị thoát vị nhân nhầy, chèn ép rễ thần kinh rồi.
-- **`[06:28 - 07:19]` Bác Hùng:** Trời đất ơi, nghe bác sĩ nói mà tôi thấy lo quá. Hèn gì cái lưng tôi nó cứ đau nhức, tê dại cả chân như thế này. Thế cái này có chữa khỏi hẳn được không bác sĩ ơi? Chứ cái nghề mộc của tôi, nếu mà không đi lại, bê vác được nữa thì lấy gì mà nuôi vợ con, rồi còn mấy đứa nhỏ đang tuổi ăn học nữa. Tôi lo quá bác sĩ ạ.
-- **`[07:19 - 07:26]` Bác sĩ Trí:** Bác đừng quá lo lắng, mình sẽ cùng cố gắng nhé.
-- **`[07:26 - 07:30]` Bác Hùng:** Vâng.
-- **`[07:30 - 07:42]` Bác sĩ Trí:** Bác nhớ uống thuốc đúng giờ, giữ gìn sức khỏe và hẹn gặp lại bác ngày tái khám ạ.
-- **`[07:42 - 08:00]` Bác Hùng:** Dạ vâng, cảm ơn bác sĩ nhiều lắm. Tôi về sẽ uống thuốc và tập luyện đúng như bác sĩ dặn. Chào bác sĩ tôi về ạ.
+- **`[00:00 - 00:10]` Bác sĩ Trí:** Chào bác Hùng, tôi là bác sĩ Trí. Bác thấy đau ở vùng lưng như thế nào và nó bắt đầu từ khi nào thế ạ?
+- **`[00:10 - 00:26]` Bác Hùng:** Dạ bác sĩ, cái này cũng mới chừng hai tuần nay thôi. Chả là hôm đó tôi đang cúi xuống bê mấy thanh gỗ nặng trong xưởng, tự nhiên cái lưng nó kêu một cái rồi đau buốt thấu xương luôn.
+- **`[00:26 - 00:28]` Bác sĩ Trí:** Vâng ạ.
+- **`[00:28 - 00:54]` Bác Hùng:** Mà cái đau này nó lạ lắm, nó không đứng yên một chỗ mà nó cứ chạy dọc từ thắt lưng xuống mông rồi lan xuống cả cái chân trái của tôi. Cái chân thì nó cứ tê bì, cảm giác như có kiến bò ấy, thỉnh thoảng lại nhói lên một cái như bị điện giật, làm tôi đi đứng chẳng ra làm sao cả.
+- **`[00:54 - 01:05]` Bác sĩ Trí:** Bác đau buốt lan xuống chân trái, kèm tê bì và nhói như điện giật. Thế cảm giác tê lan đến mu bàn chân hay gót chân hả bác?
+- **`[01:05 - 01:33]` Bác Hùng:** Dạ, nó tê bì lên tận mu bàn chân rồi xuống cả cái ngón cái của tôi luôn bác sĩ ạ. Nhiều lúc nó cứ tê rần rần, rồi lại nhói lên một cái như có luồng điện chạy qua, khó chịu không chịu nổi. Cứ cái đà này thì làm sao mà tôi cầm đục, cầm bào làm việc ở xưởng được nữa, thật là lo quá bác sĩ ơi.
+- **`[01:33 - 01:43]` Bác sĩ Trí:** Tôi hiểu rồi, tức là đau lan xuống tận ngón cái. Vậy khi bác ho hay cúi người xuống thì cái đau có tăng lên không ạ?
+- **`[01:43 - 02:18]` Bác Hùng:** Dạ đúng rồi bác sĩ ơi, cứ hễ tôi ho một cái hay cúi xuống là cái lưng nó đau nhói lên như có ai cầm dao châm vào vậy, nó buốt tận óc luôn. Thậm chí ngay cả lúc tôi hắt hơi một cái thôi mà cả người nó cũng giật thót lên, đau đến phát khóc. Cứ thế này thì tôi chẳng làm ăn gì được, xưởng mộc đang dở dang bao nhiêu việc mà giờ chân tay cứ thế này thì khổ quá bác sĩ ạ.
+- **`[02:18 - 02:27]` Bác sĩ Trí:** Đau như thế thì khổ quá bác ạ. Thế việc đi lại hay nằm ngủ của bác có gặp khó khăn gì không?
+- **`[02:27 - 03:05]` Bác Hùng:** Dạ, đi lại thì khổ lắm bác sĩ ạ. Cái chân trái nó cứ tê rân rân, đi được mấy bước là nó lại nhói lên như điện giật làm tôi phải khựng lại ngay. Còn chuyện nằm ngủ thì còn khổ hơn, cứ xoay người một cái là cái lưng nó lại đau buốt lên tận óc. Tôi toàn phải nằm ngửa trên cái chiếu cứng, co nhẹ cái chân lại thì mới chợp mắt được một tí, chứ nằm đệm mềm là nó cứ đau nhức không tài nào ngủ nổi bác sĩ ơi.
+- **`[03:05 - 03:15]` Bác sĩ Trí:** Tôi hiểu rồi, nằm cứng thì bác mới đỡ đau. Thế trước đây bác có hay bê vác nặng hay từng bị đau lưng không ạ?
+- **`[03:15 - 04:08]` Bác Hùng:** Dạ, nói tới chuyện này thì cũng không lạ gì bác sĩ ạ. Tôi làm nghề thợ mộc này mấy chục năm trời rồi, ngày nào chẳng phải vác mấy thanh gỗ, bê mấy tấm ván nặng trịch. Hồi trước tôi cũng hay bị đau lưng âm ỉ, cứ làm xong việc về là nó nhức nhức cái cột sống, nhưng tôi cứ nghĩ là do lao động nặng thôi nên cứ ra hiệu thuốc mua mấy liều về uống là xong, chả bao giờ nghĩ nó lại ra nông nỗi này. Giờ cái chân cứ tê rân rân, không đi đứng bình thường được, xưởng mộc đang dở bao nhiêu việc mà tôi cứ ngồi ì ra thế này, nghĩ tới tiền nong lo cho vợ con mà tôi lo quá bác sĩ ơi.
+- **`[04:08 - 04:16]` Bác sĩ Trí:** Bác đừng lo quá, để tôi kiểm tra kỹ xem thế nào. Giờ bác nằm nghiêng sang một bên giúp tôi nhé.
+- **`[04:16 - 04:21]` Bác Hùng:** Dạ vâng bác sĩ, để tôi cố nằm nghiêng qua một bên.
+- **`[04:21 - 04:23]` Bác sĩ Trí:** Vâng.
+- **`[04:23 - 04:36]` Bác Hùng:** Ôi giời ơi, cái lưng tôi nó lại đau điếng lên rồi, cứ mỗi lần xoay người là nó lại nhói lên một cái như có ai châm vào ấy bác sĩ ạ.
+- **`[04:36 - 04:40]` Bác sĩ Trí:** Bác cứ từ từ, để tôi đỡ cho nhé.
+- **`[04:40 - 04:42]` Bác Hùng:** Vâng.
+- **`[04:42 - 04:50]` Bác sĩ Trí:** Kết quả chụp MRI cho thấy đĩa đệm bị thoát ra và chèn vào dây thần kinh rồi bác ạ.
+- **`[04:50 - 05:00]` Bác Hùng:** Trời đất ơi, thế là nó bị lòi ra ngoài rồi hả bác sĩ? Hèn chi mà tôi đau buốt, tê rân rân như thế này.
+- **`[05:00 - 05:02]` Bác sĩ Trí:** Tôi hiểu rồi.
+- **`[05:02 - 05:22]` Bác Hùng:** Thế giờ phải làm sao hả bác, có phải đụng dao kéo mổ xẻ gì không? Tôi nghe người ta bảo mổ xẻ là sợ lắm, mà cái chân nó cứ thế này thì tôi làm sao mà đi đứng, làm ăn ở xưởng mộc được nữa bác ơi.
+- **`[05:22 - 05:31]` Bác sĩ Trí:** Bác cứ bình tĩnh, không phải ai cũng phải mổ đâu. Để tôi kiểm tra thêm xem chân bác có bị yếu không nhé.
+- **`[05:31 - 05:34]` Bác Hùng:** Dạ vâng, bác cứ xem giúp tôi với.
+- **`[05:34 - 05:37]` Bác sĩ Trí:** Ừm, tôi nghe đây.
+- **`[05:37 - 06:01]` Bác Hùng:** Cái chân trái của tôi dạo này nó cứ như không phải của mình ấy bác sĩ ạ, nó cứ tê bì, nặng trịch, lúc đi cứ thấy nó mất lực, không đứng vững được như hồi trước. Tôi chỉ sợ nó yếu quá rồi không đứng trụ nổi để cầm đục, cầm bào làm mộc nữa thì khổ lắm bác sĩ ơi.
+- **`[06:01 - 06:12]` Bác sĩ Trí:** Bác cứ bình tĩnh, trước hết mình sẽ dùng thuốc để giảm chèn ép. Tôi sẽ kê Celecoxib hai trăm miligam là thuốc chống viêm cho bác nhé.
+- **`[06:12 - 06:21]` Bác Hùng:** Dạ vâng bác sĩ. Mà cái thuốc này uống vào có bị cồn ruột hay đau dạ dày không bác sĩ?
+- **`[06:21 - 06:23]` Bác sĩ Trí:** Rồi.
+- **`[06:23 - 06:43]` Bác Hùng:** Tại tôi cũng hay bị đau bao tử lắm, cứ thấy cồn cào khó chịu. Hy vọng là uống vào thì cái chân nó bớt tê, cái lưng nó bớt nhói để tôi còn sớm quay lại xưởng mộc làm việc chứ cứ ngồi không thế này tôi sốt ruột quá.
+- **`[06:43 - 06:48]` Bác sĩ Trí:** Bác nhớ uống thuốc sau khi ăn no để bảo vệ dạ dày nhé.
+- **`[06:48 - 06:50]` Bác Hùng:** Dạ.
+- **`[06:50 - 06:56]` Bác sĩ Trí:** Trước mắt, bác cần nằm đệm cứng và tránh cúi lưng bê đồ nặng.
+- **`[06:56 - 07:37]` Bác Hùng:** Dạ vâng, tôi nhớ rồi bác sĩ ạ. Để tôi dặn nhà nó cho tôi uống thuốc sau khi ăn cho chắc cái bụng. Còn cái vụ nằm đệm cứng với không được cúi vác nặng này. tôi lo quá bác sĩ ơi. Nghề mộc nó gắn liền với mấy thanh gỗ, tấm ván, không bê vác thì làm sao mà ra được cái bàn, cái ghế. Giờ mà cứ phải nằm im một chỗ như thế này, xưởng mộc nó dở dang hết, tiền nong đóng học cho mấy đứa nhỏ rồi tiền điện nước nữa, tôi cũng sốt ruột lắm bác sĩ ạ.
+- **`[07:37 - 07:43]` Bác sĩ Trí:** Bác cứ yên tâm nghỉ ngơi, nhớ uống thuốc đúng giờ và giữ gìn sức khỏe nhé.
+- **`[07:43 - 07:45]` Bác Hùng:** Vâng ạ.
+- **`[07:45 - 07:49]` Bác sĩ Trí:** Hẹn gặp lại bác vào buổi tái khám tới.
+- **`[07:49 - 07:59]` Bác Hùng:** Dạ vâng, cảm ơn bác sĩ nhiều lắm. Tôi về sẽ uống thuốc và tập luyện đúng như bác sĩ dặn. Chào bác sĩ tôi về ạ.
