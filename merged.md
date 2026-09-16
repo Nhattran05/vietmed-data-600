@@ -1,4 +1,4 @@
-# BẢNG TỔNG HỢP DANH MỤC BỆNH LÝ KHỞI PHÁT ĐAU PHỤC VỤ KHÁM LÂM SÀNG (MERGED)
+# TỔNG QUAN VỀ 47 BỆNH KHỞI PHÁT ĐAU 
 
 > **Tổng số bệnh chuẩn hóa:** **47 bệnh lý lâm sàng ngoại trú**
 > **Số nhóm chuyên khoa:** **6 nhóm**
