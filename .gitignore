@@ -10,6 +10,9 @@
 !README.md
 !merged.md
 
-# 4. Chỉ theo dõi và upload thư mục Output cùng toàn bộ nội dung/thư mục con bên trong
+# 4. Chỉ theo dõi và upload thư mục Output, output-600 cùng toàn bộ nội dung bên trong
 !Output/
 !Output/**
+!output-600/
+!output-600/**
+
