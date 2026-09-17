@@ -1,62 +1,26 @@
-# TỔNG HỢP TOÀN BỘ PROMPTS PIPELINE & ĐỐI SÁNH CHI TIẾT VỚI ACL 2024
+# BẢNG ĐỐI SÁNH PROMPTS: PIPELINE HIỆN TẠI vs ACL 2024 (NOTECHAT)
 
-> **Tài liệu tham chiếu:** Hệ thống sinh hội thoại y khoa lâm sàng tiếng Việt (**VietMed-Data-600 / NoteChat Engine**)  
-> **Mục đích:** Tích hợp trực tiếp đối sánh 3 cột *(Prompt Hiện Tại — Prompt Gốc ACL 2024 — Sự Khác Biệt & Cải Tiến Đột Phá)* trong từng module, khắc phục hoàn toàn lỗi phân tích cú pháp (parse error) của bảng Markdown.
-
----
-
-## 📑 MỤC LỤC HỆ THỐNG MODULES
-
-1. [Tổng quan Kiến trúc & Luồng Xử lý](#1-tổng-quan-kiến-trúc--luồng-xử-lý)
-2. [Module 1: Planning Module (Lập Kế Hoạch & Trích Xuất Checklist Lâm Sàng)](#module-1-planning-module-lập-kế-hoạch-lâm-sàng)
-3. [Module 2: Physician Agent (Nhập Vai Bác Sĩ & Điều Tiết Khám Thực Thể)](#module-2-physician-agent-nhập-vai-bác-sĩ)
-4. [Module 3: Patient Agent (Nhập Vai Bệnh Nhân & Mô Tả Cảm Giác Cơ Thể)](#module-3-patient-agent-nhập-vai-bệnh-nhân)
-5. [Module 4: Dialogue Sanitizer & Token-Free Caching (Tối Ưu Token & Câu Đệm 80%)](#module-4-dialogue-sanitizer--token-free-caching)
-6. [Module 5: Closing Module (Dặn Dò Hồi Phục & Hẹn Tái Khám)](#module-5-closing-module-kết-thúc-phiên-khám)
-7. [Module 6: Graph State Machine & Output Formatting (Tổ Chức Luồng & Xuất Dữ Liệu)](#module-6-graph-state-machine--output-formatting)
-8. [Module 7: Context-Injection RAG & Syllable Budgeting (Sinh Nhanh Theo Âm Tiết)](#module-7-context-injection-rag--syllable-budgeting)
-9. [Module 8: Length Guard & Dynamic Auto-Extension (Bù Đắp Thời Lượng Tự Động)](#module-8-length-guard--dynamic-auto-extension)
-10. [Phụ lục: Bộ Mẫu Văn Phong Thực Tế (Few-Shot Style Library)](#phụ-lục-bộ-mẫu-văn-phong-thực-tế-few-shot-style)
+> **Cấu trúc bảng 3 cột:**
+> - **Cột 1:** Prompt hiện tại trong Pipeline VietMed-600 (Trích nguyên gốc mã nguồn, không phân tích lược bớt).
+> - **Cột 2:** Prompt nguyên gốc bằng tiếng Anh của ACL 2024 (Trích nguyên văn do người dùng cung cấp).
+> - **Cột 3:** Sự khác nhau (Phân tích chi tiết về mặt kỹ thuật, y khoa và tối ưu hóa hệ thống).
 
 ---
 
-## 1. TỔNG QUAN KIẾN TRÚC & LUỒNG XỬ LÝ
+## 1. MODULE 1: PLANNING MODULE (LẬP KẾ HOẠCH LÂM SÀNG)
 
-```mermaid
-flowchart TD
-    KB["Hồ sơ Y khoa (Clinical Note 4 trục)"] --> M1["Module 1: Planning Node\n(Trích xuất 12-14 Checklist items)"]
-    M1 --> StateInit["Khởi tạo State Graph LangGraph"]
-    
-    subgraph MultiAgentLoop ["Vòng Lặp Lâm Sàng Đa Tác Tử"]
-        StateInit --> M2["Module 2: Physician Node\n(Bác sĩ hỏi ngắn, is_parsed)"]
-        M2 --> M_Update["Checklist Update Node\n(Đánh dấu mục đã hoàn thành)"]
-        M_Update --> M3["Module 3: Patient Node\n(Bệnh nhân kể cảm giác dân dã)"]
-        M3 --> CondCheck{"Checklist hết & Đủ lượt?"}
-        CondCheck -- "Chưa xong" --> M2
-    end
-    
-    CondCheck -- "Đã xong" --> M5["Module 5: Closing Node\n(Bác sĩ dặn dò, hẹn tái khám)"]
-    M5 --> M4["Module 4: Rule-based Sanitizer\n(Chèn 80% Backchannels, 0-token caching)"]
-    M4 --> M6["Module 6: Format Output\n(Xuất Markdown & Text Docs sạch)"]
-```
-
----
-
-## MODULE 1: PLANNING MODULE (LẬP KẾ HOẠCH LÂM SÀNG)
-
-### 1.1. Bảng Đối Sánh 3 Cột Chi Tiết
-
-| Prompt Hiện Tại (VietMed-600 Pipeline) | Prompt Gốc ACL 2024 (Table 11 NoteChat) | Sự Khác Biệt & Cải Tiến Đột Phá |
-|:---|:---|:---|
-| **Vai trò & Mục tiêu:** Đóng vai Cố vấn Y khoa cao cấp của hệ thống NoteChat, đọc bệnh án và lập danh sách kiểm tra (Ordered Checklist) gồm 12-14 mục theo đúng trình tự khám thực tế. | **Vai trò & Mục tiêu:** Gộp chung vai trò dẫn dắt Bác sĩ hỏi bệnh sử và sinh trực tiếp 20 đến 40 lượt thoại bao phủ các từ khóa (`key1, key2...`). | **Tách riêng Agent Lập kế hoạch:** ACL 2024 ép LLM vừa lập kế hoạch vừa sinh 20-40 lượt thoại trong 1 prompt duy nhất (dễ gây nghẽn context). Hiện tại tách thành 1 Agent Planning độc lập chạy trước. |
-| **Cấu trúc Chỉ dẫn:** Phân rã quy trình khám thành 14 bước tiêu chuẩn: (1) Lý do khám, (2) Vị trí & tính chất đau, (3) Hướng lan & tăng giảm, (4) Ảnh hưởng sinh hoạt, (5) Tiền sử, (6-8) Thao tác khám thực thể & 2 nghiệm pháp, (9) Đọc phim X-quang/MRI, (10) Chẩn đoán & cơ chế, (11) Kê đơn 4 nhóm thuốc, (12) Giải đáp tác dụng phụ dạ dày, (13) Phục hồi chức năng, (14) Hẹn tái khám. | **Cấu trúc Chỉ dẫn:** Đưa ra thứ tự logic chung chung: (1) Triệu chứng, (2) Bệnh sử, (3) Xét nghiệm & kết quả, (4) Kết luận & hướng điều trị. Không mô tả chi tiết các bước khám thực thể hay giải đáp tác dụng phụ. | **Chuẩn hóa 14 bước lâm sàng:** Hiện tại định nghĩa cụ thể từng bước khám vận động, so sánh bên lành, giải thích hình ảnh MRI và dặn dò dạ dày, đảm bảo đầy đủ dữ liệu chuyên môn cho ca khám 12 phút. |
-| **Ràng buộc Từ khóa:** Cho phép trích xuất linh hoạt từ Clinical Note thành các mệnh đề y khoa hoàn chỉnh có ý nghĩa lâm sàng rõ ràng. | **Ràng buộc Từ khóa:** Bắt buộc giữ nguyên 100% từ khóa rời rạc, cấm tuyệt đối chỉnh sửa hoặc dùng từ đồng nghĩa (`cannot revise or eliminate any keywords, cannot use synonyms`). | **Loại bỏ ràng buộc từ khóa cứng nhắc:** Giúp câu văn đàm thoại diễn đạt tự nhiên theo ngữ cảnh người thật thay vì bị gò ép nhồi nhét từ khóa máy móc. |
-| **Định dạng Đầu ra:** Yêu cầu trả về đúng **1 mảng JSON thuần túy** chứa 12–14 chuỗi ngắn gọn để nạp vào StateGraph. | **Định dạng Đầu ra:** Sinh ra chuỗi văn bản hội thoại thô giữa `physician:` và `Patient:`. | **Cấu trúc hóa State Machine:** Dữ liệu đầu ra là mảng JSON giúp LangGraph theo dõi tiến độ từng bước (`checklist_update_node`) và tự động nới rộng vòng lặp (`Dynamic Expansion`). |
-
-### 1.2. Mã Nguồn Prompt Hiện Tại (Verbatim Template)
-
-```text
-Bạn là Cố vấn Y khoa cao cấp của hệ thống NoteChat.
+<table border="1" cellpadding="8" cellspacing="0" width="100%">
+  <thead>
+    <tr style="background-color: #f0f4f8; text-align: left;">
+      <th width="38%">Cột 1: Prompt Hiện Tại (Trích nguyên gốc)</th>
+      <th width="38%">Cột 2: Prompt ACL 2024 (Trích nguyên gốc tiếng Anh)</th>
+      <th width="24%">Cột 3: Sự Khác Nhau</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td valign="top">
+<pre><code>Bạn là Cố vấn Y khoa cao cấp của hệ thống NoteChat.
 Dưới đây là Hồ sơ Bệnh án / Dữ liệu Y khoa của bệnh lý: "{disease_name}"
 
 === HỒ SƠ Y KHOA (CLINICAL NOTE) ===
@@ -83,49 +47,80 @@ sắp xếp theo đúng TRÌNH TỰ KHÁM LÂM SÀNG THỰC TẾ:
 
 YÊU CẦU ĐẦU RA:
 - Trả về đúng 1 mảng JSON chứa 12-14 chuỗi ngắn gọn mô tả từng mục (không giải thích thêm).
-```
-
-### 1.3. Mã Nguồn Prompt Gốc ACL 2024 (Table 11 Planning)
-
-```text
-Apply the physician and Patient prompt to generate the beginning and lead the physician LLM to ask about the
+Ví dụ:
+[
+  "Lý do khám: Đau buốt góc trước ngoài khớp vai phải",
+  "Tính chất đau: Tăng dữ dội về đêm, nhức buốt mỏi rã rời",
+  "Yếu tố tăng đau: Giơ tay chải đầu hoặc với đồ trên cao",
+  "Ảnh hưởng sinh hoạt: Mất ngủ, cảm giác tay yếu hẫng",
+  "Tiền sử thói quen: Chơi bóng bàn, giơ tay quá đầu",
+  "Khám thực thể: Ấn đau chói điểm bám gân cơ trên gai",
+  "Khám thực thể: Nghiệm pháp Neer và Hawkins-Kennedy",
+  "Khám thực thể: Nghiệm pháp Empty Can và đo biên độ so với vai trái",
+  "Giải thích hình ảnh: MRI thấy hẹp khoang mỏm cùng vai, rách bán phần gân cơ trên gai 5mm",
+  "Chẩn đoán: Viêm quanh khớp vai thể rách bán phần gân chóp xoay",
+  "Kê đơn thuốc: Celecoxib 200mg, Eperisone 50mg, Esomeprazole 20mg sau ăn no",
+  "Giải đáp thắc mắc: Trấn an chưa cần phẫu thuật, dùng thuốc bảo vệ dạ dày",
+  "Phục hồi chức năng: Bài tập con lắc Codman và chườm ấm",
+  "Dặn dò: Tránh xách nặng trên 3kg, hẹn tái khám sau 2 tuần"
+]</code></pre>
+      </td>
+      <td valign="top">
+<pre><code>Apply the physician and Patient prompt to generate the beginning and lead the physician LLM to ask about the
 medical record. Continue to generate 20 to 40 utterances conversations between physician and patient to ask
 or tell the patient regarding the case(you must follow up the history conversation). The conversations you
 generate must cover all the keywords I gave you. You cannot revise or eliminate any keywords and
 you cannot use synonyms of the keywords. Your conversation should also include all information.
-If it's difficult to include all the information and key words, you can use the
+If it’s difficult to include all the information and key words, you can use the
 original sentences in the clinical note.
 The Clinical Note: Clinical Note
 The Key Words: key1, key2,...
-Your conversations must include all the keywords I provided to you, and if it's not possible to
+Your conversations must include all the keywords I provided to you, and if it’s not possible to
 include them all, you can make slight modifications based on the original wording in the notes.
 You cannot revise or eliminate any key words and you cannot use synonyms of the keywords.
-Your conversation should also include all information. If it's difficult to include all the information
+Your conversation should also include all information. If it’s difficult to include all the information
 and key words, you can use the original sentences in the clinical note. Your generation must
-follow the logical sequence of a physician's inquiry. Your conversations must follow the logical
-sequence of a physician's inquiry. For example, the general logical order of the conversation is: first
+follow the logical sequence of a physician’s inquiry. Your conversations must follow the logical
+sequence of a physician’s inquiry. For example, the general logical order of the conversation is: first
 discussing symptoms, then discussing the medical history, followed by discussing testing and
-results, and finally discussing the conclusion and treatment options, etc. The physician didn't know
+results, and finally discussing the conclusion and treatment options, etc. The physician didn’t know
 any information of medical history or symptoms. This information should be told by the patient
-```
+Table 11: Planning Module prompt.</code></pre>
+      </td>
+      <td valign="top">
+<b>1. Tách Agent độc lập vs Gộp chung:</b><br>
+- <i>ACL 2024:</i> Bắt LLM vừa đóng vai trò lập kế hoạch vừa sinh trực tiếp 20 đến 40 lượt thoại hội thoại dài trong cùng 1 prompt, dễ gây tràn context và quên mục tiêu.<br>
+- <i>Hiện tại:</i> Tách thành 1 Node lập kế hoạch độc lập (<code>planning_node</code>), chỉ tập trung trích xuất kế hoạch lâm sàng trước khi chuyển sang vòng lặp hội thoại.<br><br>
+<b>2. Định dạng đầu ra JSON vs Văn bản thô:</b><br>
+- <i>ACL 2024:</i> Sinh văn bản hội thoại tự do, không có cấu trúc dữ liệu để theo dõi tiến trình.<br>
+- <i>Hiện tại:</i> Xuất ra 1 mảng JSON gồm 12-14 chuỗi kiểm tra có thứ tự. Mảng này được nạp vào LangGraph State để điều phối các lượt khám tuần tự.<br><br>
+<b>3. Độ chi tiết của quy trình lâm sàng:</b><br>
+- <i>ACL 2024:</i> Chỉ định nghĩa 4 bước logic tổng quát (symptoms -> history -> testing/results -> conclusion/treatment).<br>
+- <i>Hiện tại:</i> Chuẩn hóa 14 bước lâm sàng chuyên sâu: từ sờ nắn điểm đau, 2 nghiệm pháp chuyên khoa, so sánh bên lành, phân tích hình ảnh MRI/X-quang, kê đơn 4 nhóm thuốc đến dặn dò dạ dày và bài tập tại nhà.<br><br>
+<b>4. Ràng buộc từ khóa:</b><br>
+- <i>ACL 2024:</i> Cấm tuyệt đối chỉnh sửa từ khóa hoặc dùng từ đồng nghĩa (cứng nhắc, dễ làm câu văn gượng gạo).<br>
+- <i>Hiện tại:</i> Cho phép tổng hợp linh hoạt thành chủ đề lâm sàng hoàn chỉnh có ý nghĩa.
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
-## MODULE 2: PHYSICIAN AGENT (NHẬP VAI BÁC SĨ)
+## 2. MODULE 2: ROLEPLAY - PHYSICIAN AGENT (BÁC SĨ)
 
-### 2.1. Bảng Đối Sánh 3 Cột Chi Tiết
-
-| Prompt Hiện Tại (VietMed-600 Pipeline) | Prompt Gốc ACL 2024 (Table 12 Physician) | Sự Khác Biệt & Cải Tiến Đột Phá |
-|:---|:---|:---|
-| **Độ Dài & Nhịp Điệu:** Tối đa 3 câu ngắn, dưới 30 từ/lượt (độ dài lý tưởng 15-25 từ). Mỗi lượt chỉ hỏi đúng 1 ý trọng tâm xoay quanh `{current_focus}`. Thường xuyên tóm tắt nhắc lại câu trả lời vừa rồi để xác nhận. | **Độ Dài & Nhịp Điệu:** Chỉ quy định sinh 1 phát ngôn (`only generate one utterance`) dựa trên lịch sử hội thoại, không khống chế số lượng từ hay số lượng câu. | **Khắc phục độc thoại dài:** ACL 2024 thường khiến Bác sĩ độc thoại 50-80 từ như đọc sách y khoa. Hiện tại ép nhịp thoại ngắn, đối đáp tự nhiên đời thực. |
-| **Giao Tiếp Khám Thực Thể:** TUYỆT ĐỐI CẤM xướng tên nghiệm pháp khoa học (Neer, Hawkins, Lasegue, Schober...) hay từ "dương tính/âm tính" trực tiếp với bệnh nhân. Khi khám chỉ hướng dẫn động tác bình dị (*"Bác giơ tay lên từ từ... bác thấy đau chỗ nào?"*). | **Giao Tiếp Khám Thực Thể:** Chỉ yêu cầu biết kết quả xét nghiệm/sinh hiệu sau khi khám, không cấm xướng tên nghiệm pháp chuyên môn trong lời thoại. | **Ngôn ngữ đời thực cho STT/TTS:** Tránh làm dữ liệu hội thoại bị giả tạo hoặc nặng tính học thuật. Bác sĩ ngoài đời không nói tên nghiệm pháp tiếng Anh với người bệnh. |
-| **Đọc Cận Lâm Sàng & Kê Đơn:** Khi đến bước hình ảnh (MRI/X-quang), Bác sĩ chủ động đọc và giải thích, không hỏi ngược lại bệnh nhân. Khi kê đơn, phải đọc rõ 4 nhóm thuốc chính (NSAIDs, giãn cơ, giảm đau, bọc dạ dày) và dặn uống sau ăn no. | **Đọc Cận Lâm Sàng & Kê Đơn:** Chỉ quy định phương án điều trị và kết luận phải khớp hoàn toàn với hồ sơ y khoa (`totally consistent with the clinical note`). | **Quy trình chuyên môn chuẩn:** Phân biệt rạch ròi giữa việc hỏi triệu chứng cơ năng (bệnh nhân kể) và đọc phim chụp/kê đơn (bác sĩ giải thích). |
-| **Định Dạng Đầu Ra & Tách Câu:** Trả về JSON hợp lệ gồm `text`, `is_parsed` (true nếu là câu giải thích/kê đơn có thể chèn đệm; false nếu là câu hỏi trực tiếp) và `reason`. | **Định Dạng Đầu Ra & Tách Câu:** Trả về văn bản thô bắt đầu bằng tiền tố `physician:`. Không có cơ chế gắn nhãn phân tách câu. | **Hỗ trợ phân đoạn đệm 80%:** Cung cấp siêu dữ liệu (`is_parsed`) để module Rule-based Sanitizer phía sau tự động chèn câu đệm hai chiều mà không tốn token. |
-
-### 2.2. Mã Nguồn Prompt Hiện Tại (Verbatim Template)
-
-```text
-Bạn là một Bác sĩ giàu kinh nghiệm ({doc_name}), phong cách: {doc_style}.
+<table border="1" cellpadding="8" cellspacing="0" width="100%">
+  <thead>
+    <tr style="background-color: #f0f4f8; text-align: left;">
+      <th width="38%">Cột 1: Prompt Hiện Tại (Trích nguyên gốc)</th>
+      <th width="38%">Cột 2: Prompt ACL 2024 (Trích nguyên gốc tiếng Anh)</th>
+      <th width="24%">Cột 3: Sự Khác Nhau</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td valign="top">
+<pre><code>Bạn là một Bác sĩ giàu kinh nghiệm ({doc_name}), phong cách: {doc_style}.
 Bạn đang trong ca khám bệnh trực tiếp với bệnh nhân {pat_name}.
 
 === HỒ SƠ Y KHOA THAM CHIẾU (CLINICAL NOTE) ===
@@ -159,20 +154,21 @@ LƯU Ý QUAN TRỌNG THEO MỤC TIÊU LÂM SÀNG:
 
 === ĐỊNH DẠNG ĐẦU RA BẮT BUỘC (JSON FORMAT) ===
 Hãy trả về DUY NHẤT một JSON hợp lệ (không kèm code block markdown hay giải thích thừa bên ngoài):
-{
+{{
   "text": "Lời phát ngôn trực tiếp của Bác sĩ (tối đa 3 câu, dưới 30 từ, không kèm tiền tố tên)",
   "is_parsed": true hoặc false,
   "reason": "Giải thích ngắn vì sao lượt này có thể hoặc không thể chèn Vâng/Dạ"
-}
-```
+}}
 
-### 2.3. Mã Nguồn Prompt Gốc ACL 2024 (Table 12 Physician)
-
-```text
-Please role-play as a physician and further generate questions or conclusion, or the test
+Quy ước về "is_parsed":
+- Đặt là TRUE: Nếu lời thoại gồm 2-3 câu có tính chất giải thích, chẩn đoán hoặc dặn dò thuốc/vận động — ở những câu này Bệnh nhân chèn câu đệm ("Vâng ạ", "Dạ tôi hiểu rồi") vào giữa các câu là rất tự nhiên.
+- Đặt là FALSE: Nếu lời thoại là 1 câu hỏi trực tiếp hoặc câu lệnh hướng dẫn làm động tác khám ("Bác giơ tay lên giúp tôi xem nào") — cần giữ liền mạch, KHÔNG chèn Vâng/Dạ vào giữa câu.</code></pre>
+      </td>
+      <td valign="top">
+<pre><code>Please role-play as a physician and further generate questions or conclusion, or the test
 result(such as medication test result or vital signs) based on the above dialogue and clinical
-note(after mentioned examination, you have to know test results and vital signs so you shouldn't ask
-the patient about a test result or vital signs). Add 'physician:' before each round. Your question,
+note(after mentioned examination, you have to know test results and vital signs so you shouldn’t ask
+the patient about a test result or vital signs). Add ’physician:’ before each round. Your question,
 answer or conclusion(tell the patient the test result) should be around the keywords (I gave you)
 corresponding to the clinical note(finally, the whole conversation should include all the keywords).
 the answer of your questions can be found on the clinical note. You cannot modify these key
@@ -181,42 +177,58 @@ the patient must also be totally consistent with the clinical note. Do not ask q
 answers cannot be found in the clinical note. You may describe and explain professional judgment to
 the patient and instruct the patient on follow-up requirements, but not ask questions that require
 professional medical knowledge to answer. The order of the questions you ask must match the order
-of the keywords I provided. If it's not possible to include them all, you can make slight modifications
+of the keywords I provided. If it’s not possible to include them all, you can make slight modifications
 based on the original wording in the notes. If the history conversation has included
 the keywords, there is no need to include them again. The treatment plan and conclusions
 you provide must align completely with the clinical notes. Do not add treatment plans
-that is not present in the clinical notes. You don't know the patient's medical history and symptoms.
+that is not present in the clinical notes. You don’t know the patient’s medical history and symptoms.
 You should ask or lead the patient to tell you the symptoms and his medical history, and you
-don't have any information about his medical history and symptoms. All the information of medical
+don’t have any information about his medical history and symptoms. All the information of medical
 history, symptoms, medication history, and vaccination history should be told by the patient. You can
 tell the patient the test results, vital signs, and some conclusions.
 The Clinical Note: Clinical Note
 The Key Words: key1, key2,...
 The History Conversation: History Dialogue
 You should only generate one utterance based on history conversation. Remember, you are the physician, not the patient.
-Don't mention the information that has been mentioned in history conversation. If you feel that the patient's
+Don’t mention the information that has been mentioned in history conversation. If you feel that the patient’s
 information is incomplete, you can supplement it based on the clinical note and include relevant
-keywords. However, please refrain from saying, 'based on medical record or clinical note.'
-Instead, you should say, 'I guess...'
-```
+keywords. However, please refrain from saying, ’based on medical record or clinical note.’
+Instead, you should say, ’I guess...’</code></pre>
+      </td>
+      <td valign="top">
+<b>1. Khống chế độ dài câu nghiêm ngặt:</b><br>
+- <i>ACL 2024:</i> Không giới hạn số từ trong 1 lượt (dễ làm Bác sĩ nói tràng giang đại hải 60-80 từ như sách giáo khoa).<br>
+- <i>Hiện tại:</i> Khống chế chặt chẽ: tối đa 3 câu, dưới 30 từ, chỉ hỏi 1 ý trọng tâm/lượt.<br><br>
+<b>2. Cấm tuyệt đối xướng tên nghiệm pháp:</b><br>
+- <i>ACL 2024:</i> Không có điều cấm, mô hình dễ thốt ra các cụm từ như "nghiệm pháp Lasegue dương tính" khiến người bệnh không hiểu.<br>
+- <i>Hiện tại:</i> Cấm tuyệt đối nói tên nghiệm pháp khoa học và từ "dương tính/âm tính" ra miệng. Khi khám chỉ hướng dẫn động tác thực tế.<br><br>
+<b>3. Phân biệt giai đoạn khám và đọc kết quả:</b><br>
+- <i>ACL 2024:</i> Cho phép nói "I guess..." khi thiếu thông tin bệnh án.<br>
+- <i>Hiện tại:</i> Bác sĩ chủ động thông báo và giải thích kết quả hình ảnh MRI/X-quang khi đến bước cận lâm sàng, không đoán mò hay hỏi ngược lại bệnh nhân.<br><br>
+<b>4. Đầu ra JSON có cờ `is_parsed`:</b><br>
+- <i>ACL 2024:</i> Xuất văn bản thô dạng <code>physician: ...</code>.<br>
+- <i>Hiện tại:</i> Xuất JSON có trường <code>is_parsed</code> phân loại câu có thể chèn câu đệm hay không để phục vụ thuật ngữ tách câu phía sau.
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
-## MODULE 3: PATIENT AGENT (NHẬP VAI BỆNH NHÂN)
+## 3. MODULE 3: ROLEPLAY - PATIENT AGENT (BỆNH NHÂN)
 
-### 3.1. Bảng Đối Sánh 3 Cột Chi Tiết
-
-| Prompt Hiện Tại (VietMed-600 Pipeline) | Prompt Gốc ACL 2024 (Table 12 Patient) | Sự Khác Biệt & Cải Tiến Đột Phá |
-|:---|:---|:---|
-| **Đặc Trưng Persona:** Cấu hình rõ ràng `{pat_name}`, tuổi tác, giới tính, nghề nghiệp và tính cách đời thường (ví dụ: thợ xây 50t, cô bán tạp hóa 54t, tài xế văn phòng 38t...). | **Đặc Trưng Persona:** Chỉ định chung chung là một người bình thường (`You are just an ordinary person`). Không có hồ sơ nhân vật xã hội. | **Cá nhân hóa nhân vật sâu sắc:** Tạo ngữ điệu, từ ngữ xưng hô và các mối bận tâm sinh hoạt đa dạng, phản ánh chân thực các tầng lớp bệnh nhân Việt Nam. |
-| **Kho Từ Ngữ Cảm Giác Cơ Thể:** Chuẩn hóa hệ thống từ ngữ giác quan thuần Việt: *nhức thấu xương, buốt nhói, ê ẩm, lục khục, lạo xạo, cắn dứt, bì bì, buốt rát như điện giật, cứng ngắc như khúc gỗ...* | **Kho Từ Ngữ Cảm Giác Cơ Thể:** Chỉ yêu cầu dùng ngôn ngữ đời thường (`colloquial lay language style, limited common symptoms`). | **Ngôn ngữ giác quan đặc thù (Sensory Language):** Giúp mô hình ASR/TTS học được các từ láy và mô tả cảm giác đau nhức phong phú của tiếng Việt. |
-| **Ràng Buộc Chuyên Môn:** Cấm tuyệt đối nói tên bệnh tiếng Anh, chỉ số xét nghiệm hay liều lượng thuốc. Cho phép than thở việc nhà/công việc và hỏi lo lắng về tác dụng phụ đau dạ dày khi được kê đơn. | **Ràng Buộc Chuyên Môn:** Cấm nói kết quả thí nghiệm, liều lượng, thuật ngữ chuyên môn. Yêu cầu dùng tên đầy đủ thay vì viết tắt (`D9 must be day 9`). | **Tương tác tâm lý chân thực:** Người bệnh ngoài đời thường lo lắng uống thuốc hại bao tử hoặc ảnh hưởng công việc mưu sinh, tăng tính tự nhiên cho đoạn thoại. |
-| **Định Dạng Đầu Ra & Tách Câu:** Trả về JSON gồm `text`, `is_parsed` (true nếu kể đoạn dài từ 2 câu trở lên; false nếu chỉ xác nhận ngắn 1 câu) và `reason`. | **Định Dạng Đầu Ra & Tách Câu:** Trả về văn bản thô bắt đầu bằng tiền tố `Patient:`. | **Tích hợp cơ chế đệm lắng nghe:** Bật cờ để Bác sĩ chêm câu đệm lắng nghe (*"Vâng ạ"*, *"Tôi hiểu rồi"*, *"Ừm..."*) khi bệnh nhân trải lòng. |
-
-### 3.2. Mã Nguồn Prompt Hiện Tại (Verbatim Template)
-
-```text
-Bạn là một bệnh nhân ngoài đời thực tên là {pat_name} ({pat_gender}, {pat_age} tuổi).
+<table border="1" cellpadding="8" cellspacing="0" width="100%">
+  <thead>
+    <tr style="background-color: #f0f4f8; text-align: left;">
+      <th width="38%">Cột 1: Prompt Hiện Tại (Trích nguyên gốc)</th>
+      <th width="38%">Cột 2: Prompt ACL 2024 (Trích nguyên gốc tiếng Anh)</th>
+      <th width="24%">Cột 3: Sự Khác Nhau</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td valign="top">
+<pre><code>Bạn là một bệnh nhân ngoài đời thực tên là {pat_name} ({pat_gender}, {pat_age} tuổi).
 Tính cách và cách ăn nói của bạn: {pat_persona}.
 Bạn đang ngồi trực tiếp trong phòng khám nói chuyện với {doc_name}.
 
@@ -236,55 +248,73 @@ LỊCH SỬ HỘI THOẠI (BÁC SĨ VỪA NÓI CÂU DƯỚI CÙNG):
 
 === ĐỊNH DẠNG ĐẦU RA BẮT BUỘC (JSON FORMAT) ===
 Hãy trả về DUY NHẤT một JSON hợp lệ (không kèm code block markdown hay giải thích thừa bên ngoài):
-{
+{{
   "text": "Lời phát ngôn trực tiếp của Bệnh nhân (không kèm tiền tố tên hay ngoặc đơn)",
   "is_parsed": true hoặc false,
   "reason": "Giải thích ngắn vì sao lượt này có thể hoặc không thể chèn lời đệm Vâng/Dạ của Bác sĩ"
-}
-```
+}}
 
-### 3.3. Mã Nguồn Prompt Gốc ACL 2024 (Table 12 Patient)
-
-```text
-Act as a patient to reply to the physician. Add 'Patient:' before each round. Your answer should
+Quy ước về "is_parsed" cho Bệnh nhân:
+- Đặt là TRUE: Nếu bạn kể một đoạn dài gồm 2 câu trở lên (mô tả hoàn cảnh bị đau, diễn biến triệu chứng qua các ngày, tâm sự công việc/gia đình) — ở những câu này Bác sĩ chêm câu đệm lắng nghe ("Vâng", "Tôi hiểu rồi", "Vâng ạ", "Ừm", "Rồi") vào giữa các câu là rất tự nhiên.
+- Đặt là FALSE: Nếu bạn chỉ trả lời 1 câu ngắn gọn, trực tiếp xác nhận ("Dạ đúng rồi bác sĩ ạ", "Dạ không thấy sốt bác sĩ ơi") — cần giữ liền mạch, không ngắt.</code></pre>
+      </td>
+      <td valign="top">
+<pre><code>Act as a patient to reply to the physician. Add ’Patient:’ before each round. Your answer should
 align with the clinical notes. You are just an ordinary person. Your response should be made as
 colloquial as possible. Don't mention any experimental results, conclusions, or medical dosage.
-because you're just an ordinary person and may not understand the meaning of these results.
+because you’re just an ordinary person and may not understand the meaning of these results.
 But you could tell the physician your medical history, medication history, or vaccination history
 (medical history, medication history, or vaccination history are all long to medical history).
-Your response should revolve around the physician's words and avoid adding information that was not mentioned.
+Your response should revolve around the physician’s words and avoid adding information that was not mentioned.
 The Clinical Note: Clinical Note
 The History Conversation: History Dialogue
 Your reply should be succinct and accurate in a colloquial lay language style and must be aligned
-with clinical notes. Don't generate the part which should be said by the physician. Do not say all the
+with clinical notes. Don’t generate the part which should be said by the physician. Do not say all the
 information unless the physician asks about it. You cannot say any information about your test result
 or vital signs. Your medical history, vaccination history, and medication history all belong to
 medical history. Your reply must be completely aligned with the clinical note. But you cannot say any
 examination or test results because you are not a physician. You must not be able to use highly
 specialized terms or medical terminology. You can only describe limited common symptoms.
-You shouldn't use the abbreviation if you know the full name(you should use the full name, not the abbreviation,
-such as D9 must be day 9, D7 must be day 7
-```
+You shouldn’t use the abbreviation if you know the full name(you should use the full name, not the abbreviation,
+such as D9 must be day 9, D7 must be day 7</code></pre>
+      </td>
+      <td valign="top">
+<b>1. Persona xã hội cụ thể vs Chung chung:</b><br>
+- <i>ACL 2024:</i> Chỉ quy định là một người bình thường (`just an ordinary person`).<br>
+- <i>Hiện tại:</i> Định danh cụ thể từng bệnh nhân (ví dụ: Bác Long 50t thợ xây, Cô Mai 54t bán tạp hóa, Chị Hương 40t ngân hàng...) với phong thái và hoàn cảnh sống rõ ràng.<br><br>
+<b>2. Kho từ ngữ cảm giác cơ thể (Sensory Language):</b><br>
+- <i>ACL 2024:</i> Yêu cầu dùng ngôn ngữ thông tục chung chung (`colloquial lay language style`).<br>
+- <i>Hiện tại:</i> Hệ thống hóa từ láy mô tả cảm giác đau thuần Việt: *nhức thấu xương, buốt nhói, ê ẩm, lục khục, lạo xạo, bì bì, giật thót, buốt rát như điện giật*.<br><br>
+<b>3. Yếu tố tâm lý người bệnh:</b><br>
+- <i>ACL 2024:</i> Trả lời trực tiếp ngắn gọn theo câu hỏi.<br>
+- <i>Hiện tại:</i> Bệnh nhân có thể than phiền công việc bị gián đoạn, lo lắng tiền bạc nuôi con, và chủ động hỏi bác sĩ về tác dụng phụ cồn ruột/đau dạ dày khi được kê đơn thuốc.<br><br>
+<b>4. Tự động bật cờ `is_parsed`:</b><br>
+- <i>Hiện tại:</i> Khi bệnh nhân kể dài từ 2 câu trở lên, cờ <code>is_parsed: true</code> được bật để Bác sĩ chêm câu đệm lắng nghe.
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
-## MODULE 4: DIALOGUE SANITIZER & TOKEN-FREE CACHING
+## 4. MODULE 4: POLISH MODULE vs RULE-BASED SANITIZER
 
-### 4.1. Bảng Đối Sánh 3 Cột Chi Tiết
+<table border="1" cellpadding="8" cellspacing="0" width="100%">
+  <thead>
+    <tr style="background-color: #f0f4f8; text-align: left;">
+      <th width="38%">Cột 1: Prompt Hiện Tại (Trích nguyên gốc)</th>
+      <th width="38%">Cột 2: Prompt ACL 2024 (Trích nguyên gốc tiếng Anh)</th>
+      <th width="24%">Cột 3: Sự Khác Nhau</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td valign="top">
+<pre><code># Hệ thống KHÔNG sử dụng LLM Polish Prompt để tiết kiệm 100% token và tránh hallucination.
+# Toàn bộ được thay thế bằng Rule-based Engine trong dialogue_sanitizer.py:
 
-| Prompt Hiện Tại (VietMed-600 Pipeline) | Prompt Gốc ACL 2024 (Table 13 Polish Prompt) | Sự Khác Biệt & Cải Tiến Đột Phá |
-|:---|:---|:---|
-| **Cơ Chế Thực Thi:** Sử dụng **Rule-based Python Sanitizer & Token Caching** (`dialogue_sanitizer.py`). Không dùng LLM cho khâu này để đảm bảo tốc độ 0ms và 0 token. | **Cơ Chế Thực Thi:** Dùng một lượt gọi LLM riêng biệt với Polish Prompt để viết lại và kéo dài đoạn thoại lên 30-40 lượt. | **Tiết kiệm 100% token & Zero-Hallucination:** Tránh việc LLM viết lại làm thay đổi liều lượng thuốc hoặc bịa đặt triệu chứng mới ngoài bệnh án. |
-| **Chèn Câu Đệm & Tách Câu:** Tự động phát hiện các mệnh đề ghép (`is_parsed == True`), áp dụng quy tắc **1-cut rule** (tối đa 1 lần ngắt/lượt), chèn câu đệm hai chiều đạt tỷ lệ **80%** (`backchannel_rate = 0.80`). | **Chèn Câu Đệm & Tách Câu:** Yêu cầu LLM tự thêm các từ đệm tiếng Anh (*hmm, yes, okay*) và các cụm chuyển cảnh (*After examination, After two years...*). | **Loại bỏ chuyển cảnh phi lý:** ACL 2024 sinh các mốc thời gian nhảy cóc *(After two years, Few days later)* không đúng với một ca khám thực tế liên tục 12 phút. |
-| **Lọc Sạch Dữ Liệu TTS:** Tự động loại bỏ hoàn toàn các ký tự `()`, `[]`, thay thế triệt để các từ ngữ cấm (*dương tính -> có tổn thương rõ, lasegue -> kiểm tra nâng chân...*). | **Lọc Sạch Dữ Liệu TTS:** Chỉ dặn chung chung là không để bệnh nhân nói thuật ngữ chuyên môn. | **Bảo đảm chuẩn âm thanh ElevenLabs:** Đảm bảo không một ký tự phi ngôn ngữ nào lọt vào audio engine. |
-| **Token-free Context Caching:** Hàm `format_history_for_prompt()` tự động gộp các mẩu cắt về câu gốc và loại bỏ toàn bộ câu đệm (*"Vâng ạ"*, *"Dạ"*, *"Tôi hiểu rồi"*) trước khi gửi vào LLM. | **Token-free Context Caching:** Không có cơ chế lọc, lịch sử phình to làm tăng chi phí và chậm thời gian phản hồi. | **Bảo vệ Context Window:** LLM chỉ tiếp nhận tối đa 10 lượt khám lâm sàng thực chất gần nhất, không bị loãng thông tin. |
-
-### 4.2. Mã Nguồn Cấu Hình Quy Tắc Hiện Tại (`dialogue_sanitizer.py`)
-
-```python
-# Tỷ lệ chèn câu đệm hai chiều chuẩn hóa
-BACKCHANNEL_RATE = 0.80      # 80% câu có is_parsed=True được chèn đệm
-SPLIT_PROBABILITY = 0.90     # Xác suất tách mệnh đề khi phát hiện dấu ngắt câu hợp lệ
+BACKCHANNEL_RATE = 0.80      # 80% câu is_parsed=True được chèn đệm hai chiều
+SPLIT_PROBABILITY = 0.90     # Tách khi có liên từ hoặc dấu ngắt câu hợp lệ
 ONE_CUT_RULE = True          # Cố định tối đa 1 lần cắt trên mỗi lượt thoại
 
 # Kho câu đệm Bác sĩ (Token-free Caching):
@@ -293,25 +323,31 @@ DOCTOR_BACKCHANNELS = [
     "Rồi.", "Vâng, bác cứ nói tiếp đi.", "Vâng, tôi nắm được rồi.", "Ừm.", "Rồi ạ."
 ]
 
-# Kho câu đệm Bệnh nhân:
+# Kho câu đệm Bệnh nhân (Token-free Caching):
 PATIENT_BACKCHANNELS = [
     "Vâng.", "Dạ.", "Vâng ạ.", "Dạ vâng.", "Vâng bác sĩ.",
     "Dạ vâng ạ.", "Dạ tôi nhớ rồi.", "Vâng, tôi hiểu rồi.", "Em hiểu rồi ạ."
 ]
-```
 
-### 4.3. Mã Nguồn Prompt Gốc ACL 2024 (Table 13 Polish Prompt)
-
-```text
-Expand the conversation. The conversation for patient parts can be more colloquial. When the physician
+# Cơ chế làm sạch text cho ElevenLabs TTS:
+def sanitize_spoken_text(text: str) -> str:
+    # 1. Xóa bỏ hoàn toàn ngoặc đơn (), ngoặc vuông [], ngoặc nhọn {}
+    # 2. Thay thế toàn bộ từ ngữ cấm:
+    #    "dương tính" -> "có dấu hiệu tổn thương rõ"
+    #    "lasegue" -> "kiểm tra nâng chân"
+    #    "neer / hawkins" -> "động tác nâng và xoay vai"
+    # 3. Loại bỏ ký tự đặc biệt, icon, emoji</code></pre>
+      </td>
+      <td valign="top">
+<pre><code>Expand the conversation. The conversation for patient parts can be more colloquial. When the physician
 is speaking, the patient can have many modal particles (e.g. hmm, yes, okay) to increase interaction.
 All the numbers and medical concepts that appear in the note should be mentioned by the physician.
-Professional medical terms and numbers should always occur in the physician's utterances but not in
-the patient's answer. The physician may describe and explain professional judgment to the patient
+Professional medical terms and numbers should always occur in the physician’s utterances but not in
+the patient’s answer. The physician may describe and explain professional judgment to the patient
 and instruct the patient on follow-up requirements, but not ask questions that require professional
 medical knowledge to answer and the question must be around the clinical note(the patient could
 find the answer on the clinical note). All the information of medical history, symptoms and medication
-history should be told by patient. The patient's answer should be succinct and accurate in a
+history should be told by patient. The patient’s answer should be succinct and accurate in a
 colloquial lay language style. The answer should align with the clinical notes and as colloquial
 as possible. You can add some transitional phrases to make the conversation more logical.
 For example:
@@ -327,7 +363,7 @@ Example 3:
 Patient: Okay, I understand.
 (Few days latter)
 physician: Hi...
-Your conversations must follow the logical sequence of a physician's inquiry. For example, the general
+Your conversations must follow the logical sequence of a physician’s inquiry. For example, the general
 logical order of the conversation is: first discussing symptoms, then discussing the
 medical history, followed by discussing testing and results, and finally discussing treatment
 options, conclusioin etc." If you find this conversation to be incoherent, you can try dividing it
@@ -337,33 +373,82 @@ The Key Words: key1, key2,...
 The History Conversation: Conversation
 There are only one patient and one physician and just return the conversation. You conversation must
 include all the key words I gave you.
-Your conversation should also include all information. if it's difficult to include them all, you
+Your conversation should also include all information. if it’s difficult to include them all, you
 can use the original sentences in the notes.
 The common symptoms and common medical history should be told by the patient.
 Some specific symptoms and medical history should be added by the physician after the patient has
 finished describing his symptoms and medical history.
+For example:
+physician: Can you give me your medical history record?
+Patient: Here you are.
+physician: Based on your medical history record...
+Because after the patient has finished describing common symptoms or medical history, he will give
+physician his medical history records.
+After patient gives the physician his medical history record, the physician could know medical
+history record. Otherwise he didn’t know any information of the medical history.
+Some results should not come from history clinical note they should come from the examination.
+All the examination results, history examination results, vital sigh and medical number must be told by physician.
 The revised conversation should be at least around 30 to 40 utterances
 (the physician or patient should say too much information at once).
 The conversation must include all the information on the clinical note.
 You must include all the key words I gave you. If it is difficult to include all the key words you
 could use original the sentences of clinical note.
 You cannot revise or eliminate any key words and you cannot use synonyms of the key words.
-```
+You shouldn’t use the abbreviation if you know the full name(you should use full name not
+abbreviation, such as D9 must be day 9, D7 must be day 7. If both the full name and the abbreviation
+appear, it’s better to use the full name rather than the abbreviation.
+Patients must not say any highly specialized terms, medical terminology or medical dosage.
+They can only describe limited common symptoms.
+The physician should supplement the remaining information based on test results.
+Don’t repeat the same information in long paragraphs. The utterance of the dialogue needs to be
+expanded as much as possible.
+Table 13: Polish prompt.</code></pre>
+      </td>
+      <td valign="top">
+<b>1. LLM Polish Prompt vs Rule-based Engine:</b><br>
+- <i>ACL 2024:</i> Phải gọi thêm 1 lượt LLM với Polish Prompt rất dài để mở rộng số lượt lên 30-40, tốn kém token và tiềm ẩn rủi ro hallucination làm sai lệch đơn thuốc.<br>
+- <i>Hiện tại:</i> Dùng Rule-based Engine kết hợp Regex trong Python, xử lý tức thì (0ms, 0 token), an toàn tuyệt đối.<br><br>
+<b>2. Xóa bỏ các chuyển cảnh phi lý:</b><br>
+- <i>ACL 2024:</i> Cho phép các mốc nhảy cóc vô lý như <i>(After two years)</i>, <i>(Few days later)</i> trong cùng 1 văn bản ca khám.<br>
+- <i>Hiện tại:</i> Đảm bảo tính liên tục của một phiên khám lâm sàng trực tiếp đúng 12 phút.<br><br>
+<b>3. Cơ chế chèn câu đệm hai chiều 80%:</b><br>
+- <i>ACL 2024:</i> Bệnh nhân chêm modal particles (hmm, yes, okay) thủ công do LLM tự sinh.<br>
+- <i>Hiện tại:</i> Áp dụng quy tắc 1-cut rule cho các câu dài của cả bác sĩ và bệnh nhân, tự động chèn các câu đệm thuần Việt phong phú mà không tính vào số lượt khám lâm sàng chính.
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
-## MODULE 5: CLOSING MODULE (KẾT THÚC PHIÊN KHÁM)
+## 5. MODULE 5: COMBINE PROMPT vs GRAPH STATE MACHINE
 
-### 5.1. Bảng Đối Sánh 3 Cột Chi Tiết
+<table border="1" cellpadding="8" cellspacing="0" width="100%">
+  <thead>
+    <tr style="background-color: #f0f4f8; text-align: left;">
+      <th width="38%">Cột 1: Prompt Hiện Tại (Trích nguyên gốc)</th>
+      <th width="38%">Cột 2: Prompt ACL 2024 (Trích nguyên gốc tiếng Anh)</th>
+      <th width="24%">Cột 3: Sự Khác Nhau</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td valign="top">
+<pre><code># Hệ thống KHÔNG sử dụng Combine Prompt vì luồng đối thoại được điều phối
+# khép kín và liên tục thông qua StateGraph của LangGraph:
 
-| Prompt Hiện Tại (VietMed-600 Pipeline) | Prompt Gốc ACL 2024 (Closing Logic) | Sự Khác Biệt & Cải Tiến Đột Phá |
-|:---|:---|:---|
-| **Nhiệm Vụ:** Bác sĩ đưa ra 1-2 câu kết luận ngắn gọn, ân cần (dưới 30 từ), dặn giữ gìn sức khỏe, uống thuốc đúng giờ và hẹn ngày tái khám chính xác. | **Nhiệm Vụ:** Không có prompt kết thúc chuyên biệt; phần chào hỏi và ra về thường bị xóa bỏ trong khâu Combine Prompt. | **Bảo tồn giao tiếp y đức:** Đảm bảo ca khám kết thúc tự nhiên, tạo sự an tâm cho người bệnh. |
-| **Định Dạng Đầu Ra:** JSON `{"text": "...", "is_parsed": true}`. Bệnh nhân tự động phản hồi chào ra về (`sanitize_spoken_text(...)`) mà không cần tốn thêm lượt gọi LLM. | **Định Dạng Đầu Ra:** Văn bản thô nếu có trong chuỗi sinh dài. | **Tự động hóa 100%:** Tiết kiệm lượt gọi API cuối cùng trong khi vẫn bảo đảm tính toàn vẹn của kịch bản. |
+def build_notechat_graph():
+    graph = StateGraph(NoteChatState)
+    graph.add_node("planning", planning_node)
+    graph.add_node("physician", physician_node)
+    graph.add_node("checklist_update", checklist_update_node)
+    graph.add_node("patient", patient_node)
+    graph.add_node("closing", closing_node)
+    graph.add_node("format_output", format_output_node)
+    ...
+    return graph.compile()
 
-### 5.2. Mã Nguồn Prompt Hiện Tại (Verbatim Template)
-
-```text
+# Prompt kết thúc ngắn gọn tại closing_node:
 Bạn là Bác sĩ {doc_name}. Buổi khám bệnh sắp kết thúc.
 Dưới đây là lịch sử buổi khám:
 {history_text}
@@ -373,27 +458,12 @@ Trả về định dạng JSON duy nhất:
 {
   "text": "Lời dặn dò kết thúc của Bác sĩ",
   "is_parsed": true
-}
-```
-
----
-
-## MODULE 6: GRAPH STATE MACHINE & OUTPUT FORMATTING
-
-### 6.1. Bảng Đối Sánh 3 Cột Chi Tiết
-
-| Prompt Hiện Tại (VietMed-600 Pipeline) | Prompt Gốc ACL 2024 (Combine Prompt) | Sự Khác Biệt & Cải Tiến Đột Phá |
-|:---|:---|:---|
-| **Kiến Trúc Luồng:** Sử dụng **LangGraph StateGraph** điều phối khép kín từ `START` -> `planning` -> `physician` -> `checklist_update` -> `patient` -> `closing` -> `format_output` -> `END`. | **Kiến Trúc Luồng:** Sinh 2 đoạn văn riêng lẻ rồi dùng Combine Prompt gọi LLM ghép nối thủ công (`Please concatenate the two dialogues together`). | **Kiến trúc State Machine:** Vận hành liền mạch, dữ liệu liên tục trong State Dictionary, không bao giờ bị cắt rời hay phải chắp vá thủ công. |
-| **Xử Lý Lời Chào:** Giữ nguyên vẹn lời chào hỏi ban đầu và lời cảm ơn ra về để bảo đảm tính chân thực của đàm thoại người thật. | **Xử Lý Lời Chào:** Bắt buộc xóa bỏ toàn bộ lời chào (`deleting all greeting sentences such as 'Hi', 'Hey', 'Good Morning'`). | **Tính thực tế:** Không làm cụt lủn ngữ cảnh giao tiếp y tế. |
-| **Định Dạng Xuất Bản:** Tự động tính toán mốc thời gian tuyến tính `[mm:ss - mm:ss]` khớp đúng thời lượng phút (ví dụ: `[00:00 - 12:00]`). Xuất đồng thời file Markdown và file Docs text. | **Định Dạng Xuất Bản:** Chỉ nối văn bản thô dạng `physician:` và `Patient:`, không có mốc thời gian timestamp. | **Sẵn sàng cho Audio STT/TTS:** Cung cấp timestamp chuẩn phục vụ căn chỉnh audio và huấn luyện mô hình nhận dạng giọng nói. |
-
-### 6.2. Mã Nguồn Prompt Gốc ACL 2024 (Combine Prompt)
-
-```text
-The above two paragraphs were extracted from a complete conversation.
-Please concatenate the two dialogues together. Add 'physician:' before the physician's words
-and 'Patient:' before the patient's words for easier differentiation.
+}</code></pre>
+      </td>
+      <td valign="top">
+<pre><code>The above two paragraphs were extracted from a complete conversation.
+Please concatenate the two dialogues together. Add ’physician:’ before the physician’s words
+and ’Patient:’ before the patient’s words for easier differentiation.
 Please combine these two dialogues.
 It means that your generation should include all the information
 such as dosage of the medication which is mentioned in the clinical note
@@ -401,82 +471,48 @@ if the dosage is not mentioned in the clinical not
 you should not mention it and the length should be longer than
 both of these two conversations even longer than the sum of them.
 You should try to ensure that the dialogue is smooth,
-and don't use any greetings such as 'Hi there', 'how are you feeling today?',
-'Hey', 'Hello' or any farewells in the dialogue.
+and don’t use any greetings such as ’Hi there’, ’how are you feeling today?’,
+’Hey’, ’Hello’ or any farewells in the dialogue.
 The entire conversation takes place at the same time and place,
 and revolves around the same patient and physician.
 Try to make the conversation smoother. Try to make these two dialogues into one dialogue
 that takes place at the same time and place. Modify this conversation
 by deleting all greeting sentences
-such as 'Hi', 'Hey', 'Hi there', 'How are you feeling today', and 'Good Morning'.
+such as ’Hi’, ’Hey’, ’Hi there’, ’How are you feeling today’, and ’Good Morning’.
 The conversation must include these key words:key1, key2, ...
-and you should also eliminate the repeat parts.
-```
+and you should also eliminate the repeat parts.</code></pre>
+      </td>
+      <td valign="top">
+<b>1. Ghép nối thủ công vs State Machine khép kín:</b><br>
+- <i>ACL 2024:</i> Do giới hạn sinh của LLM, phải sinh từng đoạn nhỏ rồi dùng Combine Prompt để ghép nối lại với nhau.<br>
+- <i>Hiện tại:</i> Sử dụng LangGraph StateGraph quản lý trạng thái luồng hội thoại từ đầu đến cuối một cách tự nhiên trong 1 phiên duy nhất.<br><br>
+<b>2. Xử lý lời chào hỏi và tạm biệt:</b><br>
+- <i>ACL 2024:</i> Bắt buộc xóa bỏ toàn bộ lời chào và tạm biệt (<i>deleting all greeting sentences...</i>) làm đoạn thoại bị cụt và mất tự nhiên.<br>
+- <i>Hiện tại:</i> Giữ nguyên vẹn lời chào hỏi tạo thiện cảm ban đầu và lời cảm ơn, dặn dò ra về để đảm bảo tính nhân văn của giao tiếp thầy thuốc - người bệnh.<br><br>
+<b>3. Xuất bản đồng bộ đa định dạng:</b><br>
+- <i>Hiện tại:</i> <code>format_output_node</code> tự động sinh file Markdown hoàn chỉnh và xuất ra file Docs Text sạch để sao chép văn bản ngay lập tức.
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
-## MODULE 7: CONTEXT-INJECTION RAG & SYLLABLE BUDGETING
+## 6. MODULE 6: RAG SYLLABLE BUDGETING & AUTO-EXTENSION
 
-### 7.1. Bảng Đối Sánh 3 Cột Chi Tiết
+<table border="1" cellpadding="8" cellspacing="0" width="100%">
+  <thead>
+    <tr style="background-color: #f0f4f8; text-align: left;">
+      <th width="38%">Cột 1: Prompt Hiện Tại (Trích nguyên gốc)</th>
+      <th width="38%">Cột 2: Prompt ACL 2024 (Trích nguyên gốc tiếng Anh)</th>
+      <th width="24%">Cột 3: Sự Khác Nhau</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td valign="top">
+<pre><code># Prompt Bù Thời Lượng Tự Động (Length Guard Auto-Extension trong server.py):
 
-| Prompt Hiện Tại (VietMed-600 Pipeline) | Prompt Gốc ACL 2024 (Baseline RAG) | Sự Khác Biệt & Cải Tiến Đột Phá |
-|:---|:---|:---|
-| **Định Mức Âm Tiết (Syllable Budget):** Quy đổi thời lượng phút sang số âm tiết tiếng Việt chính xác (ví dụ: 12 phút = 1.800 âm tiết, với hệ số chuẩn 150 âm tiết/phút). | **Định Mức Âm Tiết:** Chỉ ước lượng số lượt thoại chung chung (20 đến 40 utterances). | **Khớp chính xác thời lượng ghi âm:** Tránh tình trạng kịch bản quá ngắn (nói nhanh hết 3 phút) hoặc quá dài lê thê. |
-| **Bối Cảnh Y Khoa Chuẩn Hóa:** Nạp cấu trúc 3 phần rõ ràng: (1) Triệu chứng cơ năng & thực thể, (2) Tiêu chuẩn chẩn đoán & CLS, (3) Phác đồ điều trị & Lời dặn theo Bộ Y tế QĐ 361. | **Bối Cảnh Y Khoa:** Nạp văn bản bệnh án thô và danh sách từ khóa rời rạc. | **Ground Truth Y tế Đáng Tin Cậy:** Đảm bảo mọi chỉ định y khoa đều có căn cứ pháp lý và chuyên môn vững chắc. |
-
-### 7.2. Mã Nguồn Prompt One-Shot RAG (`/api/generate-scenario`)
-
-```text
-Bạn là biên kịch chuyên viết hội thoại khám bệnh để LÀM DỮ LIỆU HUẤN LUYỆN ASR/TTS — nghĩa là văn bản phải giống một đoạn ghi âm thật ngoài đời, không phải một bài giảng y khoa.
-
-=== BỘ DỮ LIỆU Y KHOA NGUYÊN BẢN (GROUND TRUTH CỦA BỘ Y TẾ / TẠP CHÍ Y KHOA) ===
-TÀI LIỆU NGUỒN: {entry['source']}
-BỆNH LÝ CHÍNH THỨC: {entry['name']}
-CHUYÊN KHOA: {entry['specialty']}
-PHÂN NHÓM ĐAU LÂM SÀNG: {entry['pain_group']}
-
-1. TRIỆU CHỨNG LÂM SÀNG CƠ NĂNG & THỰC THỂ:
-{entry['clinical_symptoms']}
-
-2. TIÊU CHUẨN CHẨN ĐOÁN & CẬN LÂM SÀNG:
-{entry['diagnostic_criteria']}
-
-3. HƯỚNG XỬ TRÍ, ĐIỀU TRỊ & LỜI DẶN DÒ:
-{entry['treatment_summary']}
-=================================================================
-
-{FEW_SHOT_STYLE}
-
-NHÂN VẬT:
-- Bác sĩ: {req.doctor_name} ({req.doctor_gender}). Phong cách: {req.doctor_tone}.
-- Bệnh nhân: {req.patient_name} ({req.patient_gender}, {req.patient_age} tuổi). Tính cách, lời ăn tiếng nói: {req.patient_personality}.
-- Ghi chú thêm: {req.custom_notes or "Không có"}
-
-=== 5 NGUYÊN TẮC TỰ NHIÊN (ƯU TIÊN CAO NHẤT) ===
-1. HÉ LỘ DẦN: Bác sĩ gặng hỏi từng chút qua nhiều câu hỏi ngắn. Bệnh nhân chỉ mang 1-2 ý mới mỗi câu.
-2. NGƯỜI THẬT: Bệnh nhân trả lời dân dã, dùng từ ngữ giác quan đời thường (ê ẩm, nhức thấu xương, bì bì...).
-3. BÁC SĨ NÓI DỄ HIỂU: TUYỆT ĐỐI KHÔNG xướng tên nghiệm pháp khoa học hay nói từ "dương tính/âm tính". Khi khám chỉ mô tả động tác.
-4. NHỊP ĐỘ THẬT: Bác sĩ thường xuyên tóm tắt lại ý bệnh nhân bằng câu ngắn hơn để xác nhận.
-5. CHỈ LỜI NÓI CẤT THÀNH TIẾNG: Tuyệt đối không chú thích hành động trong ngoặc đơn/vuông (ngoại trừ timestamp).
-
-=== ĐỘ DÀI BẮT BUỘC ===
-- Mục tiêu: {duration} phút hội thoại thật, tương đương khoảng {target_syllables} âm tiết lời thoại thực sự cất tiếng.
-- Số lượt thoại: khoảng {min_turns}-{max_turns} lượt đối đáp qua lại.
-```
-
----
-
-## MODULE 8: LENGTH GUARD & DYNAMIC AUTO-EXTENSION
-
-### 8.1. Bảng Đối Sánh 3 Cột Chi Tiết
-
-| Prompt Hiện Tại (VietMed-600 Pipeline) | Prompt Gốc ACL 2024 (Length Handling) | Sự Khác Biệt & Cải Tiến Đột Phá |
-|:---|:---|:---|
-| **Cơ Chế Kiểm Soát:** Đo lường số âm tiết thực tế sau khi sinh. Nếu đạt dưới 85% ngưỡng yêu cầu, tự động kích hoạt **Auto-Extension Prompt** để nối tiếp mốc thời gian từ `[{last_time}]` đến đủ `[{duration}:00]`. | **Cơ Chế Kiểm Soát:** Phụ thuộc vào hướng dẫn ước lượng số lượt thoại trong Polish Prompt mà không có thuật ngữ kiểm tra độ dài âm tiết thực tế. | **Bảo đảm không bao giờ thiếu thời lượng:** Khắc phục triệt để hiện tượng mô hình LLM kết thúc sớm khi chưa đạt đủ thời lượng yêu cầu. |
-
-### 8.2. Mã Nguồn Prompt Auto-Extension (`server.py`)
-
-```text
 Đoạn kịch bản khám bệnh dưới đây mới có khoảng {actual_syllables} âm tiết lời thoại, cần đạt khoảng {target_syllables} âm tiết (tương đương {duration} phút). Hãy viết TIẾP phần tiếp theo — giữ đúng văn phong, nhân vật {req.doctor_name} và {req.patient_name}, không lặp lại ý đã có:
 - BẮT ĐẦU TIMESTAMP TIẾP THEO TỪ [{last_time}] và kéo dài liên tục đến đủ [{duration:02d}:00].
 - CHỈ CHỨA LỜI NÓI CẤT THÀNH TIẾNG. Tuyệt đối không chú thích hành động, cử chỉ trong ngoặc đơn hay ngoặc vuông.
@@ -486,46 +522,19 @@ NHÂN VẬT:
 KỊCH BẢN HIỆN TẠI:
 {script_text}
 
-Chỉ viết phần kịch bản nối tiếp tiếp theo (không nhắc lại phần trên):
-```
-
----
-
-## PHỤ LỤC: BỘ MẪU VĂN PHONG THỰC TẾ (FEW-SHOT STYLE)
-
-```text
---- VÍ DỤ VĂN PHONG THỰC TẾ (CHỈ HỌC NHỊP ĐIỆU VÀ CÁCH NÓI, TUYỆT ĐỐI KHÔNG CHÉP BỆNH LÝ NÀY) ---
-
-Ví dụ 1 — Khai thác bệnh sử (hỏi ngắn, trả lời ngắn, bác sĩ tóm tắt nhắc lại để xác nhận):
-- **Bác sĩ:** Đau từ bao giờ rồi bác?
-- **Bệnh nhân:** Cũng phải hai ba tháng nay rồi.
-- **Bác sĩ:** Hai ba tháng.
-- **Bệnh nhân:** Vâng.
-- **Bác sĩ:** Thế lúc đau, nó đau âm ỉ hay đau nhói từng cơn?
-- **Bệnh nhân:** Ban đầu âm ỉ thôi, sau này thỉnh thoảng nó nhói lên.
-- **Bác sĩ:** Nhói lên là lúc nào, có phải lúc giơ tay cao không?
-- **Bệnh nhân:** Đúng rồi, cứ giơ cao lên là nó nhói.
-- **Bác sĩ:** Vâng, giơ cao là nhói.
-- **Bệnh nhân:** Ừ.
-
-Ví dụ 2 — Khám thực thể (TUYỆT ĐỐI KHÔNG xướng tên nghiệm pháp, chỉ mô tả động tác và hỏi cảm giác):
-- **Bác sĩ:** Giờ bác giơ tay lên cao giúp tôi, từ từ thôi nhé.
-- **Bệnh nhân:** Vâng.
-- **Bác sĩ:** Đến đây có đau không?
-- **Bệnh nhân:** Chưa, cứ giơ tiếp đi.
-- **Bác sĩ:** Giơ tiếp, giơ tiếp... đây, đến đây rồi.
-- **Bệnh nhân:** Ui, đau! Đau nhói ở đây này!
-- **Bác sĩ:** Đau đúng chỗ này à?
-- **Bệnh nhân:** Vâng, đúng chỗ này luôn.
-- **Bác sĩ:** Được rồi, hạ tay xuống từ từ cho tôi.
-- **Bệnh nhân:** Vâng.
-
-Ví dụ 3 — Giải thích chẩn đoán (dùng nguyên nhân - hệ quả đời thường, KHÔNG dùng từ "dương tính", KHÔNG xưng tên nghiệm pháp):
-- **Bác sĩ:** Bác thấy đấy, cứ giơ tay lên cao là nó nhói đúng không?
-- **Bệnh nhân:** Vâng, đúng thế.
-- **Bác sĩ:** Đấy là do cái gân ở vai bác đang bị viêm, giơ cao lên là nó cọ vào xương nên mới nhói vậy.
-- **Bệnh nhân:** Thế có nặng không bác sĩ?
-- **Bác sĩ:** Không đến mức nặng đâu, chưa cần mổ. Mình uống thuốc với tập vật lý trị liệu là ổn.
-- **Bác sĩ:** Vâng, thế thì tôi yên tâm rồi.
---- HẾT VÍ DỤ VĂN PHONG ---
-```
+Chỉ viết phần kịch bản nối tiếp tiếp theo (không nhắc lại phần trên):</code></pre>
+      </td>
+      <td valign="top">
+<pre><code>(Không có trong bộ prompt của ACL 2024. ACL 2024 hoàn toàn phụ thuộc vào việc ước lượng số lượng lượt thoại trong Table 13 Polish prompt:
+"The revised conversation should be at least around 30 to 40 utterances... The utterance of the dialogue needs to be expanded as much as possible.")</code></pre>
+      </td>
+      <td valign="top">
+<b>1. Kiểm soát thời lượng bằng âm tiết (Syllable Budgeting):</b><br>
+- <i>ACL 2024:</i> Dựa vào số lượt thoại mơ hồ (30-40 utterances). Một lượt có thể rất ngắn khiến tổng thời lượng nói thực tế chỉ kéo dài 3-4 phút.<br>
+- <i>Hiện tại:</i> Tính toán chính xác theo ngân sách âm tiết tiếng Việt (150 âm tiết/phút; ca 12 phút = 1.800 âm tiết).<br><br>
+<b>2. Chốt chặn độ dài tự động (Length Guard):</b><br>
+- <i>Hiện tại:</i> Nếu kịch bản sinh ra bị hụt (< 85% ngưỡng yêu cầu), hệ thống tự động gọi Auto-Extension Prompt nối tiếp từ mốc timestamp cuối cùng đến đủ <code>[12:00]</code> mà không bị lặp lại ý cũ.
+      </td>
+    </tr>
+  </tbody>
+</table>
