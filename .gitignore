@@ -9,6 +9,7 @@
 !.gitignore
 !README.md
 !merged.md
+!danh-sach-60-benh-khong-cap-cuu.md
 
 # 4. Chỉ theo dõi và upload thư mục Output, output-600 cùng toàn bộ nội dung bên trong
 !Output/

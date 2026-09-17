@@ -1,0 +1,56 @@
+KỊCH BẢN ĐỐI THOẠI KHÁM BỆNH: VIÊM QUANH KHỚP VAI THỂ ĐÔNG CỨNG
+  Phương pháp sinh: NoteChat Multi-Agent Architecture (LangGraph)
+  Bác sĩ: Bác sĩ Hạnh (Ân cần, tỉ mỉ, giọng miền Bắc nhẹ nhàng, chuyên sâu phục hồi chức năng vận động khớp)
+  Bệnh nhân: Bác Lan (60 tuổi, Nội trợ, bị đau nhức vai tiến triển thành xơ cứng đơ khớp, không tự chải tóc hay với tay ra sau lưng được, hay lo âu)
+  Tổng số lượt thoại: 30 lượt khám lâm sàng (48 phân đoạn thoại) | Thời lượng giả định: ~12 phút
+
+--------------------------------------------------
+
+[00:00 - 00:13] Bác sĩ Hạnh: Chào bác Lan, bác ngồi xuống đây cho thoải mái nhé. Tôi nghe nói vai trái của bác bị đau nhức và cứng lâu rồi, bác kể rõ hơn cho tôi nghe được không?
+[00:13 - 00:23] Bác Lan: Dạ chào bác sĩ Hạnh. Khổ quá bác sĩ ơi, cái vai trái của tôi nó cứ nhức âm ỉ, ê ẩm suốt bốn tháng nay rồi.
+[00:23 - 00:25] Bác sĩ Hạnh: Vâng ạ.
+[00:25 - 00:56] Bác Lan: Lúc đầu thì chỉ đau thôi, mà giờ nó cứng ngắc lại như bị ai dính keo vào ấy, muốn nhích một chút thôi cũng thấy buốt nhói. Giờ tôi chẳng tự chải đầu được, mà cái dây áo ngực sau lưng cũng không với tới để cài, cứ thế này thì sinh hoạt khó khăn quá. Tôi cứ lo không biết có bị làm sao nặng không, đêm về nó lại đau nhức nhối làm tôi mất ngủ suốt.
+[00:56 - 01:10] Bác sĩ Hạnh: Tôi hiểu, cảm giác nhức âm ỉ và cứng như bị dính keo đúng không bác? Cái cảm giác dính chặt này là nó xuất hiện liên tục cả ngày hay lúc nào bác thấy rõ nhất?
+[01:10 - 01:45] Bác Lan: Dạ, nó cứ cứng ngắc suốt cả ngày bác sĩ ạ. Mà khổ nhất là cứ hễ đến đêm, hay những lúc trời trở lạnh là nó lại nhức nhối, ê ẩm thấu xương luôn. Tôi nằm nghiêng sang bên trái là đau không chịu nổi, cứ thế mà trằn trọc suốt đêm không ngủ được, sáng ra người cứ mệt mỏi, uể oải. Tôi lo quá, không biết cái vai này có bị viêm nhiễm hay bị làm sao nghiêm trọng không mà nó cứ dính chặt lại thế này.
+[01:45 - 01:55] Bác sĩ Hạnh: Tôi hiểu, đêm về với trời lạnh là bác thấy nhức nhối nhất. Khi đau như vậy, bác thường làm gì để dễ chịu hơn không?
+[01:55 - 02:08] Bác Lan: Dạ, tôi cũng thử xoa dầu nóng với chườm ấm xem sao, lúc mới chườm thì thấy nó dịu dịu ra một chút thôi, nhưng được một lát là nó lại nhức trở lại.
+[02:08 - 02:10] Bác sĩ Hạnh: Vâng.
+[02:10 - 02:29] Bác Lan: Tôi cứ lo là mình bị bệnh gì nặng, hay là bị thoái hóa rồi, chứ giờ đến cái việc quét cái nhà hay lau cái bàn mà phải với tay lên cao một chút là nó đau điếng người, không nhích nổi một phân nào luôn bác sĩ ạ.
+[02:29 - 02:41] Bác sĩ Hạnh: Tôi hiểu là bác rất khó khăn trong sinh hoạt. Bác kể rõ hơn, việc chải đầu hay cài áo ngực giờ bác phải nhờ người khác giúp hoàn toàn đúng không?
+[02:41 - 02:57] Bác Lan: Dạ đúng rồi bác sĩ, giờ tôi chịu thua luôn, không làm nổi một mình. Cái tay nó cứng ngắc, tôi cố vươn lên chải tóc mà nó cứ khựng lại, đau điếng người nên phải nhờ con gái chải hộ.
+[02:57 - 02:59] Bác sĩ Hạnh: Tôi hiểu rồi.
+[02:59 - 03:25] Bác Lan: Còn cái áo ngực thì tôi phải mặc kiểu ngược ra trước rồi mới xoay lại, chứ với tay ra sau lưng là không thể nào làm được. Khổ tâm nhất là tôi vốn quen làm nội trợ, giờ cái gì cũng phải nhờ con cháu, tôi vừa đau vừa thấy mình phiền phức quá, cứ lo mãi không biết có khỏi được không bác sĩ ơi.
+[03:25 - 03:36] Bác sĩ Hạnh: Tôi hiểu là bác rất ngại khi phải phiền con cháu. Trước đây bác có bệnh lý nền nào như tiểu đường hay cao huyết áp không ạ?
+[03:36 - 04:15] Bác Lan: Dạ, tôi có bị cao huyết áp bác sĩ ạ, nhưng mà tôi uống thuốc đều đặn nên cũng ổn định. Còn tiểu đường thì tôi đi khám định kỳ mấy lần trước bác sĩ bảo là bình thường, không bị. Mà tôi cứ lo, không biết cái huyết áp này nó có làm cho cái vai tôi bị cứng lại như thế này không, hay là do tôi già rồi nên xương khớp nó rệu rã đi, giờ làm gì cũng chậm chạp, con cháu nó cứ bảo tôi nghỉ ngơi mà tôi không yên tâm, cứ lo lắng mãi thôi.
+[04:15 - 04:25] Bác sĩ Hạnh: Huyết áp ổn định là tốt rồi bác ạ. Bây giờ bác thả lỏng vai, để tôi sờ nắn xem chỗ nào đau nhất nhé.
+[04:25 - 04:56] Bác Lan: Dạ vâng, bác sĩ cứ xem giúp tôi với. Chỗ này này, nó cứ nhức âm ỉ mà cảm giác như có cái gì nó chặn lại ấy, tôi không dám cử động mạnh vì sợ nó đau điếng người. Tôi chỉ sợ bác sĩ sờ vào nó lại đau quá, mà thôi bác sĩ cứ làm cho kỹ, chứ tôi lo quá, không biết cái vai này có chữa được không hay là cứ bị cứng ngắc thế này mãi.
+[04:56 - 05:09] Bác sĩ Hạnh: Bác cứ yên tâm, tôi sẽ làm thật nhẹ nhàng thôi. Bây giờ bác thử từ từ nâng cánh tay trái ra phía trước và đưa lên cao hết mức bác có thể xem sao nhé?
+[05:09 - 05:20] Bác Lan: Dạ để tôi thử xem. Ôi. đau quá bác sĩ ơi! Nó cứ khựng lại ở đây này, tôi không thể nhích lên thêm được phân nào nữa.
+[05:20 - 05:23] Bác sĩ Hạnh: Ừm, tôi nghe đây.
+[05:23 - 05:49] Bác Lan: Xem, cái vai tôi nó cứ như bị ai đóng đinh vào hay bị dính chặt lại ấy, cố rướn lên một chút là nó nhói lên tận óc luôn. Tôi lo quá, không biết có phải nó bị kẹt cái gì trong khớp không mà sao nó cứng ngắc thế này, cứ thế này thì chắc tôi chẳng làm được việc nhà gì nữa mất.
+[05:49 - 05:59] Bác sĩ Hạnh: Tôi hiểu, bác cứ thả lỏng nhé. Bây giờ bác để tôi đỡ lấy cánh tay, tôi sẽ từ từ nâng lên giúp bác xem sao nhé?
+[05:59 - 06:14] Bác Lan: Dạ vâng, bác sĩ cứ nâng giúp tôi. Ôi, ôi đau quá! Bác sĩ ơi, nó đau nhói lên như có ai kéo căng cái gân trong vai tôi ra ấy, không nhích thêm được tí nào nữa rồi.
+[06:14 - 06:16] Bác sĩ Hạnh: Rồi.
+[06:16 - 06:38] Bác Lan: Tôi nói thật là tôi sợ lắm, cảm giác cái khớp nó bị dính chặt cứng lại, không sao xoay xở được. Cứ thế này thì làm sao tôi quét dọn nhà cửa, rồi lo cơm nước cho mấy đứa cháu được, cứ phải nhờ vả mãi thế này tôi thấy mình vô dụng quá bác sĩ ơi.
+[06:38 - 06:52] Bác sĩ Hạnh: Bác đừng lo quá, tôi đã xem kết quả chụp rồi. X-quang thì bình thường, nhưng hình ảnh siêu âm và MRI cho thấy bao khớp vai của bác bị dày và viêm dính lại đấy.
+[06:52 - 07:23] Bác Lan: Dạ, viêm dính là sao hả bác sĩ? Có phải là nó bị dính chặt lại như tôi cảm thấy không? Trời ơi, nghe đến chữ dính là tôi thấy lo rồi, thế này thì có chữa được không bác sĩ, hay là nó cứ bị cứng ngắc thế này mãi? Tôi chỉ sợ nó không khỏi rồi sau này tay tôi thành phế, chẳng làm được gì cho con cháu, nghĩ đến thôi mà tôi đã thấy sầu rồi.
+[07:23 - 07:36] Bác sĩ Hạnh: Bác đừng quá lo lắng, bệnh này chữa được bác ạ. Đây gọi là viêm dính bao khớp, giống như cái bao quanh khớp vai bị co rút lại nên làm tay bác bị cứng.
+[07:36 - 07:56] Bác Lan: Dạ, nghe bác sĩ nói chữa được thì tôi cũng nhẹ lòng một chút, chứ mấy hôm nay tôi mất ăn mất ngủ vì cái vai này. Mà bác sĩ ơi, cái bao khớp nó bị dính lại như thế thì mình làm sao để nó bong ra được hả bác sĩ?
+[07:56 - 07:59] Bác sĩ Hạnh: Vâng, bác cứ nói tiếp đi.
+[07:59 - 08:18] Bác Lan: Có phải mổ xẻ gì không hay là uống thuốc thôi? Tôi sợ mổ lắm, mà nếu cứ để thế này thì đến cái áo ngực tôi còn không tự cài được, cứ phải nhờ con gái tôi cài hộ, nghĩ mà nó tủi thân sao ấy bác sĩ ạ.
+[08:18 - 08:21] Bác sĩ Hạnh: Bác yên tâm, không cần mổ đâu ạ.
+[08:21 - 08:23] Bác Lan: Vâng.
+[08:23 - 08:30] Bác sĩ Hạnh: Trước hết tôi kê cho bác thuốc để giảm viêm và giãn cơ cho dễ vận động nhé.
+[08:30 - 08:35] Bác Lan: Dạ, không phải mổ là tôi mừng rồi, chứ tôi sợ dao kéo lắm.
+[08:35 - 08:38] Bác sĩ Hạnh: Vâng, tôi nắm được rồi.
+[08:38 - 09:06] Bác Lan: Mà bác sĩ ơi, tôi vốn có cái dạ dày không được tốt, hay bị ợ chua với nóng rát lắm, không biết uống thuốc này vào có bị cồn ruột hay làm đau dạ dày thêm không bác sĩ? Với lại thuốc này uống bao lâu thì cái vai nó mới bớt cứng, chứ cứ thế này tôi không dám làm gì, chỉ sợ cứ để lâu nó lại càng dính chặt hơn thôi.
+[09:06 - 09:20] Bác sĩ Hạnh: Bác yên tâm, tôi đã kê thêm thuốc Pantoprazole 40mg uống trước ăn sáng để bảo vệ dạ dày cho bác rồi. Thuốc này sẽ giúp bác không bị ợ chua hay nóng rát đâu ạ.
+[09:20 - 09:57] Bác Lan: Dạ, có thuốc bảo vệ dạ dày thì tôi yên tâm rồi, chứ tôi sợ nhất là uống thuốc vào rồi lại đau bụng, ợ chua thì khổ lắm. Mà bác sĩ ơi, thuốc này tôi uống trong bao lâu thì cái vai nó mới giãn ra được? Tôi chỉ sợ mình uống thuốc thôi mà không làm gì thêm thì nó vẫn cứ dính chặt như thế này, rồi sau này chẳng quét cái nhà hay nấu bữa cơm cho mấy đứa cháu được, nghĩ mà tôi cứ lo cứ lo mãi thôi bác sĩ ạ.
+[09:57 - 10:12] Bác sĩ Hạnh: Thuốc chỉ là hỗ trợ thôi bác ạ. Quan trọng nhất là bác phải kiên trì tập vận động để làm giãn cái bao khớp dính này ra. Bác có sẵn ròng rọc hay tường phẳng ở nhà không?
+[10:12 - 10:24] Bác Lan: Dạ, tường phẳng thì nhà tôi có, nhưng ròng rọc thì tôi chưa nghe nói tới, không biết cái đó là cái gì và mua ở đâu hả bác sĩ?
+[10:24 - 10:26] Bác sĩ Hạnh: Ừm.
+[10:26 - 10:48] Bác Lan: Mà tập mấy cái đó có đau lắm không bác sĩ ơi? Tôi chỉ sợ lúc tập nó lại nhói lên một cái thì tôi không chịu nổi, rồi lỡ tập sai mà nó làm cái vai tôi bị tổn thương thêm thì khổ, lúc đó chắc tôi chẳng bao giờ tự chải đầu được nữa mất.
+[10:48 - 11:00] Bác sĩ Hạnh: Bác cứ yên tâm, tôi sẽ hướng dẫn bác tập thật chậm. Bài tập leo tường bằng ngón tay rất đơn giản, bác có muốn tôi chỉ cho bác luôn không?
+[11:00 - 11:38] Bác Lan: Dạ, bác sĩ chỉ cho tôi với, chứ tôi cũng muốn mau mau khỏi để còn làm việc nhà cho con cháu. Mà bác sĩ ơi, tập cái đó có đau lắm không? Tôi sợ nhất là cái cảm giác nó nhói lên một cái như kim châm ấy, lần trước tôi thử tự giơ tay lên mà nó thốn đến tận óc, làm tôi sợ quá không dám cử động luôn. Bác sĩ hướng dẫn kỹ cho tôi nhé, chứ tôi già rồi, chậm chạp, sợ làm sai rồi lại hỏng hết cả cái vai này thì khổ lắm.
+[11:38 - 11:49] Bác sĩ Hạnh: Bác cứ yên tâm tập theo tôi nhé. Bác nhớ uống thuốc đúng giờ, giữ sức khỏe và hẹn gặp lại bác tái khám sau 2 tuần tới ạ!
+[11:49 - 12:00] Bác Lan: Dạ vâng, cảm ơn bác sĩ nhiều lắm. Tôi về sẽ uống thuốc và tập luyện đúng như bác sĩ dặn. Chào bác sĩ tôi về ạ.
