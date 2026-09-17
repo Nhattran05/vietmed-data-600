@@ -121,7 +121,7 @@ Mỗi bệnh trình bày 4 cột: **Triệu chứng điển hình | Nguyên nhâ
 - 24: https\://www\.vinmec.com/vie/benh/viem-can-gan-chan-3265
 - 25: https\://www\.apollohospitals.com/vi/diseases-and-conditions/achilles-tendinitis
 - 26: https\://www\.msdmanuals.com/vi/professional/ch%E1%BA%A5n-th%C6%B0%C6%A1ng-ng%E1%BB%99-%C4%91%E1%BB%99c/bong-g%C3%A2n-v%C3%A0-c%C3%A1c-t%E1%BB%95n-th%C6%B0%C6%A1ng-ph%E1%BA%A7n-m%E1%BB%81m-kh%C3%A1c/t%E1%BB%95ng-quan-v%E1%BB%81-bong-g%C3%A2n-v%C3%A0-c%C3%A1c-t%E1%BB%95n-th%C6%B0%C6%A1ng-ph%E1%BA%A7n-m%E1%BB%81m-kh%C3%A1c
-- 27: https\://www\.medlatec.vn/tu-dien-benh-ly/viem-bao-hoat-dich-khop-goi
+- 27: https\://medlatec.vn/tu-dien-benh-ly/viem-bao-hoat-dich-khop-goi
 - 29: https\://www\.medlatec.vn/tu-dien-benh-ly/hoi-chung-ong-co-chan-spjxm
 - 28: https\://phcn-online.com/condition/hoi-chung-banh-che-dui/ (tương tự cơ chế, tham khảo chéo)
 - 30: https\://xuongkhophtc.vn/hoi-chung-che-dui-patellofemoral-pain-syndrome-pfps-nguyen-nhan-trieu-chung-cach-dieu-tri/ ; https\://phcn-online.com/condition/hoi-chung-banh-che-dui/
