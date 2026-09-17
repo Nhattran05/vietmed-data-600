@@ -111,7 +111,8 @@ Mỗi bệnh trình bày 4 cột: **Triệu chứng điển hình | Nguyên nhâ
 - 5: https\://acc.vn/viem-loi-cau-ngoai-xuong-canh-tay-nguyen-nhan-va-cach-dieu-tri/
 - 6: https\://www\.gleneagles.com.sg/vi/conditions-diseases/golfers-elbow/symptoms-causes
 - 8: https\://www\.vinmec.com/vie/bai-viet/tim-hieu-ve-hoi-chung-ong-co-tay-vi
-- 10, 11: kiến thức y khoa phổ thông — nên tham khảo bác sĩ chuyên khoa cơ xương khớp
+- 10: https\://www\.vinmec.com/vie/bai-viet/viem-bao-hoat-dich-khop-nhung-dieu-can-biet-vi
+- 11: https\://pmc\.ncbi.nlm.nih.gov/articles/PMC2682407/
 - 16, 17: https\://www\.vinmec.com/vie/bai-viet/trieu-chung-lam-sang-va-hinh-anh-hep-ong-song-do-truot-dot-song-lung-vi
 - 18: https\://www\.vinmec.com/vie/benh/hep-ong-song-4473
 - 20: https\://www\.physiotutors.com/vi/conditions/sacroiliac-joint-pain/ ; https\://phcn-online.com/condition/roi-loan-chuc-nang-khop-cung-chau/
@@ -120,7 +121,8 @@ Mỗi bệnh trình bày 4 cột: **Triệu chứng điển hình | Nguyên nhâ
 - 24: https\://www\.vinmec.com/vie/benh/viem-can-gan-chan-3265
 - 25: https\://www\.apollohospitals.com/vi/diseases-and-conditions/achilles-tendinitis
 - 26: https\://www\.msdmanuals.com/vi/professional/ch%E1%BA%A5n-th%C6%B0%C6%A1ng-ng%E1%BB%99-%C4%91%E1%BB%99c/bong-g%C3%A2n-v%C3%A0-c%C3%A1c-t%E1%BB%95n-th%C6%B0%C6%A1ng-ph%E1%BA%A7n-m%E1%BB%81m-kh%C3%A1c/t%E1%BB%95ng-quan-v%E1%BB%81-bong-g%C3%A2n-v%C3%A0-c%C3%A1c-t%E1%BB%95n-th%C6%B0%C6%A1ng-ph%E1%BA%A7n-m%E1%BB%81m-kh%C3%A1c
-- 27, 29: kiến thức y khoa phổ thông
+- 27: https\://www\.medlatec.vn/tu-dien-benh-ly/viem-bao-hoat-dich-khop-goi
+- 29: https\://www\.medlatec.vn/tu-dien-benh-ly/hoi-chung-ong-co-chan-spjxm
 - 28: https\://phcn-online.com/condition/hoi-chung-banh-che-dui/ (tương tự cơ chế, tham khảo chéo)
 - 30: https\://xuongkhophtc.vn/hoi-chung-che-dui-patellofemoral-pain-syndrome-pfps-nguyen-nhan-trieu-chung-cach-dieu-tri/ ; https\://phcn-online.com/condition/hoi-chung-banh-che-dui/
 - 31: https\://www\.vinmec.com/vie/benh/gout-gut-3052
