@@ -1,0 +1,76 @@
+KỊCH BẢN ĐỐI THOẠI KHÁM BỆNH: HỘI CHỨNG ĐAU THẮT LƯNG (CẤP/MẠN)
+  Phương pháp sinh: NoteChat Multi-Agent Architecture (LangGraph)
+  Bác sĩ: Bác sĩ Nam (Điềm đạm, chu đáo, chuyên khoa Cơ Xương Khớp, hỏi bệnh tỉ mỉ, kiểm tra co cứng cơ thắt lưng và tư thế làm việc)
+  Bệnh nhân: Anh Hoàng (38 tuổi, Nhân viên văn phòng kiêm lái xe, đau cứng thắt lưng đột ngột sau khi cúi gập người khiêng chậu cây nặng, đi lại khó khăn)
+  Tổng số lượt thoại: 30 lượt khám lâm sàng (68 phân đoạn thoại) | Thời lượng giả định: ~12 phút
+
+--------------------------------------------------
+
+[00:00 - 00:07] Bác sĩ Nam: Chào anh Hoàng, mời anh ngồi. Hôm nay anh thấy trong người thế nào, điều gì khiến anh đến khám vậy?
+[00:07 - 00:25] Anh Hoàng: Dạ chào bác sĩ Nam. Khổ quá bác sĩ ơi, cái lưng tôi nó đau không chịu nổi. Chuyện là mấy hôm trước tôi cúi xuống khiêng cái chậu cây nặng định dời chỗ, tự nhiên nghe một cái rắc rồi cái lưng nó cứng đờ lại luôn.
+[00:25 - 00:27] Bác sĩ Nam: Vâng ạ.
+[00:27 - 00:50] Anh Hoàng: Giờ nó cứ nhức buốt, ê ẩm lan sang hai bên hông, mỗi lần tôi muốn xoay người hay ngồi dậy là nó đau thấu xương, đi lại khó khăn lắm. Tôi làm văn phòng mà còn kiêm cả lái xe nữa, giờ cái lưng thế này thì không biết bao giờ mới đi làm lại được, lo quá bác sĩ ạ.
+[00:50 - 01:01] Bác sĩ Nam: Tôi hiểu, cảm giác đau nhức buốt và cứng lưng khiến anh rất khó chịu. Ngoài vùng hông, anh có thấy tê bì hay châm chích lan xuống chân không?
+[01:01 - 01:13] Anh Hoàng: Dạ không bác sĩ ơi, chân tôi không thấy tê hay châm chích gì hết, chỉ có cái vùng thắt lưng với hai bên hông là nó cứ nhức buốt, ê ẩm thôi.
+[01:13 - 01:15] Bác sĩ Nam: Vâng.
+[01:15 - 01:37] Anh Hoàng: Mà khổ nỗi là giờ cứ hễ cử động nhẹ một chút là nó đau thắt lại, làm tôi chẳng dám làm gì, ở nhà vợ con cứ cằn nhằn suốt vì tôi không phụ giúp được gì, mà tôi thì cứ lo không biết có bị thoát vị hay sao không mà nó cứng ngắc thế này.
+[01:37 - 01:46] Bác sĩ Nam: Tôi ghi nhận là anh không bị tê chân. Vậy khi anh xoay người hay ngồi dậy thì cơn đau có tăng lên nhiều không?
+[01:46 - 02:17] Anh Hoàng: Dạ đúng rồi bác sĩ, tăng lên nhiều lắm. Cứ hễ tôi định xoay người sang một bên hay định gượng dậy là cái lưng nó cứng ngắc, đau nhói thấu xương luôn, cảm giác như có ai cầm cái kìm nó bóp chặt lấy cái thắt lưng mình vậy. Bởi vậy mấy hôm nay tôi chỉ dám nằm im một chỗ, muốn đi vệ sinh thôi mà cũng phải ráng lắm mới lết đi được, khổ sở hết sức bác sĩ ạ.
+[02:17 - 02:28] Bác sĩ Nam: Tôi hiểu, việc đi lại khó khăn như vậy thực sự rất mệt mỏi. Ngoài lúc ngồi dậy, anh có gặp khó khăn khi mặc quần áo hay mang giày không?
+[02:28 - 02:37] Anh Hoàng: Trời ơi, nói đến là tôi phát nản bác sĩ ạ. Mặc quần áo hay mang giày là cả một cực hình luôn.
+[02:37 - 02:39] Bác sĩ Nam: Tôi hiểu rồi.
+[02:39 - 03:08] Anh Hoàng: Bình thường tôi tự làm vèo cái là xong, mà giờ cứ hễ cúi xuống định xỏ cái chân vào giày là cái lưng nó cứng đờ, đau nhói một cái làm tôi giật thót mình, không cúi thêm được milimet nào nữa. Mấy hôm nay toàn phải nhờ vợ mặc quần giúp, rồi mang giày hộ, đàn ông 38 tuổi đầu mà cứ như đứa trẻ con, làm tôi thấy ngại với vợ con quá.
+[03:08 - 03:18] Bác sĩ Nam: Tôi rất chia sẻ với sự bất tiện này của anh. Trước đây anh có thường xuyên phải cúi gập người để mang vác vật nặng như vậy không?
+[03:18 - 03:38] Anh Hoàng: Dạ, thỉnh thoảng tôi cũng có khiêng vác đồ đạc trong nhà, rồi lúc lái xe đưa đón khách hay đi làm văn phòng thì cứ ngồi lì một chỗ suốt cả ngày. Nhưng mà bình thường tôi thấy mình vẫn khỏe, không nghĩ là cái lưng nó lại yếu đến mức này.
+[03:38 - 03:41] Bác sĩ Nam: Ừm, tôi nghe đây.
+[03:41 - 04:04] Anh Hoàng: Đợt này chắc do tôi chủ quan, cứ thế cúi xuống bê cái chậu cây nặng quá nên nó mới bị vậy. Giờ nghĩ lại thấy hối hận quá bác sĩ, chỉ vì một phút bất cẩn mà giờ nằm một chỗ, công việc lái xe của tôi cũng bị đình trệ, không biết bao giờ mới quay lại làm việc được, lo quá.
+[04:04 - 04:14] Bác sĩ Nam: Tôi hiểu nỗi lo của anh. Bây giờ anh nằm sấp xuống giường, thả lỏng người để tôi kiểm tra vùng lưng giúp anh nhé.
+[04:14 - 04:16] Anh Hoàng: Dạ vâng, để tôi ráng nằm xuống.
+[04:16 - 04:18] Bác sĩ Nam: Rồi.
+[04:18 - 04:36] Anh Hoàng: Khổ quá, mỗi lần xoay người hay nằm xuống là cái lưng nó cứ gồng cứng lại, đau nhói một cái làm tôi run cả người. Bác sĩ xem giúp tôi xem có bị sao nặng không chứ cứ thế này thì mất hết việc lái xe mất.
+[04:36 - 04:46] Bác sĩ Nam: Anh cứ thả lỏng nhé. Bây giờ anh hãy cố gắng gập người về phía trước, cúi thấp hết mức có thể giúp tôi xem sao.
+[04:46 - 04:48] Anh Hoàng: Ái chà. đau quá bác sĩ ơi!
+[04:48 - 04:51] Bác sĩ Nam: Vâng, bác cứ nói tiếp đi.
+[04:51 - 05:16] Anh Hoàng: Tôi không cúi thêm được nữa rồi, cái lưng nó cứng ngắc như một khúc gỗ vậy, cứ gập xuống một chút là nó nhói thấu xương, đau đến mức tôi muốn giật bắn người ra luôn. Khổ quá, bình thường tôi làm việc này dễ ợt mà giờ cái lưng nó phản bội tôi thế này đây, chắc là không cúi xuống nổi đâu bác sĩ ạ.
+[05:16 - 05:26] Bác sĩ Nam: Tôi hiểu rồi, anh cứ thả lỏng nhé. Bây giờ anh nằm ngửa ra, tôi sẽ từ từ nâng chân anh lên xem có đau không nhé.
+[05:26 - 05:30] Anh Hoàng: Dạ vâng bác sĩ, bác sĩ cứ nâng lên đi ạ.
+[05:30 - 05:32] Bác sĩ Nam: Vâng, tôi nắm được rồi.
+[05:32 - 05:52] Anh Hoàng: Mà lạ cái là tôi thấy cái lưng nó đau nhứcCứng ngắc ra đó, nhưng mà lúc bác sĩ nâng chân lên thế này tôi lại không thấy đau nhói hay tê bì gì lan xuống chân hết. Chỉ thấy vùng thắt lưng nó cứ ê ẩm, căng cứng thôi bác sĩ ạ.
+[05:52 - 05:55] Bác sĩ Nam: Tôi vừa xem kết quả X-quang của anh.
+[05:55 - 05:57] Anh Hoàng: Dạ.
+[05:57 - 06:07] Bác sĩ Nam: May là các đốt sống không bị xẹp hay trượt, nhưng đường cong sinh lý thắt lưng đang bị thẳng do cơ co cứng quá mức.
+[06:07 - 06:25] Anh Hoàng: Dạ, nghe bác sĩ nói không bị xẹp hay trượt đốt sống là tôi cũng nhẹ lòng một chút, chứ tôi cứ lo là mình bị thoát vị hay gãy xương gì đó thì chết dở. Nhưng mà cái vụ đường cong bị thẳng là sao hả bác sĩ?
+[06:25 - 06:27] Bác sĩ Nam: Ừm.
+[06:27 - 06:53] Anh Hoàng: Có phải là do cái lưng tôi giờ nó cứ cứng đờ ra như cái thước kẻ, không sao uốn hay cúi được nên bác sĩ mới thấy vậy không? Thật sự là nó khó chịu lắm, cảm giác như mấy khối cơ ở lưng nó cứ gồng cứng ngắc lại, làm tôi xoay người một cái thôi mà cũng thấy đau ê ẩm hết cả hai bên hông luôn.
+[06:53 - 07:05] Bác sĩ Nam: Đúng rồi anh, các khối cơ lưng đang co cứng lại nên gây đau và làm mất độ cong tự nhiên. Anh bị hội chứng đau thắt lưng cấp do co cứng cơ.
+[07:05 - 07:16] Anh Hoàng: Hội chứng đau thắt lưng cấp do co cứng cơ ạ? Nghe tên thì có vẻ phức tạp nhưng mà là do cơ bị cứng lại thôi đúng không bác sĩ?
+[07:16 - 07:19] Bác sĩ Nam: Vâng, tôi hiểu.
+[07:19 - 07:47] Anh Hoàng: Vậy là tôi không bị thoát vị đĩa đệm hay gì nghiêm trọng đúng không bác sĩ? Chứ tôi lo quá, giờ mà không làm việc được thì lấy đâu ra tiền lo cho vợ con, rồi xe cộ cứ để không đó cũng phí. Bác sĩ cho tôi hỏi là bệnh này thì điều trị thế nào, có phải mổ xẻ hay tiêm chích gì không, hay là uống thuốc rồi nghỉ ngơi là khỏi ạ?
+[07:47 - 07:52] Bác sĩ Nam: Anh yên tâm, không cần mổ xẻ hay tiêm chích gì đâu.
+[07:52 - 07:54] Anh Hoàng: Vâng ạ.
+[07:54 - 08:00] Bác sĩ Nam: Tôi sẽ kê đơn thuốc uống và hướng dẫn anh nghỉ ngơi là sẽ ổn thôi.
+[08:00 - 08:15] Anh Hoàng: Dạ, nghe bác sĩ nói không phải mổ xẻ là tôi mừng quá, chứ tôi sợ nhất là lên bàn mổ, vừa lo vừa tốn kém. Vậy giờ tôi cần uống thuốc gì và nghỉ ngơi ra sao hả bác sĩ?
+[08:15 - 08:17] Bác sĩ Nam: Rồi ạ.
+[08:17 - 08:46] Anh Hoàng: Mà bác sĩ ơi, tôi vốn có cái dạ dày hơi yếu, hay bị đau âm ỉ, nên mấy thuốc giảm đau này uống vào có bị cồn ruột hay làm đau dạ dày thêm không bác sĩ? Bác sĩ kê cho tôi loại nào an toàn một chút để tôi mau chóng hồi phục còn quay lại lái xe, chứ cứ nằm một chỗ thế này tôi sốt ruột quá, vợ con ở nhà lại lo lắng.
+[08:46 - 08:48] Bác sĩ Nam: Tôi hiểu lo lắng của anh.
+[08:48 - 08:50] Anh Hoàng: Dạ vâng.
+[08:50 - 09:00] Bác sĩ Nam: Đúng là thuốc kháng viêm có thể gây kích ứng dạ dày, nên tôi sẽ kê thêm thuốc bảo vệ niêm mạc cho anh nhé.
+[09:00 - 09:14] Anh Hoàng: Dạ, vậy thì tốt quá, bác sĩ chu đáo quá làm tôi cũng yên tâm hẳn. Chứ cái dạ dày tôi nó cứ dở dở ương ương, sợ uống thuốc giảm đau vào lại đau thắt ruột thì khổ.
+[09:14 - 09:16] Bác sĩ Nam: Vâng ạ.
+[09:16 - 09:42] Anh Hoàng: Thế giờ tôi uống thuốc thế nào cho đúng hả bác sĩ? Rồi tôi có cần phải nằm im một chỗ suốt không, hay là được đi lại nhẹ nhàng trong nhà? Tôi chỉ sợ nằm lâu quá cái lưng nó lại càng cứng thêm, mà cứ hễ cử động một chút là nó lại nhói lên ê ẩm hai bên hông, khó chịu không chịu nổi bác sĩ ạ.
+[09:42 - 09:45] Bác sĩ Nam: Anh không nên nằm im một chỗ quá lâu.
+[09:45 - 09:48] Anh Hoàng: Vâng bác sĩ.
+[09:48 - 09:56] Bác sĩ Nam: Hãy nghỉ ngơi trên giường cứng, tránh nằm nệm mềm hay võng anh nhé. Anh có sẵn túi chườm ấm ở nhà không?
+[09:56 - 10:07] Anh Hoàng: Dạ, ở nhà tôi có cái túi chườm nóng bằng điện bác sĩ ạ, mà lâu rồi tôi không dùng đến. Chườm cái đó vào có đỡ không bác sĩ?
+[10:07 - 10:09] Bác sĩ Nam: Vâng.
+[10:09 - 10:34] Anh Hoàng: Chứ cái lưng tôi giờ nó cứ căng cứng như hai sợi dây thừng, mỗi lần xoay người là nó ê ẩm nhức buốt hết cả hai bên hông, khó chịu lắm. Tôi cứ sợ nằm lâu quá nó lại bị liệt hay cứng ngắc luôn thì khổ, mà cứ hễ nhúc nhích là lại đau, chẳng biết làm sao cho đúng nữa bác sĩ ơi.
+[10:34 - 10:41] Bác sĩ Nam: Có chứ anh, chườm ấm 20 phút mỗi tối sẽ giúp cơ lưng giãn ra và giảm đau rất tốt.
+[10:41 - 10:44] Anh Hoàng: Dạ vâng ạ.
+[10:44 - 10:46] Bác sĩ Nam: Anh nhớ dùng túi chườm đó nhé.
+[10:46 - 11:07] Anh Hoàng: Dạ vâng, vậy tối nay về tôi sẽ lấy cái túi chườm đó ra dùng ngay. Nghe bác sĩ nói vậy tôi cũng yên tâm hơn, chứ nãy giờ cứ lo không biết nằm sao cho đúng, cứ hễ nhúc nhích là cái lưng nó lại nhói lên ê ẩm, khó chịu hết cả hai bên hông.
+[11:07 - 11:10] Bác sĩ Nam: Tôi hiểu rồi.
+[11:10 - 11:37] Anh Hoàng: Mà bác sĩ ơi, giờ tôi cứ nằm giường cứng như vậy thì bao lâu là tôi có thể ngồi dậy lái xe đi làm lại được ạ? Tôi lo nhất là cái vụ công việc, xe cộ mà bỏ không lâu quá thì phí, mà vợ tôi ở nhà một mình lo cho con nhỏ cũng vất vả, tôi mà nằm bẹp một chỗ mãi thế này thì tội bà ấy quá.
+[11:37 - 11:42] Bác sĩ Nam: Anh cứ yên tâm nghỉ ngơi, uống thuốc đúng giờ và chườm ấm nhé.
+[11:42 - 11:45] Anh Hoàng: Em hiểu rồi ạ.
+[11:45 - 11:49] Bác sĩ Nam: Sau một tuần anh quay lại tái khám để tôi kiểm tra lại.
+[11:49 - 11:59] Anh Hoàng: Dạ vâng, cảm ơn bác sĩ nhiều lắm. Tôi về sẽ uống thuốc và tập luyện đúng như bác sĩ dặn. Chào bác sĩ tôi về ạ.
