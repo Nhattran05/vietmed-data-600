@@ -132,7 +132,7 @@ Mỗi bệnh trình bày 4 cột: **Triệu chứng điển hình | Nguyên nhâ
 - 46: https\://www\.vinmec.com/vie/bai-viet/roi-loan-khop-thai-duong-ham-nguyen-nhan-va-dieu-tri-vi
 - 47: https\://www\.vinmec.com/vie/bai-viet/dieu-tri-dau-do-bi-zona-kinh-vi
 - 48: https\://www\.vinmec.com/vie/bai-viet/doi-pho-voi-dau-sau-zona-kinh-vi
-- 49: kiến thức nha khoa phổ thông — nên tham khảo nha sĩ
+- 49: https\://www\.vinmec.com/vie/bai-viet/dau-do-viem-tuy-rang-vi
 - 50: https\://www\.vinmec.com/vie/benh/loet-da-day-ta-trang-4535
 - 51: https\://www\.vinmec.com/vie/benh/viem-loet-da-day-3122
 - 52: https\://www\.vinmec.com/vie/chu-de/thuoc-giam-dau-bung-kinh
