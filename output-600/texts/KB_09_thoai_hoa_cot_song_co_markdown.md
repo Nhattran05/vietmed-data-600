@@ -1,0 +1,74 @@
+# KỊCH BẢN ĐỐI THOẠI KHÁM BỆNH: THOÁI HÓA CỘT SỐNG CỔ
+> **Phương pháp sinh:** NoteChat Multi-Agent Architecture (LangGraph)
+> **Bác sĩ:** Bác sĩ Minh (Đĩnh đạc, ân cần, phong thái chuyên gia Cơ Xương Khớp, hướng dẫn tư thế làm việc và bài tập cổ chi tiết)
+> **Bệnh nhân:** Bác Hùng (62 tuổi, Cán bộ hưu trí, hay ngồi đọc sách và xem điện thoại cúi đầu, bị đau cứng mỏi cổ gáy âm ỉ nhiều tháng nay, xoay cổ nghe lục cục)
+> **Tổng số lượt thoại:** 30 lượt khám lâm sàng (66 phân đoạn thoại) | **Thời lượng giả định:** ~12 phút
+
+---
+
+- **`[00:00 - 00:13]` Bác sĩ Minh:** Chào bác Hùng, mời bác ngồi. Tôi thấy trong phiếu khám bác đang bị đau mỏi vùng gáy và hai vai, tình trạng này bắt đầu từ bao giờ vậy bác?
+- **`[00:13 - 00:25]` Bác Hùng:** Chào bác sĩ Minh. Dạ, cái cổ với hai cái vai của tôi nó cứ ê ẩm, nhức mỏi âm ỉ thế này cũng tầm nửa năm nay rồi.
+- **`[00:25 - 00:27]` Bác sĩ Minh:** Vâng ạ.
+- **`[00:27 - 00:55]` Bác Hùng:** Cứ mỗi sáng ngủ dậy là cái cổ nó cứng đờ ra, tôi phải ngồi xoa bóp một hồi lâu mới xoay qua xoay lại được. Mà khổ nỗi dạo này tôi hay đọc sách với xem điện thoại, cứ cúi đầu một lúc là nó mỏi nhừ, xong xoay cổ nghe tiếng lục cục, lạo xạo trong xương khó chịu lắm bác sĩ ạ.
+- **`[00:55 - 01:02]` Bác sĩ Minh:** Tôi hiểu, cảm giác cứng cổ buổi sáng và tiếng lạo xạo khi xoay rất khó chịu.
+- **`[01:02 - 01:05]` Bác Hùng:** Vâng.
+- **`[01:05 - 01:11]` Bác sĩ Minh:** Những lúc đau như vậy, bác thấy đau tăng lên nhiều nhất là khi nào?
+- **`[01:11 - 01:23]` Bác Hùng:** Dạ, tôi thấy cứ hễ lúc nào ngồi đọc sách hay cầm cái điện thoại cúi đầu lâu một chút là nó mỏi nhừ ra bác sĩ ạ.
+- **`[01:23 - 01:25]` Bác sĩ Minh:** Vâng.
+- **`[01:25 - 01:48]` Bác Hùng:** Rồi cả những hôm trời trở gió hay chuyển mùa, cái cổ với hai vai nó lại ê ẩm, nhức mỏi tăng lên rõ rệt. Nhiều khi tôi cứ lo, không biết có phải do mình già rồi hay tại cái thói quen ngồi một chỗ lâu quá mà nó bị thế này.
+- **`[01:48 - 02:03]` Bác sĩ Minh:** Đúng là khi ngồi lâu hay trời trở lạnh thì vùng cổ vai thường đau hơn. Ngoài những lúc đó ra, bác có thấy tư thế nằm nào làm mình dễ chịu hơn không?
+- **`[02:03 - 02:15]` Bác Hùng:** Dạ, tôi thấy nằm gối thấp một chút thì đỡ hơn, chứ nằm gối cao là sáng dậy cái cổ nó cứng ngắc, xoay đi xoay lại khổ sở lắm.
+- **`[02:15 - 02:18]` Bác sĩ Minh:** Tôi hiểu rồi.
+- **`[02:18 - 02:37]` Bác Hùng:** Mà nói thật với bác sĩ, dạo này tôi cứ lo, tuổi già rồi mà cứ đau nhức thế này, nhiều khi muốn giúp mấy bà cháu trong nhà dọn dẹp cái này cái kia mà cái cổ nó mỏi quá, không làm nổi.
+- **`[02:37 - 02:51]` Bác sĩ Minh:** Tôi hiểu là việc mỏi cổ khiến bác khó khăn khi giúp con cháu dọn dẹp. Vậy cụ thể khi làm việc nhà, bác thấy động tác nào là khó thực hiện nhất?
+- **`[02:51 - 03:07]` Bác Hùng:** Dạ, khó nhất là mấy cái lúc tôi phải ngước lên cao hoặc xoay người qua lại để dọn dẹp, mấy động tác đó làm tôi thấy cái cổ nó cứng ngắc, không quay hết cỡ được.
+- **`[03:07 - 03:10]` Bác sĩ Minh:** Ừm, tôi nghe đây.
+- **`[03:10 - 03:35]` Bác Hùng:** Nhiều khi chỉ muốn quay đầu lại gọi mấy đứa cháu mà cái cổ nó cứ khựng lại, mỏi nhừ cả hai vai. Thú thật với bác sĩ là tôi cũng nản lắm, cứ tưởng già rồi thì xương khớp nó thế, nhưng mà đau âm ỉ thế này làm tôi mất ngủ, cứ trằn trọc mãi không yên.
+- **`[03:35 - 03:47]` Bác sĩ Minh:** Tôi hiểu là bác rất mệt mỏi vì mất ngủ. Bình thường khi dùng điện thoại, bác hay cúi đầu thấp hay nâng máy lên ngang tầm mắt?
+- **`[03:47 - 04:08]` Bác Hùng:** Dạ, tôi hay cúi đầu thấp bác sĩ ạ. Cứ cầm cái điện thoại là tôi cứ thế mà cúi gập cổ xuống nhìn, nhiều khi mải đọc tin tức hay xem mấy cái video mà quên cả thời gian, cứ thế ngồi một chỗ cả tiếng đồng hồ.
+- **`[04:08 - 04:10]` Bác sĩ Minh:** Rồi.
+- **`[04:10 - 04:29]` Bác Hùng:** Xong rồi lúc ngẩng lên mới thấy cái cổ nó cứng ngắc, mỏi nhừ cả hai vai, lúc đó mới biết là mình ngồi sai tư thế. Tôi cũng biết là không tốt nhưng mà cái thói quen nó khó bỏ quá bác sĩ ơi.
+- **`[04:29 - 04:40]` Bác sĩ Minh:** Tôi hiểu rồi. Bây giờ bác ngồi thẳng lưng, thả lỏng vai để tôi kiểm tra vùng cổ và vai cho bác một chút nhé.
+- **`[04:40 - 04:45]` Bác Hùng:** Dạ vâng, bác sĩ cứ kiểm tra giúp tôi xem sao.
+- **`[04:45 - 04:47]` Bác sĩ Minh:** Vâng, bác cứ nói tiếp đi.
+- **`[04:47 - 04:59]` Bác Hùng:** Chứ cái cổ tôi dạo này nó cứng quá, xoay qua xoay lại cứ nghe lục cục trong xương, khó chịu hết cả người bác sĩ ạ.
+- **`[04:59 - 05:11]` Bác sĩ Minh:** Bác nghiêng đầu sang một bên rồi giữ nguyên nhé. Bây giờ tôi ấn nhẹ xuống đỉnh đầu, bác có thấy đau hay tê lan xuống tay không?
+- **`[05:11 - 05:28]` Bác Hùng:** Dạ không bác sĩ ơi, tôi không thấy tê hay buốt lan xuống tay đâu. Nó chỉ cứ ê ẩm, nhức mỏi vùng cổ với hai cái vai thôi, chứ không có cảm giác tê bì gì hết ạ.
+- **`[05:28 - 05:39]` Bác sĩ Minh:** Vậy là không bị chèn ép rễ thần kinh rồi. Giờ bác từ từ xoay đầu sang bên phải hết mức có thể cho tôi xem nhé.
+- **`[05:39 - 05:49]` Bác Hùng:** Dạ, tôi xoay đây. Đấy bác sĩ xem, nó cứ bị khựng lại ở đây thôi, không quay hết sang bên được.
+- **`[05:49 - 05:51]` Bác sĩ Minh:** Vâng, tôi nắm được rồi.
+- **`[05:51 - 06:03]` Bác Hùng:** Mà mỗi lần tôi xoay là trong cổ nó cứ kêu lục cục, lạo xạo như có sỏi trong ấy, khó chịu lắm bác sĩ ạ.
+- **`[06:03 - 06:19]` Bác sĩ Minh:** Tôi đã xem kết quả X-quang của bác. Ở các đốt sống cổ C4 đến C6, khe khớp bị hẹp lại và có mọc thêm các gai xương nhỏ. Bác có nhìn thấy những điểm này trên phim không?
+- **`[06:19 - 06:34]` Bác Hùng:** Dạ, tôi nhìn vào cái phim này thì thấy mấy cái đường trắng trắng, rồi có mấy cái mấu nhỏ nhô ra, nhưng mà tôi chẳng hiểu nó là cái gì bác sĩ ạ.
+- **`[06:34 - 06:36]` Bác sĩ Minh:** Ừm.
+- **`[06:36 - 07:03]` Bác Hùng:** Tôi chỉ biết là dạo này cái cổ nó cứ cứng ngắc, mỏi nhừ, nhất là mấy hôm trời trở gió là nó nhức ê ẩm không chịu nổi. Cứ tưởng già rồi xương khớp nó mòn đi là chuyện thường, nhưng mà nó cứ lục cục thế này làm tôi lo quá, không biết có ảnh hưởng gì nhiều không bác sĩ?
+- **`[07:03 - 07:06]` Bác sĩ Minh:** Bác đừng quá lo lắng.
+- **`[07:06 - 07:08]` Bác Hùng:** Dạ.
+- **`[07:08 - 07:20]` Bác sĩ Minh:** Những dấu hiệu này cho thấy bác bị thoái hóa cột sống cổ nguyên phát, tức là do quá trình lão hóa tự nhiên của xương khớp.
+- **`[07:20 - 07:29]` Bác Hùng:** Thoái hóa là sao hả bác sĩ? Có phải là do tôi già rồi nên xương khớp nó bị mòn đi không?
+- **`[07:29 - 07:32]` Bác sĩ Minh:** Vâng, tôi hiểu.
+- **`[07:32 - 07:56]` Bác Hùng:** Tôi cứ lo là nếu không chữa sớm thì sau này nó nặng thêm, rồi không xoay cổ được nữa thì khổ lắm. Mà dạo này tôi thấy cứ sáng ngủ dậy là cái cổ nó cứng đờ ra, phải xoa bóp một hồi lâu mới cử động được, mệt mỏi hết cả người bác sĩ ạ.
+- **`[07:56 - 08:08]` Bác sĩ Minh:** Đúng rồi bác, do tuổi tác nên sụn khớp bị mòn đi. Để giảm đau và cứng cổ, tôi sẽ kê cho bác một số thuốc nhé.
+- **`[08:08 - 08:27]` Bác Hùng:** Dạ vâng, bác sĩ kê cho tôi thuốc gì cho nó đỡ đau với bớt cứng cái cổ đi. Mà tôi nói thật với bác sĩ, cái dạ dày của tôi dạo này nó cũng không được tốt lắm, hay bị đầy hơi với ợ chua.
+- **`[08:27 - 08:30]` Bác sĩ Minh:** Rồi ạ.
+- **`[08:30 - 08:46]` Bác Hùng:** Không biết mấy thuốc trị xương khớp này uống vào có bị cồn ruột hay làm đau dạ dày thêm không bác sĩ? Tôi sợ nhất là uống thuốc xong lại phải đi chữa cái bụng thì khổ lắm.
+- **`[08:46 - 08:50]` Bác sĩ Minh:** Tôi hiểu lo lắng của bác về dạ dày.
+- **`[08:50 - 08:52]` Bác Hùng:** Vâng ạ.
+- **`[08:52 - 09:09]` Bác sĩ Minh:** Tôi sẽ kê thêm thuốc bảo vệ niêm mạc dạ dày để bác yên tâm dùng thuốc kháng viêm. Bác có hay bị đau dạ dày nặng hay từng uống thuốc điều trị dạ dày lâu dài không?
+- **`[09:09 - 09:33]` Bác Hùng:** Dạ, dạ dày tôi thì không đến mức nặng lắm, không phải uống thuốc điều trị dài ngày gì đâu bác sĩ. Chỉ là dạo này tôi hay thấy nó cứ ấm ách, đầy hơi với ợ chua, nhất là mấy hôm nào ăn uống không điều độ hoặc lo nghĩ nhiều là nó lại tái lên.
+- **`[09:33 - 09:35]` Bác sĩ Minh:** Vâng ạ.
+- **`[09:35 - 09:53]` Bác Hùng:** Thế nên tôi mới lo, chứ bình thường tôi cũng ít khi phải dùng thuốc cho cái bụng. Bác sĩ cứ kê cho tôi loại nào an toàn, đừng làm cái dạ dày tôi nó biểu tình thêm là tôi mừng rồi.
+- **`[09:53 - 09:58]` Bác sĩ Minh:** Thuốc tôi kê sẽ bảo vệ dạ dày nên bác yên tâm.
+- **`[09:58 - 10:00]` Bác Hùng:** Dạ vâng.
+- **`[10:00 - 10:09]` Bác sĩ Minh:** Bây giờ tôi hướng dẫn bác cách dùng gối và tập luyện tại nhà để cổ hết cứng nhé.
+- **`[10:09 - 10:38]` Bác Hùng:** Dạ vâng, bác sĩ hướng dẫn giúp tôi với. Chứ tôi cứ nằm gối cao cho dễ đọc sách, rồi cứ cúi đầu xem điện thoại suốt, không biết có phải vì thế mà cái cổ nó mới bị cứng đơ thế này không. Bác sĩ chỉ tôi cách tập sao cho hiệu quả chứ tôi sợ già rồi tập không đúng lại gây họa ra thì khổ.
+- **`[10:38 - 10:48]` Bác sĩ Minh:** Đúng rồi bác, việc nằm gối cao và cúi đầu xem điện thoại lâu chính là nguyên nhân gây áp lực lên cổ.
+- **`[10:48 - 10:50]` Bác Hùng:** Vâng bác sĩ.
+- **`[10:50 - 10:58]` Bác sĩ Minh:** Bác hãy thay gối mềm cao khoảng 8 đến 10 centimet và hạn chế cúi đầu nhé.
+- **`[10:58 - 11:13]` Bác Hùng:** Dạ, gối cao 8 đến 10 phân thôi hả bác sĩ? Bình thường tôi hay kê hai cái gối cho nó cao để đọc sách cho dễ, giờ biết thế này chắc phải thay thôi.
+- **`[11:13 - 11:15]` Bác sĩ Minh:** Vâng.
+- **`[11:15 - 11:34]` Bác Hùng:** Mà còn cái vụ tập luyện thì sao bác sĩ? Bác chỉ cho tôi mấy động tác nào dễ dễ, làm tại nhà được ấy, chứ tôi sợ già rồi mà tập sai thì cái cổ nó lại càng lục cục, mỏi nhừ ra thì khổ.
+- **`[11:34 - 11:40]` Bác sĩ Minh:** Bác nhớ uống thuốc đúng giờ, tập nhẹ nhàng và giữ sức khỏe nhé.
+- **`[11:40 - 11:43]` Bác Hùng:** Dạ vâng ạ.
+- **`[11:43 - 11:48]` Bác sĩ Minh:** Hẹn gặp lại bác tái khám sau 2 tuần tới ạ!
+- **`[11:48 - 12:00]` Bác Hùng:** Dạ vâng, cảm ơn bác sĩ nhiều lắm. Tôi về sẽ uống thuốc và tập luyện đúng như bác sĩ dặn. Chào bác sĩ tôi về ạ.
