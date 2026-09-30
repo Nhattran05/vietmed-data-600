@@ -1,0 +1,165 @@
+{
+  "metadata": {
+    "disease_stt": 4,
+    "disease_name": "Hội chứng cổ – vai – cánh tay",
+    "specialty_group": "I. Vai – Cánh tay – Khuỷu – Cổ tay – Bàn tay",
+    "scenario_index": 1,
+    "total_turns": 36,
+    "duration_minutes": 12,
+    "execution_time_seconds": 191.72,
+    "model": "google/gemma-4-31b-it",
+    "provider": "openrouter",
+    "validation_passed": true,
+    "repair_attempts": 0
+  },
+  "patient_profile": {
+    "name": "Anh Long",
+    "gender": "Nam",
+    "age": 24,
+    "occupation": "Nhân viên văn phòng",
+    "chief_complaint": "Đau vùng cổ lan xuống vai và cánh tay, kèm theo cảm giác tê châm chích và yếu tay, cơn đau tăng khi vận động cổ.",
+    "onset_duration": "Triệu chứng xuất hiện âm ỉ 1 tháng nay, tăng dần mức độ trong 1 tuần gần đây.",
+    "medical_history": {
+      "chronic_conditions": [
+        {
+          "condition": "Thoái hóa cột sống cổ",
+          "duration": "2 năm",
+          "control_status": "Không ổn định",
+          "treated_at": "Phòng khám nội khoa"
+        }
+      ],
+      "current_medications": [
+        {
+          "name": "Thuốc giảm đau và giãn cơ",
+          "dosage": "1 viên/lần",
+          "frequency": "2 lần/ngày",
+          "adherence": "Tốt",
+          "appearance": "Viên nén màu trắng, hình tròn"
+        },
+        {
+          "name": "Vật lý trị liệu kéo giãn cột sống cổ",
+          "dosage": "1 liệu trình",
+          "frequency": "3 lần/tuần",
+          "adherence": "Đang thực hiện",
+          "appearance": "Máy kéo giãn cơ học"
+        }
+      ],
+      "prior_pain_treatments": [
+        {
+          "treatment": "Nghỉ ngơi, tránh cúi/xoay cổ đột ngột và chườm ấm",
+          "frequency": "Hàng ngày khi đau",
+          "outcome": "Giảm đau tạm thời",
+          "warning_flags": "Không cải thiện dứt điểm"
+        }
+      ],
+      "past_surgeries_trauma": [
+        {
+          "event": "Chấn thương phần mềm vùng cổ do tai nạn xe máy nhẹ",
+          "year": 2020,
+          "sequelae": "Đau mỏi cổ tái phát"
+        }
+      ],
+      "allergies_intolerances": [
+        {
+          "allergen": "NSAIDs",
+          "reaction": "Phát ban, ngứa",
+          "severity": "Trung bình"
+        }
+      ],
+      "lifestyle_risk_factors": {
+        "tobacco": "Không hút thuốc",
+        "alcohol": "Uống xã giao",
+        "occupational_posture": "Ngồi làm việc máy tính nhiều giờ, thường xuyên cúi đầu và ít vận động cổ",
+        "daily_water_intake": "1.5 lít/ngày"
+      },
+      "source_reference": "STT 4 - Hội chứng cổ – vai – cánh tay (danh-sach-60-benh-khong-cap-cuu.md)"
+    },
+    "speaking_style": "Điềm tĩnh, thật thà, xưng hô lễ phép, mô tả triệu chứng mạch lạc, lắng nghe bác sĩ.",
+    "edge_case": "Anh Long chủ động mang theo sổ nhật ký ghi chép chi tiết mức độ đau hàng ngày và hỏi bác sĩ về các bài tập kéo giãn cổ tại nhà để hỗ trợ thêm cho liệu trình vật lý trị liệu."
+  },
+  "doctor_profile": {
+    "name": "Bác sĩ Trí",
+    "gender": "Nam",
+    "age": 52,
+    "seniority_level": "Bác sĩ Chuyên khoa II / Trưởng khoa (26 năm kinh nghiệm)",
+    "speciality": "Cơ Xương Khớp / Bàn tay & Chi trên",
+    "communication_tone": "Điềm đạm, giải thích rõ ràng cơ chế mòn/viêm bằng hình ảnh đời thường, kiên nhẫn lắng nghe"
+  },
+  "checklist": [
+    "Hỏi lý do đến khám và thời gian khởi phát triệu chứng",
+    "Khai thác tính chất đau (vị trí, hướng lan, cảm giác tê châm chích)",
+    "Xác định các yếu tố làm tăng/giảm đau (vận động cổ, tư thế)",
+    "Khai thác thói quen làm việc và tư thế ngồi máy tính",
+    "Hỏi tiền sử bệnh lý cột sống cổ và các chấn thương vùng cổ cũ",
+    "Khai thác các biện pháp tự điều trị tại nhà và mức độ đáp ứng",
+    "Kiểm tra tầm vận động cột sống cổ (xoay, cúi, ngửa)",
+    "Thực hiện nghiệm pháp Spurling (ép rễ thần kinh cổ)",
+    "Kiểm tra sức cơ và phản xạ gân xương vùng tay",
+    "Giải thích kết quả Cận lâm sàng (X-quang/MRI cột sống cổ)",
+    "Chẩn đoán xác định: Hội chứng cổ - vai - cánh tay do thoái hóa",
+    "Kê đơn thuốc: Giảm đau, giãn cơ, kháng viêm (lưu ý dị ứng), bảo vệ dạ dày",
+    "Hướng dẫn vật lý trị liệu (kéo giãn) và điều chỉnh tư thế làm việc",
+    "Dặn dò theo dõi dấu hiệu yếu cơ tiến triển và lịch tái khám"
+  ],
+  "reveal_sequence": [
+    {
+      "checklist_item": "Hỏi lý do đến khám và thời gian khởi phát triệu chứng",
+      "reveal_keys": [
+        "chief_complaint",
+        "onset_duration"
+      ],
+      "reveal_detail": "Bệnh nhân nói về đau cổ lan vai cánh tay, tê tay, kéo dài 1 tháng"
+    },
+    {
+      "checklist_item": "Khai thác tính chất đau (vị trí, hướng lan, cảm giác tê châm chích)",
+      "reveal_keys": [
+        "chief_complaint"
+      ],
+      "reveal_detail": "Chi tiết về cảm giác tê châm chích và yếu tay theo rễ thần kinh"
+    },
+    {
+      "checklist_item": "Xác định các yếu tố làm tăng/giảm đau (vận động cổ, tư thế)",
+      "reveal_keys": [
+        "chief_complaint"
+      ],
+      "reveal_detail": "Cơn đau tăng khi vận động cổ"
+    },
+    {
+      "checklist_item": "Khai thác thói quen làm việc và tư thế ngồi máy tính",
+      "reveal_keys": [
+        "lifestyle_risk_factors"
+      ],
+      "reveal_detail": "Nhân viên văn phòng, ngồi máy tính nhiều giờ, thường xuyên cúi đầu"
+    },
+    {
+      "checklist_item": "Hỏi tiền sử bệnh lý cột sống cổ và các chấn thương vùng cổ cũ",
+      "reveal_keys": [
+        "chronic_conditions",
+        "past_surgeries_trauma"
+      ],
+      "reveal_detail": "Thoái hóa cột sống cổ 2 năm, tai nạn xe máy năm 2020"
+    },
+    {
+      "checklist_item": "Khai thác các biện pháp tự điều trị tại nhà và mức độ đáp ứng",
+      "reveal_keys": [
+        "prior_pain_treatments"
+      ],
+      "reveal_detail": "Nghỉ ngơi, chườm ấm, giảm đau tạm thời nhưng không dứt điểm"
+    },
+    {
+      "checklist_item": "Kê đơn thuốc: Giảm đau, giãn cơ, kháng viêm (lưu ý dị ứng), bảo vệ dạ dày",
+      "reveal_keys": [
+        "current_medications",
+        "allergies_intolerances"
+      ],
+      "reveal_detail": "Đang dùng thuốc giảm đau/giãn cơ, dị ứng với NSAIDs (phát ban, ngứa)"
+    },
+    {
+      "checklist_item": "Hướng dẫn vật lý trị liệu (kéo giãn) và điều chỉnh tư thế làm việc",
+      "reveal_keys": [
+        "current_medications"
+      ],
+      "reveal_detail": "Đang thực hiện liệu trình vật lý trị liệu kéo giãn cột sống cổ"
+    }
+  ]
+}

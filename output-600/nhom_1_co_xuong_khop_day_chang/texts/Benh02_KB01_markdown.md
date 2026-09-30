@@ -1,0 +1,44 @@
+# KỊCH BẢN ĐỐI THOẠI KHÁM BỆNH: VIÊM QUANH KHỚP VAI THỂ ĐÔNG CỨNG (FROZEN SHOULDER)
+> **Mã kịch bản:** Benh02_KB01 (Chuyên khoa: I. Vai – Cánh tay – Khuỷu – Cổ tay – Bàn tay)
+> **Bác sĩ:** Bác sĩ Hùng (Nam, Tế nhị, thấu cảm, không phán xét thói quen xấu của bệnh nhân, hướng dẫn phòng ngừa tái phát tỉ mỉ)
+> **Bệnh nhân:** Anh Phúc (24 tuổi, Nam, Huấn luyện viên thể hình, Điềm tĩnh, thật thà, xưng hô lễ phép, mô tả triệu chứng mạch lạc, lắng nghe bác sĩ.)
+> **Tổng số lượt thoại:** 36 lượt khám lâm sàng | **Cặp giới tính:** Nam – Nam (N-N)
+
+---
+
+- **`[00:00 - 00:21]` Bác sĩ Hùng:** Chào anh Phúc, mời anh ngồi. Anh thấy trong người thế nào mà đến khám vậy?
+- **`[00:21 - 00:43]` Anh Phúc:** Chào bác sĩ, cái vai tôi nó cứ cứng đơ, đau nhức khó chịu lắm ạ.
+- **`[00:43 - 01:00]` Bác sĩ Hùng:** Tình trạng này bắt đầu xuất hiện từ khi nào rồi anh?
+- **`[01:00 - 01:21]` Anh Phúc:** Dạ, nó cứ âm ỉ rồi nặng dần, tính ra cũng tầm 3 tháng nay rồi.
+- **`[01:21 - 01:43]` Bác sĩ Hùng:** Anh mô tả kỹ hơn cảm giác đau cho tôi, thường đau nhiều nhất lúc nào?
+- **`[01:43 - 02:05]` Anh Phúc:** Nó cứ nhức nhối vậy đó, mà cứ hễ về đêm là lại đau tăng lên.
+- **`[02:05 - 02:30]` Bác sĩ Hùng:** Việc vận động tay của anh thế nào? Có khó khăn khi làm vệ sinh cá nhân không?
+- **`[02:30 - 02:49]` Anh Phúc:** Khổ lắm bác sĩ, giờ tôi không chải đầu hay gãi lưng được luôn.
+- **`[02:49 - 03:06]` Bác sĩ Hùng:** Anh có thể đưa tay ra trước hoặc ra sau lưng được không?
+- **`[03:06 - 03:23]` Anh Phúc:** Dạ không, tay tôi cứng ngắc, không đưa đi đâu được hết.
+- **`[03:23 - 03:42]` Bác sĩ Hùng:** Ngoài vai ra, anh có đang điều trị bệnh mạn tính nào khác không?
+- **`[03:42 - 04:00]` Anh Phúc:** Dạ không, trước giờ tôi khỏe mạnh, không bệnh tật gì nặng ạ.
+- **`[04:00 - 04:23]` Bác sĩ Hùng:** Tôi thấy anh làm huấn luyện viên thể hình, công việc có vận động vai nhiều không?
+- **`[04:23 - 04:43]` Anh Phúc:** Dạ đúng rồi, tôi tập với hướng dẫn học viên nên vai hoạt động suốt.
+- **`[04:43 - 05:08]` Bác sĩ Hùng:** Trước đây vùng vai hay cánh tay anh có từng bị chấn thương hay phẫu thuật gì không?
+- **`[05:08 - 05:31]` Anh Phúc:** Vai với tay thì chưa, chỉ có hồi năm 2020 tôi bị rách sụn chêm gối thôi.
+- **`[05:31 - 05:54]` Bác sĩ Hùng:** Từ khi đau đến giờ, anh có tự dùng thuốc hay điều trị gì tại nhà chưa?
+- **`[05:54 - 06:13]` Anh Phúc:** Tôi không dùng thuốc, chỉ cố cử động nhẹ hàng ngày cho đỡ cứng.
+- **`[06:13 - 06:36]` Bác sĩ Hùng:** Anh ngồi thoải mái nhé, để tôi chạm nhẹ vào vùng vai xem có sưng nóng không.
+- **`[06:36 - 06:50]` Anh Phúc:** Dạ vâng, bác sĩ cứ kiểm tra giúp tôi với.
+- **`[06:50 - 07:09]` Bác sĩ Hùng:** Giờ anh thử từ từ nâng cánh tay lên phía trước cho tôi xem.
+- **`[07:09 - 07:28]` Anh Phúc:** Ôi, tới đây là hết mức rồi, đau nhức quá không lên thêm được.
+- **`[07:28 - 07:47]` Bác sĩ Hùng:** Anh thả lỏng nhé, để tôi hỗ trợ nâng tay anh lên xem sao.
+- **`[07:47 - 08:08]` Anh Phúc:** Dạ, bác sĩ nâng thử xem, nhưng tôi cảm thấy nó cứ khựng lại ấy.
+- **`[08:08 - 08:28]` Bác sĩ Hùng:** Tôi xem kết quả X-quang của anh, may là khớp vai không bị thoái hóa.
+- **`[08:28 - 08:46]` Anh Phúc:** Dạ, vậy là tốt quá. Thế tôi bị làm sao vậy bác sĩ?
+- **`[08:46 - 09:10]` Bác sĩ Hùng:** Anh bị viêm quanh khớp vai thể đông cứng, tức là bao khớp bị dày và xơ cứng.
+- **`[09:10 - 09:23]` Anh Phúc:** Bệnh này có nghiêm trọng lắm không bác sĩ?
+- **`[09:23 - 09:45]` Bác sĩ Hùng:** Không quá nguy hiểm, nhưng anh cần kiên trì điều trị để lấy lại vận động.
+- **`[09:45 - 10:05]` Anh Phúc:** Nghe vậy tôi cũng nhẹ lòng. Giờ tôi cần làm gì để mau khỏi ạ?
+- **`[10:05 - 10:25]` Bác sĩ Hùng:** Tôi sẽ cho anh tiêm Corticoid 10-20mg vào khớp và tập kéo giãn hàng ngày.
+- **`[10:25 - 10:43]` Anh Phúc:** Tiêm với tập như vậy là sẽ sớm khỏi đúng không bác sĩ?
+- **`[10:43 - 11:05]` Bác sĩ Hùng:** Đúng vậy, anh nhớ uống thuốc kháng viêm, giảm đau đúng giờ tôi kê đơn nhé.
+- **`[11:05 - 11:20]` Anh Phúc:** Dạ vâng, tôi sẽ tuân thủ đúng lời bác sĩ dặn.
+- **`[11:20 - 11:42]` Bác sĩ Hùng:** Anh cứ tập nhẹ nhàng, đừng quá sức. Hẹn gặp lại anh buổi tái khám tới.
+- **`[11:42 - 12:00]` Anh Phúc:** Dạ, cảm ơn bác sĩ nhiều. Tôi chào bác sĩ tôi về ạ.

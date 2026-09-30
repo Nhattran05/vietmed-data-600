@@ -1,0 +1,44 @@
+KỊCH BẢN ĐỐI THOẠI KHÁM BỆNH: NGÓN TAY LÒ XO (VIÊM GÂN GẤP NGÓN TAY)
+Mã kịch bản: Benh09_KB01 (Chuyên khoa: I. Vai – Cánh tay – Khuỷu – Cổ tay – Bàn tay)
+Bác sĩ: Bác sĩ Đức (Nam, Ân cần, thấu cảm, giải thích cặn kẽ tầm quan trọng sống còn của việc tuân thủ phác đồ)
+Bệnh nhân: Anh Hải (24 tuổi, Nam, Huấn luyện viên thể hình, Điềm tĩnh, thật thà, xưng hô lễ phép, mô tả triệu chứng mạch lạc, lắng nghe bác sĩ.)
+Tổng số lượt thoại: 36 lượt khám lâm sàng | Cặp giới tính: Nam – Nam (N-N)
+
+---
+
+[00:00 - 00:21] Bác sĩ Đức: Chào anh Hải, mời anh ngồi. Hôm nay anh thấy ngón tay mình thế nào?
+[00:21 - 00:42] Anh Hải: Chào bác sĩ, ngón tay cháu nó cứ bị cứng cứng, khó chịu lắm ạ.
+[00:42 - 00:59] Bác sĩ Đức: Anh mô tả kỹ hơn giúp tôi, nó cứng theo kiểu nào?
+[00:59 - 01:22] Anh Hải: Dạ, cứ mỗi lần gập vào rồi duỗi ra là thấy nó lục cục, kẹt lắm.
+[01:22 - 01:33] Bác sĩ Đức: Tình trạng này xuất hiện lâu chưa anh?
+[01:33 - 01:54] Anh Hải: Cháu bị âm ỉ tầm 3 tuần rồi, mà tuần gần đây thì nặng hơn.
+[01:54 - 02:17] Bác sĩ Đức: Có khi nào ngón tay bị khóa cứng lại, rồi đột nhiên bật mạnh ra không?
+[02:17 - 02:40] Anh Hải: Đúng rồi bác, thỉnh thoảng nó kẹt cứng ngắc, xong tự nhiên bật ra cái rụp.
+[02:40 - 02:57] Bác sĩ Đức: Anh làm nghề gì? Có hay phải cầm nắm vật nặng không?
+[02:57 - 03:18] Anh Hải: Cháu là huấn luyện viên thể hình, ngày nào cũng nắm tạ nặng suốt ạ.
+[03:18 - 03:41] Bác sĩ Đức: Anh thường xuyên phải thực hiện các động tác nắm chặt lặp đi lặp lại chứ?
+[03:41 - 04:02] Anh Hải: Vâng, công việc của cháu cứ nắm chặt rồi thả ra liên tục cả ngày.
+[04:02 - 04:22] Bác sĩ Đức: Trước đây anh có bệnh lý gì về khớp hay gân ở tay không?
+[04:22 - 04:43] Anh Hải: Hình như cháu bị viêm cái bao gân ở ngón tay tầm 2 tháng rồi.
+[04:43 - 05:01] Bác sĩ Đức: Anh đã điều trị hay dùng thuốc gì cho tình trạng đó chưa?
+[05:01 - 05:20] Anh Hải: Cháu chưa đi khám, chỉ tự uống thuốc Celecoxib hàng ngày thôi ạ.
+[05:20 - 05:40] Bác sĩ Đức: Ngoài uống thuốc, anh có tự làm gì tại nhà để giảm đau không?
+[05:40 - 06:01] Anh Hải: Cháu có đeo nẹp ngón tay với hạn chế cầm nắm, thấy đỡ đau chút.
+[06:01 - 06:21] Bác sĩ Đức: Anh có từng bị chấn thương hay phẫu thuật gì ở vùng tay không?
+[06:21 - 06:43] Anh Hải: Năm 2021 cháu từng bị bong gân cổ tay khi tập tạ nhưng khỏi hẳn rồi.
+[06:43 - 07:08] Bác sĩ Đức: Được rồi, giờ anh đưa bàn tay đây, tôi sẽ ấn nhẹ vào gốc ngón tay nhé.
+[07:08 - 07:17] Anh Hải: Dạ, bác cứ khám giúp cháu với.
+[07:17 - 07:37] Bác sĩ Đức: Anh thử tự gập rồi duỗi ngón tay này chậm rãi cho tôi xem.
+[07:37 - 07:56] Anh Hải: Đây bác xem, nó cứ bị sượng sượng, không mượt được bác ạ.
+[07:56 - 08:20] Bác sĩ Đức: Tôi đã xem kết quả siêu âm, bao gân gấp của anh bị viêm và dày lên.
+[08:20 - 08:38] Anh Hải: Cái đó nghĩa là sao hả bác sĩ? Có nặng lắm không ạ?
+[08:38 - 09:02] Bác sĩ Đức: Anh bị Ngón tay lò xo, tức là viêm bao gân gấp khiến ngón tay bị kẹt.
+[09:02 - 09:25] Anh Hải: Ngón tay lò xo nghe lạ quá, thế này có chữa dứt điểm được không bác?
+[09:25 - 09:45] Bác sĩ Đức: Yên tâm, bệnh này chữa được. Tôi kê đơn Celecoxib 200mg, uống 1 lần/ngày.
+[09:45 - 10:00] Anh Hải: Dạ, đúng là loại thuốc cháu đang dùng luôn đó ạ.
+[10:00 - 10:23] Bác sĩ Đức: Tốt, anh hãy tiếp tục tuân thủ liều 200mg này. Giờ tôi hướng dẫn đeo nẹp.
+[10:23 - 10:39] Anh Hải: Dạ, bác chỉ cháu đeo thế nào cho đúng với ạ.
+[10:39 - 11:00] Bác sĩ Đức: Hãy uống thuốc đúng giờ. Nếu không đỡ, tôi sẽ tiêm corticoid hoặc phẫu thuật.
+[11:00 - 11:17] Anh Hải: Nếu phải tiêm hay mổ thì có đáng sợ lắm không bác?
+[11:17 - 11:41] Bác sĩ Đức: Đừng lo quá, cứ điều trị nội khoa trước đã. Hẹn anh tái khám sau 2 tuần.
+[11:41 - 11:59] Anh Hải: Dạ vâng, cháu cảm ơn bác sĩ nhiều. Chào bác cháu về ạ.

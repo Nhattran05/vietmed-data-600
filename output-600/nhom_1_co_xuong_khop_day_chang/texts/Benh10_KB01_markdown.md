@@ -1,0 +1,44 @@
+# KỊCH BẢN ĐỐI THOẠI KHÁM BỆNH: VIÊM BAO HOẠT DỊCH KHUỶU TAY (OLECRANON BURSITIS)
+> **Mã kịch bản:** Benh10_KB01 (Chuyên khoa: I. Vai – Cánh tay – Khuỷu – Cổ tay – Bàn tay)
+> **Bác sĩ:** Bác sĩ Hùng (Nam, Thực tế, logic chặt chẽ, chú trọng hướng dẫn thay đổi thói quen sinh hoạt và bài tập phục hồi tại nhà)
+> **Bệnh nhân:** Anh Trọng (24 tuổi, Nam, Sinh viên đại học, Điềm tĩnh, thật thà, xưng hô lễ phép, mô tả triệu chứng mạch lạc và lắng nghe bác sĩ một cách cầu thị.)
+> **Tổng số lượt thoại:** 36 lượt khám lâm sàng | **Cặp giới tính:** Nam – Nam (N-N)
+
+---
+
+- **`[00:00 - 00:22]` Bác sĩ Hùng:** Chào Trọng, mời em ngồi. Hôm nay em thấy trong người thế nào mà đến khám?
+- **`[00:22 - 00:44]` Anh Trọng:** Dạ chào bác sĩ, cái khuỷu tay con bị sưng đỏ với đau nhức quá ạ.
+- **`[00:44 - 00:58]` Bác sĩ Hùng:** Tình trạng này xuất hiện từ khi nào vậy em?
+- **`[00:58 - 01:17]` Anh Trọng:** Dạ, con bị sưng đau như thế này từ 3 ngày trước rồi bác.
+- **`[01:17 - 01:35]` Bác sĩ Hùng:** Vùng sưng đó em có cảm thấy nóng rát hay nhức nhiều không?
+- **`[01:35 - 01:59]` Anh Trọng:** Dạ có, con thấy nóng rát lắm, nhất là từ hôm qua tới giờ đau tăng lên.
+- **`[01:59 - 02:17]` Bác sĩ Hùng:** Khi em tỳ tay xuống bàn hoặc co duỗi cánh tay thì sao?
+- **`[02:17 - 02:38]` Anh Trọng:** Dạ, cứ tỳ tay xuống hay co duỗi là con thấy đau nhói lên luôn.
+- **`[02:38 - 03:00]` Bác sĩ Hùng:** Trước đây em có từng bị chấn thương hay va đập gì ở vùng này không?
+- **`[03:00 - 03:22]` Anh Trọng:** Hồi năm 2021 con bị ngã lúc chơi thể thao, chỗ này sưng lâu lắm ạ.
+- **`[03:22 - 03:46]` Bác sĩ Hùng:** Ngoài lần ngã đó, 2 năm qua chỗ này có bị sưng đau lại lần nào không?
+- **`[03:46 - 04:08]` Anh Trọng:** Dạ đúng rồi, nó cứ thỉnh thoảng lại bị sưng đau tái đi tái lại suốt.
+- **`[04:08 - 04:31]` Bác sĩ Hùng:** Hiện tại em là sinh viên, thói quen ngồi học và dùng máy tính thế nào?
+- **`[04:31 - 04:53]` Anh Trọng:** Con hay tỳ khuỷu tay lên bàn khi học bài với dùng máy tính lâu ạ.
+- **`[04:53 - 05:12]` Bác sĩ Hùng:** Để giảm sưng, em có tự làm gì tại nhà để điều trị không?
+- **`[05:12 - 05:32]` Anh Trọng:** Con có chườm lạnh với dùng miếng đệm lót, nhưng vẫn còn đau lắm.
+- **`[05:32 - 05:47]` Bác sĩ Hùng:** Em có đang uống thuốc gì cho vùng tay này không?
+- **`[05:47 - 06:05]` Anh Trọng:** Dạ, con đang uống thuốc Celecoxib hàng ngày, viên nang màu vàng ạ.
+- **`[06:05 - 06:25]` Bác sĩ Hùng:** Em có bị dị ứng với loại thuốc nào, đặc biệt là Penicillin không?
+- **`[06:25 - 06:44]` Anh Trọng:** Dạ có, con dùng Penicillin là bị phát ban với ngứa hết cả người.
+- **`[06:44 - 07:03]` Bác sĩ Hùng:** Được rồi, giờ em đưa cánh tay lên đây để tôi kiểm tra nhé.
+- **`[07:03 - 07:15]` Anh Trọng:** Dạ, bác sĩ xem giúp con với ạ.
+- **`[07:15 - 07:38]` Bác sĩ Hùng:** Tôi thấy vùng đỉnh khuỷu tay sưng nề và hơi nóng. Em thử gấp tay lại xem?
+- **`[07:38 - 07:59]` Anh Trọng:** Ối, con vừa gấp lại là thấy đau nhói ngay khúc này luôn bác sĩ.
+- **`[07:59 - 08:20]` Bác sĩ Hùng:** Để chắc chắn, tôi sẽ cho em đi siêu âm và chụp X-quang khuỷu tay.
+- **`[08:20 - 08:32]` Anh Trọng:** Dạ, vậy con đi làm bây giờ luôn ạ.
+- **`[08:32 - 08:50]` Bác sĩ Hùng:** Kết quả cho thấy em bị viêm bao hoạt dịch mỏm khuỷu tay.
+- **`[08:50 - 09:10]` Anh Trọng:** Dạ, cái đó là sao vậy bác sĩ? Có nghiêm trọng lắm không ạ?
+- **`[09:10 - 09:34]` Bác sĩ Hùng:** Đây là tình trạng viêm túi dịch do em tỳ khuỷu tay quá nhiều, không quá nặng.
+- **`[09:34 - 09:53]` Anh Trọng:** Dạ, vậy giờ con phải làm sao để mau hết đau hả bác sĩ?
+- **`[09:53 - 10:15]` Bác sĩ Hùng:** Em tuyệt đối tránh tỳ đè khuỷu tay lên bàn khi học và dùng máy tính.
+- **`[10:15 - 10:32]` Anh Trọng:** Dạ, con sẽ chú ý không tỳ tay lên bàn nữa ạ.
+- **`[10:32 - 10:54]` Bác sĩ Hùng:** Tôi kê Celecoxib 200mg, uống 1 lần/ngày sau ăn và thêm thuốc bảo vệ dạ dày.
+- **`[10:54 - 11:12]` Anh Trọng:** Dạ, con nhớ rồi. Con cần theo dõi thêm gì không bác sĩ?
+- **`[11:12 - 11:39]` Bác sĩ Hùng:** Nếu thấy sốt hoặc đỏ lan rộng thì phải quay lại ngay. Hẹn em tái khám sau 1 tuần.
+- **`[11:39 - 12:00]` Anh Trọng:** Dạ vâng, con cảm ơn bác sĩ nhiều. Con chào bác sĩ con về ạ.

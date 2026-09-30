@@ -1,0 +1,44 @@
+KỊCH BẢN ĐỐI THOẠI KHÁM BỆNH: VIÊM QUANH KHỚP VAI / RÁCH GÂN CHÓP XOAY
+Mã kịch bản: Benh01_KB03 (Chuyên khoa: I. Vai – Cánh tay – Khuỷu – Cổ tay – Bàn tay)
+Bác sĩ: Bác sĩ Phan Ngọc Hà (Nữ, Dứt khoát, giàu kinh nghiệm, nghiêm khắc chấn chỉnh việc tự ý dùng thuốc quá liều)
+Bệnh nhân: Vũ Thành Long (38 tuổi, Nam, Giáo viên trung học, Điềm tĩnh, thật thà, xưng hô lễ phép, mô tả triệu chứng mạch lạc và lắng nghe bác sĩ một cách cầu thị.)
+Tổng số lượt thoại: 36 lượt khám lâm sàng | Cặp giới tính: Nữ – Nam (N-N)
+
+---
+
+[00:00 - 00:22] Bác sĩ Hà: Chào anh Long, mời anh ngồi. Anh là Vũ Thành Long, 38 tuổi đúng không ạ?
+[00:22 - 00:33] Anh Long: Dạ vâng, đúng rồi bác sĩ Hà ạ.
+[00:33 - 00:50] Bác sĩ Hà: Hôm nay anh thấy trong người thế nào mà đến khám tôi?
+[00:50 - 01:08] Anh Long: Tôi bị đau nhức cái vai này khoảng một tháng nay rồi ạ.
+[01:08 - 01:28] Bác sĩ Hà: Cảm giác đau như thế nào, nó âm ỉ hay đau nhói dữ dội anh?
+[01:28 - 01:51] Anh Long: Nó cứ đau âm ỉ thôi, nhưng cứ hễ đêm đến là lại nhức nhiều hơn.
+[01:51 - 02:13] Bác sĩ Hà: Khi anh giơ tay lên cao hoặc vận động thì cơn đau có tăng lên không?
+[02:13 - 02:32] Anh Long: Có bác sĩ ạ, cứ giơ tay lên là đau nhói, khó khăn lắm.
+[02:32 - 02:53] Bác sĩ Hà: Anh có cảm thấy cánh tay mình bị yếu đi so với bình thường không?
+[02:53 - 03:11] Anh Long: Dạ có, tôi thấy tay yếu hẳn, không còn linh hoạt như trước.
+[03:11 - 03:32] Bác sĩ Hà: Trước đây anh có từng bị ngã hay chấn thương gì ở vùng vai không?
+[03:32 - 03:54] Anh Long: Hồi năm 2020 tôi chơi thể thao bị ngã chống tay, vai trái cứ đau suốt.
+[03:54 - 04:15] Bác sĩ Hà: Công việc hàng ngày của anh là gì? Có phải đưa tay cao nhiều không?
+[04:15 - 04:33] Anh Long: Tôi dạy trung học, nên hay phải giơ tay viết bảng nhiều ạ.
+[04:33 - 04:54] Bác sĩ Hà: Ngoài chấn thương cũ, anh có bệnh lý mạn tính nào về xương khớp không?
+[04:54 - 05:14] Anh Long: Tôi nghe bảo bị thoái hóa gân ở vai khoảng 2 năm nay rồi.
+[05:14 - 05:36] Bác sĩ Hà: Anh đã từng đi khám ở bệnh viện hay phòng khám nào về bệnh này chưa?
+[05:36 - 05:57] Anh Long: Cách đây 6 tháng tôi có khám ở Bệnh viện Đại học Y Dược TP.HCM.
+[05:57 - 06:15] Bác sĩ Hà: Đợt đó anh điều trị thế nào và có cải thiện nhiều không?
+[06:15 - 06:38] Anh Long: Tôi uống thuốc với tập vật lý trị liệu một tháng, đỡ nhưng làm nhiều lại bị.
+[06:38 - 06:56] Bác sĩ Hà: Khi đau tăng lên ở nhà, anh thường làm gì để giảm nhức?
+[06:56 - 07:16] Anh Long: Tôi thường chườm lạnh, cho vai nghỉ ngơi và hạn chế mang vác nặng.
+[07:16 - 07:40] Bác sĩ Hà: Anh ngồi thoải mái nhé. Tôi chạm nhẹ vào vai, anh chỉ điểm đau nhất giúp tôi.
+[07:40 - 07:59] Anh Long: Dạ, chính chỗ này này bác sĩ, nó cứ nhức nhức khó chịu lắm.
+[07:59 - 08:16] Bác sĩ Hà: Giờ anh đưa tôi xem kết quả chụp MRI và X-quang nhé.
+[08:16 - 08:34] Anh Long: Dạ vâng, phim với kết quả đây ạ, bác sĩ xem giúp tôi.
+[08:34 - 08:55] Bác sĩ Hà: Hình ảnh cho thấy anh bị viêm quanh khớp vai và rách gân chóp xoay.
+[08:55 - 09:14] Anh Long: Rách gân chóp xoay là sao hả bác sĩ? Có nghiêm trọng không ạ?
+[09:14 - 09:36] Bác sĩ Hà: Đó là nhóm gân giữ khớp vai ổn định bị rách, gây đau và yếu tay.
+[09:36 - 10:00] Bác sĩ Hà: Cho tôi hỏi thêm là trước giờ anh có từng bị dị ứng với thuốc nào không?
+[10:00 - 10:18] Anh Long: Tôi dị ứng Aspirin, uống vào là bị phát ban với ngứa lắm.
+[10:18 - 10:39] Bác sĩ Hà: Tôi sẽ kê đơn Celecoxib 200mg, uống 1 lần mỗi ngày sau ăn cho anh.
+[10:39 - 10:57] Anh Long: Thuốc này tôi có dùng rồi, bác sĩ kê đơn giúp tôi nhé.
+[10:57 - 11:18] Bác sĩ Hà: Anh nhớ uống đúng giờ, tránh mang vác nặng và tập vận động nhẹ nhàng.
+[11:18 - 11:40] Bác sĩ Hà: Hai tuần sau anh quay lại đây để tôi kiểm tra lại tầm vận động nhé.
+[11:40 - 12:00] Anh Long: Dạ vâng, tôi cảm ơn bác sĩ nhiều. Chào bác sĩ tôi về ạ.

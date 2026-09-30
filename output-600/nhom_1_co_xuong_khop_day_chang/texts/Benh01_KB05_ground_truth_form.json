@@ -1,0 +1,2119 @@
+{
+  "metadata": {
+    "title": "BỆNH ÁN ĐAU TOÀN DIỆN",
+    "title_en": "COMPREHENSIVE PAIN RECORD",
+    "hospital": "Bệnh Viện Đa Khoa Quốc Tế Vinmec",
+    "document_code": "VM - BS - V1 - 012",
+    "total_pages": 19,
+    "version": "2.0"
+  },
+  "config": {
+    "document_code": "VM - BS - V1 - 012"
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "components": [
+        {
+          "component_type": "medical_header",
+          "props": {
+            "logo_path": "images/logo.jpg",
+            "logo_height": "1.2cm"
+          },
+          "data": {
+            "title_vi": "BỆNH ÁN ĐAU TOÀN DIỆN",
+            "title_en": "COMPREHENSIVE PAIN RECORD"
+          }
+        },
+        {
+          "component_type": "patient_meta_grid",
+          "props": {
+            "show_divider": true
+          },
+          "data": {
+            "rows": [
+              {
+                "label_vi": "Bác sỹ điều trị đau",
+                "label_en": "Pain Clinic Physician",
+                "value": "Bác sĩ Vũ Hữu Nam"
+              },
+              {
+                "label_vi": "Người bệnh",
+                "label_en": "Patient",
+                "value": "Đặng Quốc Lâm"
+              },
+              {
+                "label_vi": "Mã người bệnh",
+                "label_en": "PID",
+                "value": "VM2026-0152"
+              },
+              {
+                "label_vi": "Hội chứng chính",
+                "label_en": "Main syndrome",
+                "value": "Viêm quanh khớp vai / rách gân chóp xoay"
+              },
+              [
+                {
+                  "label_vi": "Ngày khám đầu",
+                  "label_en": "Date of first Visit",
+                  "value": "30/09/2026"
+                },
+                {
+                  "label_vi": "Điều dưỡng",
+                  "label_en": "Nurse",
+                  "value": "N/A"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "component_type": "section_title",
+          "props": {
+            "level": "section",
+            "show_divider": false
+          },
+          "data": {
+            "title_vi": "THÔNG TIN NGƯỜI BỆNH",
+            "title_en": "PATIENT INFORMATION"
+          }
+        },
+        {
+          "component_type": "patient_meta_grid",
+          "props": {
+            "show_divider": false
+          },
+          "data": {
+            "rows": [
+              [
+                {
+                  "label_vi": "Ngày sinh",
+                  "label_en": "Date of Birth",
+                  "value": "N/A"
+                },
+                {
+                  "label_vi": "Tuổi",
+                  "label_en": "Age",
+                  "value": "52"
+                },
+                {
+                  "label_vi": "Giới tính",
+                  "label_en": "Gender",
+                  "value": "Nam"
+                }
+              ],
+              {
+                "label_vi": "Địa chỉ",
+                "label_en": "Address",
+                "value": "Xã Tiền Phong, Mê Linh, Hà Nội"
+              },
+              [
+                {
+                  "label_vi": "Đất nước",
+                  "label_en": "Country",
+                  "value": "Việt Nam"
+                },
+                {
+                  "label_vi": "Quốc tịch",
+                  "label_en": "Nationality",
+                  "value": "Việt Nam"
+                }
+              ],
+              [
+                {
+                  "label_vi": "Email",
+                  "label_en": "Email",
+                  "value": "N/A"
+                },
+                {
+                  "label_vi": "ĐT nhà",
+                  "label_en": "Home No",
+                  "value": "N/A"
+                }
+              ],
+              [
+                {
+                  "label_vi": "ĐT nơi làm việc",
+                  "label_en": "Work No",
+                  "value": "N/A"
+                },
+                {
+                  "label_vi": "Di động",
+                  "label_en": "Mobile No",
+                  "value": "N/A"
+                }
+              ],
+              {
+                "label_vi": "Nghề nghiệp",
+                "label_en": "Job",
+                "value": "Kinh doanh tự do"
+              },
+              {
+                "label_vi": "Bạn đã khám bác sĩ bao giờ chưa",
+                "label_en": "Have you seen/ seeing a doctor?",
+                "value": "Có"
+              },
+              {
+                "label_vi": "Nếu có, tên và chuyên ngành của bác sĩ",
+                "label_en": "If yes, Name of Doctor and Specialty",
+                "value": "Bệnh viện Chấn thương Chỉnh hình TP.HCM, Chuyên khoa: Cơ Xương Khớp, Chẩn đoán: Viêm quanh khớp vai"
+              },
+              [
+                {
+                  "label_vi": "Tình trạng hôn nhân",
+                  "label_en": "Marital Status",
+                  "value": "N/A"
+                },
+                {
+                  "label_vi": "Bạn có bao nhiêu người con",
+                  "label_en": "How many kids do you have?",
+                  "value": "N/A"
+                }
+              ],
+              [
+                {
+                  "label_vi": "Bạn có đang công tác không",
+                  "label_en": "Are you working?",
+                  "value": "N/A"
+                },
+                {
+                  "label_vi": "Nghề nghiệp",
+                  "label_en": "Occupation",
+                  "value": "N/A"
+                }
+              ],
+              {
+                "label_vi": "Nếu không còn công tác, bạn đã ngừng công tác vì lý do đau hay bệnh lý nào không",
+                "label_en": "If not working, did you stop because of your pain/illness?",
+                "value": "N/A"
+              },
+              {
+                "label_vi": "Bạn có bệnh lý mạn tính nào không",
+                "label_en": "Do you have any chronic diseases?",
+                "value": "Thoái hóa gân khớp vai theo tuổi (3 năm)"
+              },
+              {
+                "label_vi": "Bạn có bị khuyết tật không",
+                "label_en": "Any physical disability?",
+                "value": "Không"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page_number": 2,
+      "components": [
+        {
+          "component_type": "section_title",
+          "props": {
+            "level": "section"
+          },
+          "data": {
+            "title_vi": "TIỀN SỬ BỆNH & CƠN ĐAU",
+            "title_en": "ANTECEDENTS / ASSOCIATED DISEASES & PAIN"
+          }
+        },
+        {
+          "component_type": "section_title",
+          "props": {
+            "level": "subsection"
+          },
+          "data": {
+            "title_vi": "DỊ ỨNG",
+            "title_en": "ALLERGIES"
+          }
+        },
+        {
+          "component_type": "patient_meta_grid",
+          "props": {
+            "show_divider": false
+          },
+          "data": {
+            "rows": [
+              {
+                "label_vi": "Bạn có bị dị ứng không? (Thuốc, nhựa cao su, i-ốt...)",
+                "label_en": "Do you have any allergies? (Medicines, latex, iodine...)",
+                "value": "Aspirin"
+              }
+            ]
+          }
+        },
+        {
+          "component_type": "section_title",
+          "props": {
+            "level": "subsection"
+          },
+          "data": {
+            "title_vi": "PHẪU THUẬT",
+            "title_en": "SURGERY"
+          }
+        },
+        {
+          "component_type": "patient_meta_grid",
+          "props": {
+            "show_divider": false
+          },
+          "data": {
+            "rows": [
+              {
+                "label_vi": "Những can thiệp phẫu thuật bạn đã từng làm, thời gian nào?",
+                "label_en": "List the surgical interventions you had in the past with the date?",
+                "value": "Chấn thương khớp vai do ngã trong lúc vận chuyển hàng hóa (2020)"
+              },
+              {
+                "label_vi": "Biến chứng trong và sau phẫu thuật",
+                "label_en": "Any complication during or after surgery",
+                "value": "N/A"
+              }
+            ]
+          }
+        },
+        {
+          "component_type": "section_title",
+          "props": {
+            "level": "subsection"
+          },
+          "data": {
+            "title_vi": "THUỐC",
+            "title_en": "MEDICAL"
+          }
+        },
+        {
+          "component_type": "patient_meta_grid",
+          "props": {
+            "show_divider": false
+          },
+          "data": {
+            "rows": [
+              {
+                "label_vi": "Liệt kê những bệnh lý khác đã từng mắc phải ngoài những bệnh lý từ nhỏ (trầm cảm, bệnh khác...)",
+                "label_en": "List the different diseases you have had outside of childhood illnesses (depression, others...)",
+                "value": "N/A"
+              },
+              {
+                "label_vi": "Liệt kê tất cả các bệnh lý đang điều trị (hen, tiểu đường, tăng huyết áp...)",
+                "label_en": "List all the illnesses/disease you are treated for (asthma, diabetes, hypertension...)",
+                "value": "Thoái hóa gân khớp vai theo tuổi (3 năm)"
+              }
+            ]
+          }
+        },
+        {
+          "component_type": "section_title",
+          "props": {
+            "level": "subsection"
+          },
+          "data": {
+            "title_vi": "ĐIỀU TRỊ",
+            "title_en": "TREATMENTS"
+          }
+        },
+        {
+          "component_type": "patient_meta_grid",
+          "props": {
+            "show_divider": false
+          },
+          "data": {
+            "rows": [
+              {
+                "label_vi": "Tên thuốc và liều dùng",
+                "label_en": "List and dosage",
+                "value": "NSAID (Celecoxib) 200mg"
+              },
+              {
+                "label_vi": "Bạn có đang dùng thuốc chống đông không? (Đường uống hay tiêm)",
+                "label_en": "Are you under anti coagulants? (Oral or injectable)",
+                "value": "N/A"
+              },
+              [
+                {
+                  "label_vi": "Thuốc",
+                  "label_en": "Medication",
+                  "value": "N/A"
+                },
+                {
+                  "label_vi": "Liều dùng",
+                  "label_en": "Dosage",
+                  "value": "N/A"
+                }
+              ],
+              {
+                "label_vi": "Lý do điều trị",
+                "label_en": "Reason of this treatment",
+                "value": "N/A"
+              },
+              {
+                "label_vi": "Bạn có đang dùng thuốc chống ngưng tập tiểu cầu không?",
+                "label_en": "Are you under antiplatelet?",
+                "value": "N/A"
+              },
+              [
+                {
+                  "label_vi": "Thuốc",
+                  "label_en": "Medication",
+                  "value": "N/A"
+                },
+                {
+                  "label_vi": "Liều dùng",
+                  "label_en": "Dosage",
+                  "value": "N/A"
+                }
+              ],
+              {
+                "label_vi": "Lý do điều trị",
+                "label_en": "Reason of this treatment",
+                "value": "N/A"
+              }
+            ]
+          }
+        },
+        {
+          "component_type": "section_title",
+          "props": {
+            "level": "subsection"
+          },
+          "data": {
+            "title_vi": "CƠN ĐAU",
+            "title_en": "PAIN"
+          }
+        },
+        {
+          "component_type": "patient_meta_grid",
+          "props": {
+            "show_divider": false
+          },
+          "data": {
+            "rows": [
+              {
+                "label_vi": "Theo bạn, những nguyên nhân dẫn đến cơn đau của bạn là gì?",
+                "label_en": "List according to you the cause(s) of your pain?",
+                "value": "Tư thế làm việc lặp đi lặp lại và thoái hóa mô mềm theo tuổi"
+              },
+              {
+                "label_vi": "Liệt kê các phương pháp điều trị đau hiệu quả bạn từng sử dụng, thời gian và hiệu quả như thế nào",
+                "label_en": "List all the treatments you have benefited for you pain with date and effect",
+                "value": "Nghỉ ngơi, chườm lạnh khi sưng đau cấp"
+              },
+              {
+                "label_vi": "Liệt kê những xét nghiệm cận lâm sàng bạn từng làm liên quan đến cơn đau (chụp cộng hưởng từ, chụp CT, xét nghiệm máu...) và kết quả",
+                "label_en": "List all the explorations you already made for your pain (MRI, scanner, blood tests...) and results",
+                "value": "Chụp X-quang khớp và chụp cộng hưởng từ MRI"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page_number": 3,
+      "components": [
+        {
+          "component_type": "section_title",
+          "props": {
+            "level": "section"
+          },
+          "data": {
+            "title_vi": "BỆNH SỬ ĐAU",
+            "title_en": "HISTORY OF THE PAIN"
+          }
+        },
+        {
+          "component_type": "patient_meta_grid",
+          "props": {
+            "show_divider": false
+          },
+          "data": {
+            "rows": [
+              [
+                {
+                  "label_vi": "Ngày bắt đầu",
+                  "label_en": "StartDate",
+                  "value": "Đau âm ỉ tăng dần trong 1 tháng nay, gần đây hạn chế vận động rõ rệt hơn."
+                },
+                {
+                  "label_vi": "Ngày bắt đầu tăng nặng",
+                  "label_en": "AggravationDate",
+                  "value": "N/A"
+                }
+              ],
+              [
+                {
+                  "label_vi": "Vị trí ban đầu",
+                  "label_en": "PrimaryLocation",
+                  "value": "Đau nhức khớp vai, đau tăng khi vận động hoặc giơ tay, kèm theo yếu tay và hạn chế tầm vận động, thường đau nhiều về đêm."
+                },
+                {
+                  "label_vi": "Vị trí lan tỏa",
+                  "label_en": "Extension",
+                  "value": "N/A"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "component_type": "checkbox_matrix",
+          "props": {
+            "columns": 4
+          },
+          "data": {
+            "options": [
+              {
+                "label_vi": "Đột ngột",
+                "label_en": "Suddenly",
+                "checked": false
+              },
+              {
+                "label_vi": "Tự phát",
+                "label_en": "Spontaneously",
+                "checked": false
+              },
+              {
+                "label_vi": "Từ từ",
+                "label_en": "Progressive",
+                "checked": false
+              },
+              {
+                "label_vi": "Nhói (Cò súng)",
+                "label_en": "Trigger",
+                "checked": false
+              }
+            ]
+          }
+        },
+        {
+          "component_type": "patient_meta_grid",
+          "props": {
+            "show_divider": false
+          },
+          "data": {
+            "rows": [
+              {
+                "label_vi": "Sự tiến triển",
+                "label_en": "Evolution",
+                "value": "Đau âm ỉ kéo dài, tăng nhiều khi vận động và ban đêm"
+              }
+            ]
+          }
+        },
+        {
+          "component_type": "section_title",
+          "props": {
+            "level": "subsection"
+          },
+          "data": {
+            "title_vi": "MIÊU TẢ CƠN ĐAU HIỆN TẠI (Từ dành cho người bệnh)",
+            "title_en": "DESCRIPTION OF THE CURRENT PAIN (Terms used by the patient)"
+          }
+        },
+        {
+          "component_type": "checkbox_matrix",
+          "props": {
+            "columns": 3
+          },
+          "data": {
+            "options": [
+              {
+                "label_vi": "Đau như cú đấm",
+                "label_en": "Beating",
+                "checked": false
+              },
+              {
+                "label_vi": "Đau thắt",
+                "label_en": "Crushed",
+                "checked": false
+              },
+              {
+                "label_vi": "Đau bỏng rát",
+                "label_en": "Burning",
+                "checked": false
+              },
+              {
+                "label_vi": "Đau râm ran",
+                "label_en": "Tingling",
+                "checked": false
+              },
+              {
+                "label_vi": "Đau như dao đâm",
+                "label_en": "Stabbing",
+                "checked": true
+              },
+              {
+                "label_vi": "Đau lan tỏa",
+                "label_en": "Radiating",
+                "checked": false
+              },
+              {
+                "label_vi": "Đau như chuột rút",
+                "label_en": "Cramps",
+                "checked": false
+              },
+              {
+                "label_vi": "Cảm giác điện giật",
+                "label_en": "Electric shock",
+                "checked": false
+              },
+              {
+                "label_vi": "Ngứa",
+                "label_en": "Scratching",
+                "checked": true
+              },
+              {
+                "label_vi": "Đau siết/thắt",
+                "label_en": "Clenching",
+                "checked": false
+              },
+              {
+                "label_vi": "Đau âm ỉ",
+                "label_en": "Slenderness",
+                "checked": true
+              },
+              {
+                "label_vi": "Đau như kim châm",
+                "label_en": "Pins and needles",
+                "checked": false
+              }
+            ]
+          }
+        },
+        {
+          "component_type": "section_title",
+          "props": {
+            "level": "subsection"
+          },
+          "data": {
+            "title_vi": "SỰ XUẤT HIỆN VÀ CƯỜNG ĐỘ ĐAU (Thang điểm từ 0 đến 10)",
+            "title_en": "TERMS OF APPEARANCE AND INTENSITY (Rated from 0 to 10)"
+          }
+        },
+        {
+          "component_type": "patient_meta_grid",
+          "props": {
+            "show_divider": false
+          },
+          "data": {
+            "rows": [
+              [
+                {
+                  "label_vi": "Đau liên tục: nhỏ nhất",
+                  "label_en": "Continuous pain: minimal",
+                  "value": "N/A"
+                },
+                {
+                  "label_vi": "lớn nhất",
+                  "label_en": "maximal",
+                  "value": "N/A"
+                }
+              ],
+              [
+                {
+                  "label_vi": "Đau từng hồi: nhỏ nhất",
+                  "label_en": "Intermittent pain: minimal",
+                  "value": "N/A"
+                },
+                {
+                  "label_vi": "lớn nhất",
+                  "label_en": "maximal",
+                  "value": "N/A"
+                }
+              ],
+              [
+                {
+                  "label_vi": "Đau theo cơn: nhỏ nhất",
+                  "label_en": "Pain by crisis: minimal",
+                  "value": "N/A"
+                },
+                {
+                  "label_vi": "lớn nhất",
+                  "label_en": "maximal",
+                  "value": "N/A"
+                }
+              ],
+              {
+                "label_vi": "Đau do kích thích - Nguyên nhân",
+                "label_en": "Provocated pain - Cause",
+                "value": "Vận động, thay đổi thời tiết, sờ nắn điểm bám gân"
+              },
+              [
+                {
+                  "label_vi": "Cơn đau tự phát - Ban ngày",
+                  "label_en": "Spontaneous pain - Day time",
+                  "value": "N/A"
+                },
+                {
+                  "label_vi": "Ban đêm",
+                  "label_en": "Night time",
+                  "value": "N/A"
+                }
+              ],
+              {
+                "label_vi": "Loại hoạt động",
+                "label_en": "Type of activity",
+                "value": "N/A"
+              }
+            ]
+          }
+        },
+        {
+          "component_type": "section_title",
+          "props": {
+            "level": "subsection"
+          },
+          "data": {
+            "title_vi": "CÁC YẾU TỐ TĂNG ĐAU",
+            "title_en": "FACTORS AGGRAVATING PAIN"
+          }
+        },
+        {
+          "component_type": "checkbox_matrix",
+          "props": {
+            "columns": 3
+          },
+          "data": {
+            "options": [
+              {
+                "label_vi": "Cơ học: Cử động",
+                "label_en": "Mechanical: Movement",
+                "checked": true
+              },
+              {
+                "label_vi": "Đi bộ",
+                "label_en": "Walking",
+                "checked": false
+              },
+              {
+                "label_vi": "Khoảng cách",
+                "label_en": "Distance",
+                "checked": false
+              },
+              {
+                "label_vi": "Tư thế: Đứng",
+                "label_en": "Positional: Standing",
+                "checked": false
+              },
+              {
+                "label_vi": "Nằm",
+                "label_en": "Lying",
+                "checked": true
+              },
+              {
+                "label_vi": "Ngồi",
+                "label_en": "Sitting",
+                "checked": false
+              },
+              {
+                "label_vi": "Tiếp xúc da: Đơn thuần",
+                "label_en": "Skin contact: Simple",
+                "checked": false
+              },
+              {
+                "label_vi": "Tiếp xúc lạnh",
+                "label_en": "Local cold",
+                "checked": true
+              },
+              {
+                "label_vi": "Tiếp xúc nóng",
+                "label_en": "Local heat",
+                "checked": false
+              },
+              {
+                "label_vi": "Yếu tố khác: Mệt mỏi",
+                "label_en": "Other: Fatigue",
+                "checked": false
+              },
+              {
+                "label_vi": "Căng thẳng",
+                "label_en": "Stress",
+                "checked": false
+              },
+              {
+                "label_vi": "Khác",
+                "label_en": "Others",
+                "checked": false
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page_number": 4,
+      "components": [
+        {
+          "component_type": "section_title",
+          "props": {
+            "level": "section"
+          },
+          "data": {
+            "title_vi": "CUỘC SỐNG HÀNG NGÀY",
+            "title_en": "DAILY LIFE"
+          }
+        },
+        {
+          "component_type": "section_title",
+          "props": {
+            "level": "subsection"
+          },
+          "data": {
+            "title_vi": "TÁC ĐỘNG CỦA CƠN ĐAU LÊN",
+            "title_en": "IMPACT OF PAIN ON"
+          }
+        },
+        {
+          "component_type": "patient_meta_grid",
+          "props": {
+            "show_divider": false
+          },
+          "data": {
+            "rows": [
+              {
+                "label_vi": "Sinh hoạt gia đình",
+                "label_en": "Family activities",
+                "value": "N/A"
+              },
+              {
+                "label_vi": "Sinh hoạt cá nhân",
+                "label_en": "Personal leisure activities",
+                "value": "N/A"
+              },
+              {
+                "label_vi": "Hoạt động xã hội và các mối quan hệ",
+                "label_en": "Social and relational activities",
+                "value": "N/A"
+              },
+              {
+                "label_vi": "Công việc",
+                "label_en": "Work",
+                "value": "Giảm hiệu suất, khó bê vác hay thực hiện động tác với cao"
+              },
+              {
+                "label_vi": "Tính cách (dễ bị kích động)",
+                "label_en": "Character (irritability)",
+                "value": "N/A"
+              },
+              {
+                "label_vi": "Chức năng nhận thức (sự tập trung)",
+                "label_en": "Cognitive functions (concentration)",
+                "value": "N/A"
+              },
+              {
+                "label_vi": "Giấc ngủ",
+                "label_en": "Sleep",
+                "value": "Thường xuyên trằn trọc, thức giấc giữa đêm vì đau nhức"
+              },
+              {
+                "label_vi": "Tâm trạng",
+                "label_en": "Mood",
+                "value": "N/A"
+              },
+              {
+                "label_vi": "Có suy giảm chức năng nào của cơ thể không",
+                "label_en": "Is there a loss of body function",
+                "value": "N/A"
+              },
+              {
+                "label_vi": "Có mất tự chủ không (không thể lái xe?)",
+                "label_en": "Is there a loss of autonomy (cannot drive?)",
+                "value": "N/A"
+              },
+              {
+                "label_vi": "Có mất khả năng tham gia các hoạt động xã hội không?",
+                "label_en": "Is there a loss of participation in social life?",
+                "value": "N/A"
+              },
+              {
+                "label_vi": "Môi trường của người bệnh",
+                "label_en": "Environment of the patient",
+                "value": "N/A"
+              },
+              {
+                "label_vi": "Điều kiện làm việc có làm cơn đau trầm trọng hơn không?",
+                "label_en": "Does working conditions have an influence on aggravating pain?",
+                "value": "N/A"
+              },
+              {
+                "label_vi": "Điều trị đau có được bồi thường về tài chính không?",
+                "label_en": "Is there any financial procedure compensation with the pain",
+                "value": "N/A"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page_number": 5,
+      "components": [
+        {
+          "component_type": "section_title",
+          "props": {
+            "level": "section"
+          },
+          "data": {
+            "title_vi": "ĐO CƯỜNG ĐỘ ĐAU",
+            "title_en": "MEASURING THE INTENSITY OF PAIN"
+          }
+        },
+        {
+          "component_type": "vas_pain_scale",
+          "props": {
+            "show_guidance_box": true
+          },
+          "data": {
+            "scales": [
+              {
+                "question_vi": "Bạn cảm thấy cơn đau hiện tại như thế nào?",
+                "question_en": "How would you assess your pain now, at this moment?",
+                "selected_score": 5
+              },
+              {
+                "question_vi": "Cơn đau nhiều nhất trong 4 tuần qua như thế nào?",
+                "question_en": "How strong was the strongest pain during the past 4 weeks?",
+                "selected_score": 9
+              },
+              {
+                "question_vi": "Trung bình các cơn đau trong 4 tuần qua như thế nào?",
+                "question_en": "How strong was the pain during the past 4 weeks on average?",
+                "selected_score": 7
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page_number": 6,
+      "components": [
+        {
+          "component_type": "section_title",
+          "props": {
+            "level": "section"
+          },
+          "data": {
+            "title_vi": "BẢNG ĐÁNH GIÁ 6 MỨC ĐỘ ĐẶC TÍNH CƠN ĐAU",
+            "title_en": "6-LEVEL PAIN QUALITY EVALUATION MATRIX"
+          }
+        },
+        {
+          "component_type": "likert_rating_table",
+          "props": {
+            "show_physician_calc_box": true
+          },
+          "data": {
+            "rows": [
+              {
+                "question_vi": "Bạn có đau bỏng rát (đau nhức) tại vị trí đánh dấu không?",
+                "question_en": "Do you suffer from a burning sensation (e.g., stinging nettles) in the marked areas?",
+                "selected_level": null,
+                "note": ""
+              },
+              {
+                "question_vi": "Bạn có cảm giác râm ran ở vị trí đau không (như kiến bò hay tê điện)?",
+                "question_en": "Do you have a tingling or prickling sensation in the area of your pain (like crawling ants or electrical tingling)?",
+                "selected_level": null,
+                "note": ""
+              },
+              {
+                "question_vi": "Đau khi dùng miếng vải hay khăn chạm nhẹ vào vùng đau?",
+                "question_en": "Is light touching with a cloth or towel painful?",
+                "selected_level": null,
+                "note": ""
+              },
+              {
+                "question_vi": "Bạn có cơn đau đột ngột nào như điện giật ở khu vực đau không?",
+                "question_en": "Do you have sudden pain attacks in the area of your pain, like electric shocks?",
+                "selected_level": null,
+                "note": ""
+              },
+              {
+                "question_vi": "Khu vực bị đau cảm thấy nóng hay lạnh khi tắm?",
+                "question_en": "Is cold or heat (bath water) in this area occasionally painful?",
+                "selected_level": null,
+                "note": ""
+              },
+              {
+                "question_vi": "Bạn có bị tê bì tại vị trí đánh dấu không?",
+                "question_en": "Do you suffer from a sensation of numbness in the areas that you marked?",
+                "selected_level": null,
+                "note": ""
+              },
+              {
+                "question_vi": "Bạn có bị tức nhẹ tại vị trí đau không (khi ấn ngón tay, khi chạm vào điểm đau kích thích)",
+                "question_en": "Does slight pressure in this area, e.g., with a finger, trigger pain?",
+                "selected_level": null,
+                "note": ""
+              }
+            ],
+            "physician_score": "N/A"
+          }
+        }
+      ]
+    },
+    {
+      "page_number": 7,
+      "components": [
+        {
+          "component_type": "diagram_map",
+          "props": {
+            "diagram_type": "pain_course_and_scale",
+            "body_map_height": "6.5cm"
+          },
+          "data": {
+            "title_vi": "DIỄN TIẾN CƠN ĐAU & SƠ ĐỒ CƠ THỂ",
+            "title_en": "COURSE OF PAIN & BODY MAP",
+            "selected_graph": null,
+            "pain_score": "N/A",
+            "body_map_image": "images/body_map_clean.png"
+          }
+        }
+      ]
+    },
+    {
+      "page_number": 8,
+      "components": [
+        {
+          "component_type": "section_title",
+          "props": {
+            "level": "section"
+          },
+          "data": {
+            "title_vi": "BỘ CÂU HỎI DN4",
+            "title_en": "QUESTIONNAIRE DN4"
+          }
+        },
+        {
+          "component_type": "clinical_scoring",
+          "props": {
+            "scoring_type": "dn4"
+          },
+          "data": {
+            "questions": [
+              {
+                "title_vi": "Câu hỏi 1: Cơn đau hiện tại giống một hay nhiều tính chất nào dưới đây?",
+                "title_en": "Question 1: Does the pain present one or more of these characteristics?",
+                "options": [
+                  {
+                    "label_vi": "Nóng rát",
+                    "label_en": "Burning",
+                    "checked": false,
+                    "score": "1"
+                  },
+                  {
+                    "label_vi": "Cảm giác đau lạnh",
+                    "label_en": "Painful cold",
+                    "checked": false,
+                    "score": "0"
+                  },
+                  {
+                    "label_vi": "Cảm giác điện giật",
+                    "label_en": "Electric shock",
+                    "checked": false,
+                    "score": "1"
+                  }
+                ]
+              },
+              {
+                "title_vi": "Câu hỏi 2: Cơn đau cùng vị trí có liên quan đến những cảm giác dưới đây không?",
+                "title_en": "Question 2: Is the pain in the same area related to one or of the following?",
+                "options": [
+                  {
+                    "label_vi": "Đau như kim châm",
+                    "label_en": "Pins and needles",
+                    "checked": false,
+                    "score": "1"
+                  },
+                  {
+                    "label_vi": "Đau râm ran",
+                    "label_en": "Tingling",
+                    "checked": false,
+                    "score": "1"
+                  },
+                  {
+                    "label_vi": "Tê bì",
+                    "label_en": "Numbness",
+                    "checked": false,
+                    "score": "0"
+                  },
+                  {
+                    "label_vi": "Ngứa",
+                    "label_en": "Itching",
+                    "checked": false,
+                    "score": "0"
+                  }
+                ]
+              },
+              {
+                "title_vi": "Câu hỏi 3 (Khám): Đau nhiều tại vị trí được kiểm tra hay không?",
+                "title_en": "Question 3 (Physician exam): Is the pain located to an area where the exam is evident?",
+                "options": [
+                  {
+                    "label_vi": "Mất cảm giác khi tiếp xúc (Tact hypoesthesia)",
+                    "label_en": "Tact hypoesthesia",
+                    "checked": false,
+                    "score": "0"
+                  },
+                  {
+                    "label_vi": "Mất cảm giác khi chích kim (Prick hypoesthesia)",
+                    "label_en": "Prick hypoesthesia",
+                    "checked": false,
+                    "score": "0"
+                  }
+                ]
+              },
+              {
+                "title_vi": "Câu hỏi 4 (Khám): Cơn đau có tăng lên khi?",
+                "title_en": "Question 4 (Physician exam): Does the pain increase by?",
+                "options": [
+                  {
+                    "label_vi": "Cọ xát",
+                    "label_en": "The rubbing",
+                    "checked": false,
+                    "score": "1"
+                  }
+                ]
+              }
+            ],
+            "total_score": "N/A"
+          }
+        }
+      ]
+    },
+    {
+      "page_number": 9,
+      "components": [
+        {
+          "component_type": "section_title",
+          "props": {
+            "level": "section"
+          },
+          "data": {
+            "title_vi": "TIÊU CHUẨN CHẨN ĐOÁN HỘI CHỨNG ĐAU VÙNG PHỨC TẠP BUDAPEST",
+            "title_en": "BUDAPEST CRITERIA FOR COMPLEX REGIONAL PAIN SYNDROME DIAGNOSIS"
+          }
+        },
+        {
+          "component_type": "clinical_scoring",
+          "props": {
+            "scoring_type": "budapest",
+            "show_conclusion": true
+          },
+          "data": {
+            "intro_vi": "Hội chứng đau vùng phức tạp là đau liên tục không bị ảnh hưởng bởi với các tác nhân kích thích. Người bệnh cần có ít nhất 1 triệu chứng ở 3 trong 4 mục dưới đây:",
+            "intro_en": "CRPS is defined as continuing pain disproportionate to any inciting event. A patient must have at least 1 symptom in 3 of the 4 following categories:",
+            "categories": [
+              {
+                "title_vi": "1. Cảm giác",
+                "title_en": "Sensory",
+                "items": [
+                  {
+                    "label_vi": "Loạn cảm đau",
+                    "label_en": "Allodynia",
+                    "subtext_vi": "khi chạm nhẹ và/hoặc nhạy cảm với nhiệt độ và/hoặc áp lực cơ thể sâu và/hoặc vận động khớp",
+                    "subtext_en": "to light touch and/or temperature sensation and/or deep somatic pressure and/or joint movement",
+                    "checked": false
+                  },
+                  {
+                    "label_vi": "Tăng cảm giác đau (châm kim)",
+                    "label_en": "Hyperalgesia (to pinprick)",
+                    "checked": false
+                  }
+                ]
+              },
+              {
+                "title_vi": "2. Vận mạch",
+                "title_en": "Vasomotor",
+                "items": [
+                  {
+                    "label_vi": "Nhiệt độ da khác nhau (>1°C) và/hoặc thay đổi màu sắc da",
+                    "label_en": "Differences in skin temperature (>1°C) and/or skin colour changes",
+                    "checked": false
+                  },
+                  {
+                    "label_vi": "Khác biệt màu da ở các bên cơ thể khác nhau",
+                    "label_en": "Differences in skin colouration between different sides",
+                    "checked": false
+                  },
+                  {
+                    "label_vi": "Thay đổi màu da",
+                    "label_en": "Skin colour changes",
+                    "checked": false
+                  }
+                ]
+              },
+              {
+                "title_vi": "3. Bài tiết mồ hôi/Phù nề",
+                "title_en": "Sudomotor/Oedema",
+                "items": [
+                  {
+                    "label_vi": "Hai bên cơ thể sưng nề khác nhau",
+                    "label_en": "Changes of Asymmetry in swelling",
+                    "checked": false
+                  },
+                  {
+                    "label_vi": "Hai bên cơ thể toát mồ hôi khác nhau",
+                    "label_en": "Changes of Asymmetry in sweating",
+                    "checked": false
+                  }
+                ]
+              },
+              {
+                "title_vi": "4. Vận động/Dinh dưỡng",
+                "title_en": "Motor/Trophic",
+                "items": [
+                  {
+                    "label_vi": "Hạn chế vận động",
+                    "label_en": "Decreased range of movement",
+                    "checked": false
+                  },
+                  {
+                    "label_vi": "Triệu chứng vận động (rùng mình, yếu ớt, rối loạn trương lực...)",
+                    "label_en": "Motor symptoms (tremor, weakness, dystonia...)",
+                    "checked": false
+                  },
+                  {
+                    "label_vi": "Thay đổi về tóc, da, móng tay chân (dinh dưỡng)",
+                    "label_en": "Changes in hair, skin, nails (Trophic)",
+                    "checked": false
+                  }
+                ]
+              }
+            ],
+            "criteria_met": false
+          }
+        }
+      ]
+    },
+    {
+      "page_number": 10,
+      "components": [
+        {
+          "component_type": "section_title",
+          "props": {
+            "level": "section"
+          },
+          "data": {
+            "title_vi": "THANG ĐÁNH GIÁ TRẦM CẢM BECK (BDI) - PHẦN 1",
+            "title_en": "BECK DEPRESSION INVENTORY (BDI) - PART 1"
+          }
+        },
+        {
+          "component_type": "questionnaire_bdi",
+          "props": {
+            "show_results_summary": false
+          },
+          "data": {
+            "groups": [
+              {
+                "group_code": "Nhóm A - Tâm trạng / Mood",
+                "options": [
+                  {
+                    "score": 0,
+                    "label_vi": "Tôi không cảm thấy buồn",
+                    "label_en": "I don't feel sad",
+                    "selected": false
+                  },
+                  {
+                    "score": 1,
+                    "label_vi": "Tôi cảm thấy buồn",
+                    "label_en": "I feel sad",
+                    "selected": false
+                  },
+                  {
+                    "score": 2,
+                    "label_vi": "Tôi luôn cảm thấy buồn và không thể loại bỏ nó",
+                    "label_en": "I always feel sad and I can't sort it out",
+                    "selected": false
+                  },
+                  {
+                    "score": 3,
+                    "label_vi": "Tôi rất buồn và không thể chịu đựng được",
+                    "label_en": "I can't bear it",
+                    "selected": false
+                  }
+                ]
+              },
+              {
+                "group_code": "Nhóm B - Bi quan / Pessimism",
+                "options": [
+                  {
+                    "score": 0,
+                    "label_vi": "Tôi không thấy bi quan về tương lai",
+                    "label_en": "I don't feel pessimistic about the future",
+                    "selected": false
+                  },
+                  {
+                    "score": 1,
+                    "label_vi": "Tôi có cảm giác không tốt về tương lai",
+                    "label_en": "I have a bad feeling about future",
+                    "selected": false
+                  },
+                  {
+                    "score": 2,
+                    "label_vi": "Tôi không có hy vọng gì về tương lai",
+                    "label_en": "I don't have hope",
+                    "selected": false
+                  },
+                  {
+                    "score": 3,
+                    "label_vi": "Tôi không có hy vọng gì về tương lai và tình trạng này sẽ không khá hơn",
+                    "label_en": "No hope and will not be better",
+                    "selected": false
+                  }
+                ]
+              },
+              {
+                "group_code": "Nhóm C - Cảm giác thất bại / Sense of failure",
+                "options": [
+                  {
+                    "score": 0,
+                    "label_vi": "Tôi không có cảm giác thất bại trong cuộc sống của mình",
+                    "label_en": "I have no sense of failure in my life",
+                    "selected": false
+                  },
+                  {
+                    "score": 1,
+                    "label_vi": "Tôi có cảm giác cuộc sống của mình có nhiều thứ hơn những người khác",
+                    "label_en": "I have the feeling I have more than someone else",
+                    "selected": false
+                  },
+                  {
+                    "score": 2,
+                    "label_vi": "Khi tôi nhìn lại quá khứ, tất cả những gì tôi thấy là sự thất bại",
+                    "label_en": "When I look back all I see is failure",
+                    "selected": false
+                  },
+                  {
+                    "score": 3,
+                    "label_vi": "Tôi cảm thấy rằng mình đã thất bại trong chính cuộc sống của mình",
+                    "label_en": "I failed in all my personal life",
+                    "selected": false
+                  }
+                ]
+              },
+              {
+                "group_code": "Nhóm D - Sự thỏa mãn / Satisfaction",
+                "options": [
+                  {
+                    "score": 0,
+                    "label_vi": "Tôi không cảm thấy thỏa mãn chút nào",
+                    "label_en": "I don't feel particularly satisfied",
+                    "selected": false
+                  },
+                  {
+                    "score": 1,
+                    "label_vi": "Tôi không biết làm thế nào để thích nghi với hoàn cảnh",
+                    "label_en": "I don't know how to enjoy circumstances",
+                    "selected": false
+                  },
+                  {
+                    "score": 2,
+                    "label_vi": "Tôi không thấy thỏa mãn với bất cứ điều gì",
+                    "label_en": "I don't have satisfaction with anything",
+                    "selected": false
+                  },
+                  {
+                    "score": 3,
+                    "label_vi": "Tôi thấy không vui với tất cả mọi thứ",
+                    "label_en": "I am so unhappy with everything",
+                    "selected": false
+                  }
+                ]
+              },
+              {
+                "group_code": "Nhóm E - Cảm giác tội lỗi / Guilt",
+                "options": [
+                  {
+                    "score": 0,
+                    "label_vi": "Tôi không cảm thấy tội lỗi",
+                    "label_en": "I don't feel guilty",
+                    "selected": false
+                  },
+                  {
+                    "score": 1,
+                    "label_vi": "Tôi cảm thấy rất tệ ở mọi lúc",
+                    "label_en": "I feel so bad most of the time",
+                    "selected": false
+                  },
+                  {
+                    "score": 2,
+                    "label_vi": "Tôi cảm thấy tội lỗi",
+                    "label_en": "I feel guilty",
+                    "selected": false
+                  },
+                  {
+                    "score": 3,
+                    "label_vi": "Tôi thấy rất tệ và tôi nghĩ rằng tôi không xứng đáng",
+                    "label_en": "I feel bad and I am not worth it",
+                    "selected": false
+                  }
+                ]
+              },
+              {
+                "group_code": "Nhóm F - Thất vọng về bản thân / Disappointed with self",
+                "options": [
+                  {
+                    "score": 0,
+                    "label_vi": "Tôi không thất vọng về bản thân mình",
+                    "label_en": "I am not disappointed with myself",
+                    "selected": false
+                  },
+                  {
+                    "score": 1,
+                    "label_vi": "Tôi thất vọng về bản thân mình",
+                    "label_en": "I am disappointed by myself",
+                    "selected": false
+                  },
+                  {
+                    "score": 2,
+                    "label_vi": "Tôi cảm thấy ghê tởm bản thân mình",
+                    "label_en": "I disgust myself",
+                    "selected": false
+                  },
+                  {
+                    "score": 3,
+                    "label_vi": "Tôi ghét bản thân mình",
+                    "label_en": "I hate myself",
+                    "selected": false
+                  }
+                ]
+              },
+              {
+                "group_code": "Nhóm G - Ý nghĩ tự làm tổn thương / Suicidal thoughts",
+                "options": [
+                  {
+                    "score": 0,
+                    "label_vi": "Tôi không nghĩ rằng sẽ làm tổn thương bản thân",
+                    "label_en": "I don't think to hurt myself",
+                    "selected": false
+                  },
+                  {
+                    "score": 1,
+                    "label_vi": "Tôi nghĩ rằng cái chết sẽ giải thoát cho tôi",
+                    "label_en": "I think dying will liberate me",
+                    "selected": false
+                  },
+                  {
+                    "score": 2,
+                    "label_vi": "Tôi có những kế hoạch tỉ mỉ để tự tử",
+                    "label_en": "I have precise plans to suicide",
+                    "selected": false
+                  },
+                  {
+                    "score": 3,
+                    "label_vi": "Nếu có thể, tôi sẽ tự tử",
+                    "label_en": "If I can, I will kill myself",
+                    "selected": false
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page_number": 11,
+      "components": [
+        {
+          "component_type": "section_title",
+          "props": {
+            "level": "section"
+          },
+          "data": {
+            "title_vi": "THANG ĐÁNH GIÁ TRẦM CẢM BECK (BDI) - PHẦN 2",
+            "title_en": "BECK DEPRESSION INVENTORY (BDI) - PART 2"
+          }
+        },
+        {
+          "component_type": "questionnaire_bdi",
+          "props": {
+            "show_results_summary": true
+          },
+          "data": {
+            "groups": [
+              {
+                "group_code": "Nhóm H - Mối quan hệ với người khác / Interest in others",
+                "options": [
+                  {
+                    "score": 0,
+                    "label_vi": "Tôi vẫn thích những người khác",
+                    "label_en": "I am still interested in other people",
+                    "selected": false
+                  },
+                  {
+                    "score": 1,
+                    "label_vi": "Hiện nay tôi ít hứng thú với những người khác",
+                    "label_en": "Now, I am less interested in others",
+                    "selected": false
+                  },
+                  {
+                    "score": 2,
+                    "label_vi": "Tôi mất hết cảm giác với những người khác và không cảm thấy gì về họ cả",
+                    "label_en": "Lost all interest in others",
+                    "selected": false
+                  },
+                  {
+                    "score": 3,
+                    "label_vi": "Tôi mất hết cảm giác với những người khác và không quan tâm về nó",
+                    "label_en": "Lost interest and don't care",
+                    "selected": false
+                  }
+                ]
+              },
+              {
+                "group_code": "Nhóm I - Khả năng ra quyết định / Decision making",
+                "options": [
+                  {
+                    "score": 0,
+                    "label_vi": "Tôi vẫn có thể đưa ra quyết định",
+                    "label_en": "I am still capable to take decisions",
+                    "selected": false
+                  },
+                  {
+                    "score": 1,
+                    "label_vi": "Tôi đang cố tránh đưa ra quyết định",
+                    "label_en": "Trying to avoid taking decisions",
+                    "selected": false
+                  },
+                  {
+                    "score": 2,
+                    "label_vi": "Thật khó để đưa ra quyết định",
+                    "label_en": "It is hard to take decisions",
+                    "selected": false
+                  },
+                  {
+                    "score": 3,
+                    "label_vi": "Tôi không thể đưa ra quyết định",
+                    "label_en": "Uncapable to take decisions",
+                    "selected": false
+                  }
+                ]
+              },
+              {
+                "group_code": "Nhóm J - Hình ảnh bản thân / Body image",
+                "options": [
+                  {
+                    "score": 0,
+                    "label_vi": "Tôi không cảm thấy mình xấu xí",
+                    "label_en": "I don't have the feeling that I look ugly",
+                    "selected": false
+                  },
+                  {
+                    "score": 1,
+                    "label_vi": "Tôi sợ già",
+                    "label_en": "I am afraid to look old",
+                    "selected": false
+                  },
+                  {
+                    "score": 2,
+                    "label_vi": "Tôi cảm thấy có gì đó về ngoại hình khiến tôi trở nên thật xấu xí",
+                    "label_en": "Something makes me look ugly",
+                    "selected": false
+                  },
+                  {
+                    "score": 3,
+                    "label_vi": "Tôi cảm thấy mình trông thật tệ",
+                    "label_en": "I feel that I look bad",
+                    "selected": false
+                  }
+                ]
+              },
+              {
+                "group_code": "Nhóm K - Khả năng làm việc / Work ability",
+                "options": [
+                  {
+                    "score": 0,
+                    "label_vi": "Tôi làm việc dễ dàng như trước",
+                    "label_en": "I work as easy as before",
+                    "selected": false
+                  },
+                  {
+                    "score": 1,
+                    "label_vi": "Tôi cần một chút nỗ lực",
+                    "label_en": "I need to do some effort",
+                    "selected": false
+                  },
+                  {
+                    "score": 2,
+                    "label_vi": "Tôi cần rất nhiều nỗ lực mà không làm được gì",
+                    "label_en": "Need a lot of effort to do anything",
+                    "selected": false
+                  },
+                  {
+                    "score": 3,
+                    "label_vi": "Tôi không thể làm gì kể cả việc nhỏ nhất",
+                    "label_en": "Uncapable to do the smallest job",
+                    "selected": false
+                  }
+                ]
+              },
+              {
+                "group_code": "Nhóm L - Mệt mỏi / Fatigue",
+                "options": [
+                  {
+                    "score": 0,
+                    "label_vi": "Tôi không mệt mỏi như mọi khi",
+                    "label_en": "I am not so tired like usual",
+                    "selected": false
+                  },
+                  {
+                    "score": 1,
+                    "label_vi": "Tôi thấy mệt mỏi rất dễ dàng",
+                    "label_en": "I get tired easily",
+                    "selected": false
+                  },
+                  {
+                    "score": 2,
+                    "label_vi": "Không làm gì cũng khiến tôi mệt mỏi",
+                    "label_en": "Doing anything makes me tired",
+                    "selected": false
+                  },
+                  {
+                    "score": 3,
+                    "label_vi": "Tôi không thể làm bất cứ công việc gì",
+                    "label_en": "Not able to do any work",
+                    "selected": false
+                  }
+                ]
+              },
+              {
+                "group_code": "Nhóm M - Sự ngon miệng / Appetite",
+                "options": [
+                  {
+                    "score": 0,
+                    "label_vi": "Tôi ăn ngon miệng",
+                    "label_en": "I have a good appetite",
+                    "selected": false
+                  },
+                  {
+                    "score": 1,
+                    "label_vi": "Tôi không thấy ngon miệng như mọi khi",
+                    "label_en": "I don't have good appetite like usual",
+                    "selected": false
+                  },
+                  {
+                    "score": 2,
+                    "label_vi": "Bữa ăn của tôi tệ hơn trước rất nhiều",
+                    "label_en": "My appetite is much worse",
+                    "selected": false
+                  },
+                  {
+                    "score": 3,
+                    "label_vi": "Tôi không cảm thấy ngon miệng chút nào",
+                    "label_en": "I lost my appetite",
+                    "selected": false
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page_number": 12,
+      "components": [
+        {
+          "component_type": "diagram_map",
+          "props": {
+            "height": "17.5cm",
+            "image_path": "images/full_body_sensory_anterior_posterior.png"
+          },
+          "data": {
+            "title_vi": "SƠ ĐỒ CẢM GIÁC TOÀN THÂN (MẶT TRƯỚC & MẶT SAU)",
+            "title_en": "FULL BODY SENSORY PROFILE (ANTERIOR & POSTERIOR VIEW)",
+            "doctor_meta": true
+          }
+        }
+      ]
+    },
+    {
+      "page_number": 13,
+      "components": [
+        {
+          "component_type": "diagram_map",
+          "props": {
+            "height": "17.5cm",
+            "image_path": "images/full_body_sensory_lateral.png"
+          },
+          "data": {
+            "title_vi": "SƠ ĐỒ CẢM GIÁC TOÀN THÂN (TƯ THẾ NGHIÊNG)",
+            "title_en": "FULL BODY SENSORY PROFILE (LATERAL VIEW)",
+            "doctor_meta": true
+          }
+        }
+      ]
+    },
+    {
+      "page_number": 14,
+      "components": [
+        {
+          "component_type": "diagram_map",
+          "props": {
+            "height": "17.5cm",
+            "image_path": "images/physician_focal_clean.png"
+          },
+          "data": {
+            "title_vi": "SƠ ĐỒ KHÁM CẢM GIÁC CỤC BỘ (MẶT, BÀN TAY, VÙNG KÍN)",
+            "title_en": "FOCAL SENSORY EXAMINATION MAPS (FACE, HANDS, PERINEAL)",
+            "doctor_meta": true
+          }
+        }
+      ]
+    },
+    {
+      "page_number": 15,
+      "components": [
+        {
+          "component_type": "section_title",
+          "props": {
+            "level": "section"
+          },
+          "data": {
+            "title_vi": "THÔNG TIN QUAN SÁT",
+            "title_en": "OBSERVATION"
+          }
+        },
+        {
+          "component_type": "fillable_lines",
+          "props": {
+            "line_count": 3
+          },
+          "data": {
+            "title_vi": "Ghi chú quan sát lâm sàng:",
+            "title_en": "Physician Clinical Observation:"
+          }
+        },
+        {
+          "component_type": "section_title",
+          "props": {
+            "level": "subsection"
+          },
+          "data": {
+            "title_vi": "BẢNG ĐIỀU TRỊ",
+            "title_en": "TREATMENTS TABLE"
+          }
+        },
+        {
+          "component_type": "treatment_table",
+          "props": {},
+          "data": {
+            "rows": [
+              [
+                "NSAID (Celecoxib) 200mg",
+                "30/09/2026",
+                "2 tuần",
+                "1 viên/ngày sau ăn (uống sau ăn no)",
+                "Kháng viêm, giảm triệu chứng đau"
+              ],
+              [
+                "Vật lý trị liệu phục hồi chức năng (Viêm quanh khớp vai / rách gân chóp xoay)",
+                "30/09/2026",
+                "3-4 tuần (3 buổi/tuần)",
+                "Tập vận động nhẹ nhàng theo hướng dẫn kỹ thuật viên",
+                "Chống dính khớp, phục hồi biên độ cử động"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page_number": 16,
+      "components": [
+        {
+          "component_type": "section_title",
+          "props": {
+            "level": "section"
+          },
+          "data": {
+            "title_vi": "TỔNG HỢP KẾT QUẢ",
+            "title_en": "SYNTHESIS"
+          }
+        },
+        {
+          "component_type": "patient_meta_grid",
+          "props": {
+            "show_divider": false
+          },
+          "data": {
+            "rows": [
+              {
+                "label_vi": "Chẩn đoán mức độ tổn thương dựa trên đo lường",
+                "label_en": "Topographic diagnostic of the lesion level",
+                "value": "Viêm quanh khớp vai / rách gân chóp xoay"
+              },
+              {
+                "label_vi": "Chẩn đoán căn nguyên",
+                "label_en": "Diagnostic Etiology",
+                "value": "Thoái hóa gân kết hợp vi chấn thương do vận động lặp đi lặp lại"
+              },
+              {
+                "label_vi": "Đau khó chịu nhất hoặc vị trí đau xác định là",
+                "label_en": "The most annoying pain or target pain",
+                "value": "Khớp vai tổn thương, buốt nhức nhiều về đêm"
+              }
+            ]
+          }
+        },
+        {
+          "component_type": "section_title",
+          "props": {
+            "level": "subsection"
+          },
+          "data": {
+            "title_vi": "YẾU TỐ CĂN NGUYÊN",
+            "title_en": "ETIOLOGICAL FACTOR"
+          }
+        },
+        {
+          "component_type": "patient_meta_grid",
+          "props": {
+            "show_divider": false
+          },
+          "data": {
+            "rows": [
+              {
+                "label_vi": "Nhiễm trùng",
+                "label_en": "Infectious",
+                "value": "N/A"
+              },
+              {
+                "label_vi": "Chấn thương",
+                "label_en": "Traumatic",
+                "value": "Tiền sử chấn thương ngã trước đây"
+              },
+              {
+                "label_vi": "Mạch máu",
+                "label_en": "Vascular",
+                "value": "N/A"
+              },
+              {
+                "label_vi": "Chuyển hóa",
+                "label_en": "Metabolic",
+                "value": "N/A"
+              },
+              {
+                "label_vi": "Viêm nhiễm",
+                "label_en": "Inflammatory",
+                "value": "Viêm vô khuẩn bao hoạt dịch và gân cơ"
+              },
+              {
+                "label_vi": "Nhiễm độc",
+                "label_en": "Toxic",
+                "value": "N/A"
+              },
+              {
+                "label_vi": "Khác",
+                "label_en": "Other",
+                "value": "N/A"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page_number": 17,
+      "components": [
+        {
+          "component_type": "section_title",
+          "props": {
+            "level": "section"
+          },
+          "data": {
+            "title_vi": "ĐIỀU TRỊ CÓ XÂM LẤN",
+            "title_en": "INVASIVE TREATMENT"
+          }
+        },
+        {
+          "component_type": "section_title",
+          "props": {
+            "level": "subsection"
+          },
+          "data": {
+            "title_vi": "Nếu thủ thuật có xâm lấn được đề xuất",
+            "title_en": "If an invasive procedure is proposed"
+          }
+        },
+        {
+          "component_type": "patient_meta_grid",
+          "props": {
+            "show_divider": false
+          },
+          "data": {
+            "rows": [
+              {
+                "label_vi": "Loại thủ thuật",
+                "label_en": "Type of procedure",
+                "value": "N/A"
+              },
+              [
+                {
+                  "label_vi": "Mức độ",
+                  "label_en": "Level",
+                  "value": "N/A"
+                },
+                {
+                  "label_vi": "Loại block",
+                  "label_en": "Type of block",
+                  "value": "N/A"
+                },
+                {
+                  "label_vi": "Side",
+                  "label_en": "Side",
+                  "value": "N/A"
+                }
+              ],
+              [
+                {
+                  "label_vi": "Mã ICD10",
+                  "label_en": "ICD10",
+                  "value": "N/A"
+                },
+                {
+                  "label_vi": "Mã CPT",
+                  "label_en": "CPT",
+                  "value": "N/A"
+                }
+              ],
+              [
+                {
+                  "label_vi": "Ngày",
+                  "label_en": "Date",
+                  "value": "N/A"
+                },
+                {
+                  "label_vi": "Giờ",
+                  "label_en": "Time",
+                  "value": "N/A"
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "component_type": "checkbox_matrix",
+          "props": {
+            "columns": 1
+          },
+          "data": {
+            "options": [
+              {
+                "label_vi": "Thông tin về lợi ích và nguy cơ đã được giải thích cho người bệnh",
+                "label_en": "Oral Information Benefits risks",
+                "checked": false
+              },
+              {
+                "label_vi": "Hướng dẫn người bệnh về thủ tục nhập viện",
+                "label_en": "Patient instructions for the admission",
+                "checked": false
+              },
+              {
+                "label_vi": "Hướng dẫn người bệnh về giá",
+                "label_en": "Information concerning price",
+                "checked": false
+              },
+              {
+                "label_vi": "Thông tin đã được ghi chép",
+                "label_en": "Written information",
+                "checked": false
+              }
+            ]
+          }
+        },
+        {
+          "component_type": "patient_meta_grid",
+          "props": {
+            "show_divider": false
+          },
+          "data": {
+            "rows": [
+              {
+                "label_vi": "PHIẾU CAM KẾT ĐƯỢC KÝ VÀO NGÀY LÀM THỦ THUẬT",
+                "label_en": "CONSENT WILL BE SIGN THE DAY OF THE PROCEDURE",
+                "value": "N/A"
+              }
+            ]
+          }
+        },
+        {
+          "component_type": "fillable_lines",
+          "props": {
+            "line_count": 4
+          },
+          "data": {
+            "title_vi": "Báo cáo thủ thuật:",
+            "title_en": "Procedure Report:"
+          }
+        }
+      ]
+    },
+    {
+      "page_number": 18,
+      "components": [
+        {
+          "component_type": "section_title",
+          "props": {
+            "level": "section"
+          },
+          "data": {
+            "title_vi": "CHẨN ĐOÁN ĐỊNH HƯỚNG",
+            "title_en": "DIAGNOSTIC ORIENTATION"
+          }
+        },
+        {
+          "component_type": "section_title",
+          "props": {
+            "level": "subsection"
+          },
+          "data": {
+            "title_vi": "- Đau TK ngoại biên",
+            "title_en": "Peripheral neuropathic pain"
+          }
+        },
+        {
+          "component_type": "checkbox_matrix",
+          "props": {
+            "columns": 3
+          },
+          "data": {
+            "options": [
+              {
+                "label_vi": "TK dưới da",
+                "label_en": "Superficial shootskin",
+                "checked": false
+              },
+              {
+                "label_vi": "Trục TK",
+                "label_en": "Troncular",
+                "checked": false
+              },
+              {
+                "label_vi": "Rễ TK",
+                "label_en": "Radicular",
+                "checked": false
+              }
+            ]
+          }
+        },
+        {
+          "component_type": "section_title",
+          "props": {
+            "level": "subsection"
+          },
+          "data": {
+            "title_vi": "- Đau TK trung ương",
+            "title_en": "Central Neuropathic pain"
+          }
+        },
+        {
+          "component_type": "checkbox_matrix",
+          "props": {
+            "columns": 2
+          },
+          "data": {
+            "options": [
+              {
+                "label_vi": "Tủy sống",
+                "label_en": "Medullar",
+                "checked": false
+              },
+              {
+                "label_vi": "Cạnh tủy sống",
+                "label_en": "Supra-medullar",
+                "checked": false
+              }
+            ]
+          }
+        },
+        {
+          "component_type": "section_title",
+          "props": {
+            "level": "subsection"
+          },
+          "data": {
+            "title_vi": "TỔNG HỢP: ĐÁNH GIÁ YÊU CẦU CỦA NGƯỜI BỆNH",
+            "title_en": "SYNTHESIS: EVALUATION OF THE PATIENT REQUEST"
+          }
+        },
+        {
+          "component_type": "patient_meta_grid",
+          "props": {
+            "show_divider": false
+          },
+          "data": {
+            "rows": [
+              {
+                "label_vi": "- Ưu tiên của người bệnh là gì?",
+                "label_en": "What is the patient priority?",
+                "value": "Hết đau nhức ban đêm để có giấc ngủ ngon và cử động cánh tay linh hoạt"
+              },
+              {
+                "label_vi": "- Mức độ cải thiện chung mà người bệnh có thể chấp nhận? Tỷ lệ cải thiện",
+                "label_en": "What level of overall improvement is he ready to accept? Percentage of amelioration",
+                "value": "N/A"
+              },
+              {
+                "label_vi": "- Thái độ của NB đối với các phương pháp điều trị đặc biệt? (Thuốc chống trầm cảm hoặc suy nhược)",
+                "label_en": "What is his attitude regarding a specific treatment? (Antiepileptic or antidepressant)",
+                "value": "N/A"
+              },
+              {
+                "label_vi": "Đề xuất kế hoạch",
+                "label_en": "Strategy proposed",
+                "value": "Phối hợp thuốc giảm đau chống viêm non-steroid + Thuốc giãn cơ + Tập VLTL phục hồi chức năng"
+              },
+              [
+                {
+                  "label_vi": "Lợi ích",
+                  "label_en": "Benefits",
+                  "value": "Cắt cơn đau viêm cấp, phòng ngừa cứng dính khớp"
+                },
+                {
+                  "label_vi": "Tỷ lệ thành công",
+                  "label_en": "Success rate",
+                  "value": "85%"
+                }
+              ],
+              {
+                "label_vi": "Nguy cơ",
+                "label_en": "Risks",
+                "value": "N/A"
+              },
+              {
+                "label_vi": "Người bệnh đồng ý",
+                "label_en": "Patient acceptance",
+                "value": "Có / Yes"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page_number": 19,
+      "components": [
+        {
+          "component_type": "section_title",
+          "props": {
+            "level": "section"
+          },
+          "data": {
+            "title_vi": "THEO DÕI & LỊCH TRÌNH TÁI KHÁM",
+            "title_en": "FOLLOW UP & NEXT VISITS"
+          }
+        },
+        {
+          "component_type": "follow_up_block",
+          "props": {
+            "block_count": 7
+          },
+          "data": {}
+        }
+      ]
+    }
+  ]
+}

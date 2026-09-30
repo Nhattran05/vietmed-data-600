@@ -4,7 +4,6 @@
 
 # 1. Bỏ qua toàn bộ file và thư mục ở cấp gốc theo mặc định
 /*
-
 # 3. File tài liệu chính
 !.gitignore
 !README.md
@@ -21,5 +20,13 @@
 !output-600/**
 !input-600/
 !input-600/**
+!vietmed_e2e/
+!vietmed_e2e/**
+
+# 5. Bỏ qua toàn bộ bytecode và thư mục cache Python ở mọi cấp
+**/__pycache__/
+__pycache__/
+*.py[cod]
+*$py.class
 
 

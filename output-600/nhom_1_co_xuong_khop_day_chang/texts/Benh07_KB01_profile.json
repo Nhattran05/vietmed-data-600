@@ -1,0 +1,143 @@
+{
+  "metadata": {
+    "disease_stt": 7,
+    "disease_name": "Viêm bao gân De Quervain",
+    "specialty_group": "I. Vai – Cánh tay – Khuỷu – Cổ tay – Bàn tay",
+    "scenario_index": 1,
+    "total_turns": 40,
+    "duration_minutes": 12,
+    "execution_time_seconds": 193.09,
+    "model": "google/gemma-4-31b-it",
+    "provider": "openrouter",
+    "validation_passed": true,
+    "repair_attempts": 0
+  },
+  "patient_profile": {
+    "name": "Anh Lâm",
+    "gender": "Nam",
+    "age": 24,
+    "occupation": "Kỹ sư xây dựng",
+    "chief_complaint": "Đau và sưng vùng gốc ngón cái ở cổ tay, cảm giác đau tăng khi nắm hoặc xoay cổ tay và hạn chế vận động ngón cái.",
+    "onset_duration": "Đau âm ỉ vùng cổ tay khoảng 3 tuần nay, tăng dần mức độ đau khi làm việc và vận động mạnh trong 1 tuần gần đây.",
+    "medical_history": {
+      "chronic_conditions": [
+        {
+          "condition": "Viêm gân dạng dài/duỗi ngắn ngón cái ở cổ tay",
+          "duration": "2 tháng",
+          "control_status": "Chưa kiểm soát",
+          "treated_at": "Phòng khám nội khoa"
+        }
+      ],
+      "current_medications": [
+        {
+          "name": "NSAID (Celecoxib)",
+          "dosage": "200mg",
+          "frequency": "1 lần/ngày",
+          "adherence": "Tốt",
+          "appearance": "Viên nang cứng, màu vàng"
+        }
+      ],
+      "prior_pain_treatments": [
+        {
+          "treatment": "Nẹp cổ tay-ngón cái và hạn chế động tác xoay cổ tay",
+          "frequency": "Hàng ngày",
+          "outcome": "Giảm đau nhẹ nhưng vẫn còn sưng",
+          "warning_flags": "Không tự ý tháo nẹp khi vận động mạnh"
+        }
+      ],
+      "past_surgeries_trauma": [
+        {
+          "event": "Chấn thương bong gân cổ tay trái do ngã tại công trường",
+          "year": 2021,
+          "sequelae": "Hồi phục hoàn toàn"
+        }
+      ],
+      "allergies_intolerances": [
+        {
+          "allergen": "NSAID (Aspirin)",
+          "reaction": "Phát ban, ngứa",
+          "severity": "Trung bình"
+        }
+      ],
+      "lifestyle_risk_factors": {
+        "tobacco": "Không hút thuốc",
+        "alcohol": "Uống xã giao",
+        "occupational_posture": "Thường xuyên cầm nắm dụng cụ đo đạc, xoay cổ tay và vận động ngón cái cường độ cao trong công việc kỹ sư xây dựng",
+        "daily_water_intake": "2 lít/ngày"
+      },
+      "source_reference": "STT 7 - Viêm bao gân De Quervain (danh-sach-60-benh-khong-cap-cuu.md)"
+    },
+    "speaking_style": "Điềm tĩnh, thật thà, xưng hô lễ phép, mô tả triệu chứng mạch lạc và lắng nghe bác sĩ một cách cầu thị.",
+    "edge_case": "Anh Lâm chủ động mang theo một cuốn sổ nhật ký ghi chép chi tiết mức độ sưng đau hàng ngày và hỏi bác sĩ về các bài tập vật lý trị liệu tại nhà để hỗ trợ cho việc đeo nẹp."
+  },
+  "doctor_profile": {
+    "name": "Bác sĩ Quang",
+    "gender": "Nam",
+    "age": 54,
+    "seniority_level": "Bác sĩ Chuyên khoa II / Trưởng khoa (28 năm kinh nghiệm)",
+    "speciality": "Cơ Xương Khớp / Bàn tay & Chi trên",
+    "communication_tone": "Điềm đạm, giải thích rõ ràng cơ chế mòn/viêm bằng hình ảnh đời thường, kiên nhẫn lắng nghe"
+  },
+  "checklist": [
+    "Lý do khám: Đau và sưng vùng gốc ngón cái cổ tay",
+    "Thời điểm khởi phát và diễn tiến của cơn đau",
+    "Tính chất đau và các yếu tố làm tăng/giảm đau",
+    "Tiền sử thói quen lao động và tư thế làm việc",
+    "Tiền sử bệnh lý nền và các chấn thương cũ tại vùng cổ tay",
+    "Tiền sử tự điều trị tại nhà và đáp ứng",
+    "Khám thực thể: Quan sát sưng nề và điểm ấn đau (Tender point)",
+    "Nghiệm pháp Finkelstein (đặc hiệu cho De Quervain)",
+    "Đánh giá biên độ vận động ngón cái và xoay cổ tay",
+    "Giải thích kết quả cận lâm sàng (Siêu âm/X-quang) để xác định viêm bao gân",
+    "Chẩn đoán xác định: Viêm bao gân De Quervain",
+    "Kê đơn thuốc: Kháng viêm (NSAID), giảm đau, giãn cơ, bảo vệ dạ dày",
+    "Hướng dẫn sử dụng nẹp và vật lý trị liệu phục hồi chức năng",
+    "Dặn dò tái khám và theo dõi phản ứng thuốc (dị ứng)"
+  ],
+  "reveal_sequence": [
+    {
+      "checklist_item": "Lý do khám: Đau và sưng vùng gốc ngón cái cổ tay",
+      "reveal_keys": [
+        "chief_complaint"
+      ],
+      "reveal_detail": "Bệnh nhân mô tả tình trạng đau và sưng vùng gốc ngón cái."
+    },
+    {
+      "checklist_item": "Thời điểm khởi phát và diễn tiến của cơn đau",
+      "reveal_keys": [
+        "onset_duration"
+      ],
+      "reveal_detail": "Bệnh nhân cho biết đau âm ỉ 3 tuần, tăng dần trong 1 tuần gần đây."
+    },
+    {
+      "checklist_item": "Tiền sử thói quen lao động và tư thế làm việc",
+      "reveal_keys": [
+        "lifestyle_risk_factors"
+      ],
+      "reveal_detail": "Bệnh nhân chia sẻ về công việc kỹ sư xây dựng, thường xuyên cầm nắm dụng cụ và xoay cổ tay."
+    },
+    {
+      "checklist_item": "Tiền sử bệnh lý nền và các chấn thương cũ tại vùng cổ tay",
+      "reveal_keys": [
+        "chronic_conditions",
+        "past_surgeries_trauma"
+      ],
+      "reveal_detail": "Bệnh nhân kể về tình trạng viêm gân đã biết 2 tháng trước và chấn thương bong gân năm 2021."
+    },
+    {
+      "checklist_item": "Tiền sử tự điều trị tại nhà và đáp ứng",
+      "reveal_keys": [
+        "prior_pain_treatments"
+      ],
+      "reveal_detail": "Bệnh nhân mô tả việc dùng nẹp cổ tay-ngón cái và kết quả giảm đau nhẹ."
+    },
+    {
+      "checklist_item": "Kê đơn thuốc: Kháng viêm (NSAID), giảm đau, giãn cơ, bảo vệ dạ dày",
+      "reveal_keys": [
+        "current_medications",
+        "allergies_intolerances"
+      ],
+      "reveal_detail": "Bệnh nhân cung cấp thông tin đang dùng Celecoxib và tiền sử dị ứng với Aspirin."
+    }
+  ]
+}

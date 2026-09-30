@@ -1,0 +1,43 @@
+# KỊCH BẢN ĐỐI THOẠI KHÁM BỆNH: VIÊM QUANH KHỚP VAI / RÁCH GÂN CHÓP XOAY
+> **Mã kịch bản:** Benh01_KB02 (Chuyên khoa: I. Vai – Cánh tay – Khuỷu – Cổ tay – Bàn tay)
+> **Bác sĩ:** Bác sĩ Trí (Nam, Nghiêm cẩn, sắc sảo, kiên nhẫn gặng hỏi thói quen sinh hoạt và việc dùng thuốc không rõ nguồn gốc)
+> **Bệnh nhân:** Chị Tuyết (31 tuổi, Nữ, Giáo viên mầm non, Điềm tĩnh, thật thà, xưng hô lễ phép, mô tả triệu chứng mạch lạc, lắng nghe bác sĩ.)
+> **Tổng số lượt thoại:** 35 lượt khám lâm sàng | **Cặp giới tính:** Nam – Nữ (N-N)
+
+---
+
+- **`[00:00 - 00:20]` Bác sĩ Trí:** Chào chị Tuyết, mời chị ngồi. Hôm nay vai mình gặp vấn đề gì vậy chị?
+- **`[00:20 - 00:44]` Chị Tuyết:** Dạ chào bác sĩ, cái vai trái của tôi nó cứ đau âm ỉ suốt cả tháng nay rồi.
+- **`[00:44 - 01:05]` Bác sĩ Trí:** Cơn đau này xuất hiện từ khi nào và tính chất đau ra sao chị nhỉ?
+- **`[01:05 - 01:27]` Chị Tuyết:** Nó cứ nhức nhối từ từ, mà dạo gần đây thì thấy đau nhiều hơn trước ạ.
+- **`[01:27 - 01:42]` Bác sĩ Trí:** Về đêm chị có thấy đau tăng lên hay khó ngủ không?
+- **`[01:42 - 02:04]` Chị Tuyết:** Đúng rồi bác sĩ, cứ nằm xuống đêm là nó nhức dữ lắm, tôi trằn trọc mãi.
+- **`[02:04 - 02:23]` Bác sĩ Trí:** Khi chị giơ tay lên cao hoặc vận động thì có khó khăn gì không?
+- **`[02:23 - 02:47]` Chị Tuyết:** Có chứ ạ, tầm một tuần nay tôi giơ tay lên là thấy cứng, tay yếu hẳn đi.
+- **`[02:47 - 03:07]` Bác sĩ Trí:** Trước đây chị có từng bị ngã hay chấn thương gì ở vùng vai này chưa?
+- **`[03:07 - 03:30]` Chị Tuyết:** Hồi năm 2021 tôi bị ngã chống tay lúc chăm trẻ, từ đó vai cứ đau âm ỉ.
+- **`[03:30 - 03:56]` Bác sĩ Trí:** Tôi biết chị làm giáo viên mầm non, công việc hằng ngày thường phải bế trẻ hay giơ tay cao?
+- **`[03:56 - 04:18]` Chị Tuyết:** Dạ đúng, ngày nào tôi cũng bế mấy đứa nhỏ với giơ tay dọn dẹp lớp suốt.
+- **`[04:18 - 04:38]` Bác sĩ Trí:** Ngoài vụ ngã đó, chị có từng được chẩn đoán bị thoái hóa gân vai không?
+- **`[04:38 - 05:02]` Chị Tuyết:** Tôi có nghe nói là bị thoái hóa gân vai mà trước giờ chưa điều trị gì hết.
+- **`[05:02 - 05:22]` Bác sĩ Trí:** Khi đau nhiều, chị có tự áp dụng cách nào tại nhà để giảm đau không?
+- **`[05:22 - 05:43]` Chị Tuyết:** Tôi có chườm lạnh với nằm nghỉ, mà chỉ đỡ lúc đầu thôi chứ không hết.
+- **`[05:43 - 05:58]` Bác sĩ Trí:** Chị có tránh mang vác nặng không? Và kết quả thế nào?
+- **`[05:58 - 06:21]` Chị Tuyết:** Tôi cũng hạn chế xách đồ nặng, thấy đỡ đau hơn nhưng tay vẫn không giơ cao được.
+- **`[06:21 - 06:43]` Bác sĩ Trí:** Giờ chị ngồi thoải mái, để tôi chạm nhẹ vào vùng vai xem đau ở đâu nhé.
+- **`[06:43 - 06:59]` Chị Tuyết:** Dạ vâng, bác sĩ xem giúp tôi xem nó bị làm sao.
+- **`[06:59 - 07:20]` Bác sĩ Trí:** Để tôi nâng cánh tay trái lên từ từ. Chỗ này chị có thấy đau nhói không?
+- **`[07:20 - 07:42]` Chị Tuyết:** Á, đúng chỗ này này bác sĩ, đau nhói lên nên tôi không nhấc cao lên được.
+- **`[07:42 - 08:03]` Bác sĩ Trí:** Tôi sẽ thực hiện vài động tác kiểm tra kiểm tra gân vai cho chị nhé.
+- **`[08:03 - 08:16]` Chị Tuyết:** Dạ, bác sĩ cứ làm, tôi sẽ phối hợp ạ.
+- **`[08:16 - 08:36]` Bác sĩ Trí:** Giờ để tôi xem kết quả chụp MRI của chị để xác định rõ tình trạng.
+- **`[08:36 - 08:56]` Chị Tuyết:** Đây là phim chụp của tôi, bác sĩ xem giúp tôi xem bị sao ạ.
+- **`[08:56 - 09:15]` Bác sĩ Trí:** Kết quả cho thấy chị bị viêm quanh khớp vai và rách gân chóp xoay.
+- **`[09:15 - 09:30]` Chị Tuyết:** Cái đó là sao hả bác sĩ? Có nặng lắm không ạ?
+- **`[09:30 - 09:55]` Bác sĩ Trí:** Đó là tình trạng viêm vùng bao quanh khớp và gân bị rách, không quá nặng nếu trị đúng.
+- **`[09:55 - 10:17]` Bác sĩ Trí:** Trước khi kê đơn, tôi cần hỏi kỹ, chị có dị ứng với loại thuốc nào không?
+- **`[10:17 - 10:37]` Chị Tuyết:** Tôi bị dị ứng Aspirin, uống vào là phát ban với ngứa ngáy hết cả người.
+- **`[10:37 - 10:56]` Bác sĩ Trí:** Vì chị dị ứng Aspirin, tôi kê Celecoxib 200mg, uống 1 viên/ngày sau ăn no.
+- **`[10:56 - 11:16]` Chị Tuyết:** Thuốc này uống trong bao lâu và có cần lưu ý gì không bác sĩ?
+- **`[11:16 - 11:38]` Bác sĩ Trí:** Uống theo đơn và kết hợp tập vật lý trị liệu 3 lần/tuần, mỗi buổi 30 phút.
+- **`[11:38 - 12:00]` Chị Tuyết:** Dạ vâng, tôi nhớ rồi. Cảm ơn bác sĩ nhiều, tôi chào bác sĩ tôi về ạ.

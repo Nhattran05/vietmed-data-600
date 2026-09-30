@@ -1,0 +1,157 @@
+{
+  "metadata": {
+    "disease_stt": 5,
+    "disease_name": "Viêm lồi cầu ngoài xương cánh tay (Tennis Elbow)",
+    "specialty_group": "I. Vai – Cánh tay – Khuỷu – Cổ tay – Bàn tay",
+    "scenario_index": 1,
+    "total_turns": 35,
+    "duration_minutes": 12,
+    "execution_time_seconds": 194.96,
+    "model": "google/gemma-4-31b-it",
+    "provider": "openrouter",
+    "validation_passed": true,
+    "repair_attempts": 0
+  },
+  "patient_profile": {
+    "name": "Anh Thành",
+    "gender": "Nam",
+    "age": 24,
+    "occupation": "Shipper giao hàng",
+    "chief_complaint": "Đau nhức khu trú mặt ngoài khuỷu tay lan xuống cẳng tay, đau chói tại lồi cầu ngoài và tăng nặng khi cầm nắm hoặc duỗi cổ tay.",
+    "onset_duration": "Đau âm ỉ tăng dần trong 3 tuần nay, trở nên đau nhức nhiều hơn khi làm việc nặng trong 1 tuần gần đây.",
+    "medical_history": {
+      "chronic_conditions": [
+        {
+          "condition": "Viêm điểm bám gân duỗi cổ tay do vận động lặp lại",
+          "duration": "1 năm",
+          "control_status": "Chưa kiểm soát",
+          "treated_at": "Phòng khám nội khoa"
+        }
+      ],
+      "current_medications": [
+        {
+          "name": "NSAID (Etoricoxib)",
+          "dosage": "90mg",
+          "frequency": "1 lần/ngày",
+          "adherence": "Tốt",
+          "appearance": "Viên nén màu trắng, hình tròn"
+        },
+        {
+          "name": "Vật lý trị liệu",
+          "dosage": "Liệu trình 10 buổi",
+          "frequency": "3 lần/tuần",
+          "adherence": "Đang thực hiện",
+          "appearance": "Không áp dụng"
+        }
+      ],
+      "prior_pain_treatments": [
+        {
+          "treatment": "Nghỉ tay, đeo đai nẹp khuỷu, chườm lạnh",
+          "frequency": "Hàng ngày khi đau",
+          "outcome": "Giảm đau tạm thời",
+          "warning_flags": "Không tự ý chườm nóng khi đang viêm cấp"
+        }
+      ],
+      "past_surgeries_trauma": [
+        {
+          "event": "Ngã xe máy gây trầy xước và bong gân cổ tay",
+          "year": 2021,
+          "sequelae": "Hồi phục hoàn toàn"
+        }
+      ],
+      "allergies_intolerances": [
+        {
+          "allergen": "Không có",
+          "reaction": "Không có",
+          "severity": "N/A"
+        }
+      ],
+      "lifestyle_risk_factors": {
+        "tobacco": "Không hút thuốc",
+        "alcohol": "Uống ít",
+        "occupational_posture": "Nghề shipper: Vận động lặp lại việc cầm nắm, bưng bê hàng hóa và lái xe liên tục gây áp lực lên cổ tay",
+        "daily_water_intake": "2 lít/ngày"
+      },
+      "source_reference": "STT 5 - Viêm lồi cầu ngoài xương cánh tay (Tennis Elbow) (danh-sach-60-benh-khong-cap-cuu.md)"
+    },
+    "speaking_style": "Điềm tĩnh, thật thà, xưng hô lễ phép, mô tả triệu chứng mạch lạc, lắng nghe bác sĩ.",
+    "edge_case": "Anh Thành chủ động ghi chép lại mức độ giảm đau sau mỗi buổi vật lý trị liệu vào sổ nhật ký và nhờ bác sĩ xem xét liệu có nên kết hợp thêm bài tập kéo giãn tại nhà để nhanh chóng quay lại công việc shipper."
+  },
+  "doctor_profile": {
+    "name": "Bác sĩ Nam",
+    "gender": "Nam",
+    "age": 54,
+    "seniority_level": "Bác sĩ Chuyên khoa II / Trưởng khoa (28 năm kinh nghiệm)",
+    "speciality": "Cơ Xương Khớp / Bàn tay & Chi trên",
+    "communication_tone": "Dứt khoát, giàu kinh nghiệm, nghiêm khắc chấn chỉnh việc tự ý dùng thuốc quá liều"
+  },
+  "checklist": [
+    "Hỏi lý do đến khám và vị trí đau cụ thể",
+    "Khai thác tính chất đau và thời gian khởi phát",
+    "Xác định các yếu tố làm tăng/giảm triệu chứng",
+    "Khai thác tiền sử nghề nghiệp và thói quen vận động",
+    "Tìm hiểu tiền sử bệnh lý liên quan và chấn thương cũ",
+    "Khai thác quá trình tự điều trị và thuốc đang sử dụng",
+    "Kiểm tra dị ứng thuốc",
+    "Khám thực thể: Xác định điểm đau chói tại lồi cầu ngoài",
+    "Thực hiện nghiệm pháp vận động: Duỗi cổ tay kháng lực",
+    "Thực hiện nghiệm pháp vận động: Cầm nắm vật nặng",
+    "Giải thích kết quả Cận lâm sàng (X-quang/Siêu âm/MRI) để loại trừ gãy xương/rách gân",
+    "Chẩn đoán xác định và giải thích cơ chế bệnh sinh",
+    "Kê đơn thuốc chi tiết (Kháng viêm, Giảm đau, Giãn cơ, Bảo vệ dạ dày)",
+    "Hướng dẫn vật lý trị liệu, đeo đai và dặn dò tái khám"
+  ],
+  "reveal_sequence": [
+    {
+      "checklist_item": "Hỏi lý do đến khám và vị trí đau cụ thể",
+      "reveal_keys": [
+        "chief_complaint"
+      ],
+      "reveal_detail": "Bệnh nhân mô tả đau nhức khu trú mặt ngoài khuỷu tay lan xuống cẳng tay"
+    },
+    {
+      "checklist_item": "Khai thác tính chất đau và thời gian khởi phát",
+      "reveal_keys": [
+        "onset_duration"
+      ],
+      "reveal_detail": "Đau âm ỉ tăng dần trong 3 tuần, tăng nặng trong 1 tuần gần đây"
+    },
+    {
+      "checklist_item": "Xác định các yếu tố làm tăng/giảm triệu chứng",
+      "reveal_keys": [
+        "chief_complaint"
+      ],
+      "reveal_detail": "Đau chói tại lồi cầu ngoài, tăng nặng khi cầm nắm hoặc duỗi cổ tay"
+    },
+    {
+      "checklist_item": "Khai thác tiền sử nghề nghiệp và thói quen vận động",
+      "reveal_keys": [
+        "lifestyle_risk_factors"
+      ],
+      "reveal_detail": "Nghề shipper, vận động lặp lại việc cầm nắm, bưng bê và lái xe liên tục"
+    },
+    {
+      "checklist_item": "Tìm hiểu tiền sử bệnh lý liên quan và chấn thương cũ",
+      "reveal_keys": [
+        "chronic_conditions",
+        "past_surgeries_trauma"
+      ],
+      "reveal_detail": "Tiền sử viêm điểm bám gân duỗi cổ tay 1 năm và ngã xe bong gân cổ tay 2021"
+    },
+    {
+      "checklist_item": "Khai thác quá trình tự điều trị và thuốc đang sử dụng",
+      "reveal_keys": [
+        "prior_pain_treatments",
+        "current_medications"
+      ],
+      "reveal_detail": "Đang dùng Etoricoxib, vật lý trị liệu, tự đeo đai và chườm lạnh"
+    },
+    {
+      "checklist_item": "Kiểm tra dị ứng thuốc",
+      "reveal_keys": [
+        "allergies_intolerances"
+      ],
+      "reveal_detail": "Xác nhận không có dị ứng"
+    }
+  ]
+}

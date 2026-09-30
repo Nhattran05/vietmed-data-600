@@ -1,0 +1,164 @@
+{
+  "metadata": {
+    "disease_stt": 1,
+    "disease_name": "Viêm quanh khớp vai / rách gân chóp xoay",
+    "specialty_group": "I. Vai – Cánh tay – Khuỷu – Cổ tay – Bàn tay",
+    "scenario_index": 2,
+    "total_turns": 35,
+    "duration_minutes": 12,
+    "execution_time_seconds": 238.22,
+    "model": "google/gemma-4-31b-it",
+    "provider": "openrouter",
+    "validation_passed": true,
+    "repair_attempts": 0
+  },
+  "patient_profile": {
+    "name": "Chị Tuyết",
+    "gender": "Nữ",
+    "age": 31,
+    "occupation": "Giáo viên mầm non",
+    "chief_complaint": "Đau nhức khớp vai, cảm giác yếu tay, hạn chế vận động khi giơ tay và đau tăng nhiều về đêm.",
+    "onset_duration": "Đau âm ỉ tăng dần trong 1 tháng nay, 1 tuần gần đây hạn chế vận động rõ rệt.",
+    "medical_history": {
+      "chronic_conditions": [
+        {
+          "condition": "Thoái hóa gân vai",
+          "duration": "2 năm",
+          "control_status": "Không kiểm soát",
+          "treated_at": "Chưa điều trị"
+        }
+      ],
+      "current_medications": [
+        {
+          "name": "NSAID (Celecoxib)",
+          "dosage": "200mg",
+          "frequency": "1 lần/ngày",
+          "adherence": "Tuân thủ",
+          "appearance": "Viên nang cứng, màu trắng"
+        },
+        {
+          "name": "Vật lý trị liệu phục hồi tầm vận động",
+          "dosage": "30 phút/buổi",
+          "frequency": "3 lần/tuần",
+          "adherence": "Tuân thủ",
+          "appearance": "Bài tập vận động khớp vai"
+        }
+      ],
+      "prior_pain_treatments": [
+        {
+          "treatment": "Nghỉ vận động vai và chườm lạnh",
+          "frequency": "Trong 48h đầu khi đau tăng",
+          "outcome": "Giảm đau tạm thời",
+          "warning_flags": "Không giảm hẳn khi vận động lại"
+        },
+        {
+          "treatment": "Tránh mang vác nặng",
+          "frequency": "Hàng ngày",
+          "outcome": "Hạn chế đau tăng",
+          "warning_flags": "Không cải thiện tầm vận động"
+        }
+      ],
+      "past_surgeries_trauma": [
+        {
+          "event": "Ngã chống tay khi chăm sóc trẻ",
+          "year": 2021,
+          "sequelae": "Đau âm ỉ khớp vai trái"
+        }
+      ],
+      "allergies_intolerances": [
+        {
+          "allergen": "NSAID (Aspirin)",
+          "reaction": "Phát ban, ngứa",
+          "severity": "Trung bình"
+        }
+      ],
+      "lifestyle_risk_factors": {
+        "tobacco": "Không",
+        "alcohol": "Không",
+        "occupational_posture": "Vận động lặp lại đưa tay qua đầu khi dọn dẹp lớp học và bế trẻ",
+        "daily_water_intake": "1.5L/ngày"
+      },
+      "previous_medical_visits": null,
+      "source_reference": "STT 1 - Viêm quanh khớp vai / rách gân chóp xoay (danh-sach-60-benh-khong-cap-cuu.md)",
+      "has_prior_medical_visit": false
+    },
+    "speaking_style": "Điềm tĩnh, thật thà, xưng hô lễ phép, mô tả triệu chứng mạch lạc, lắng nghe bác sĩ.",
+    "edge_case": "Chủ động mang theo sổ nhật ký theo dõi mức độ đau hàng ngày và hỏi bác sĩ về các bài tập vận động tại nhà để hỗ trợ thêm cho quá trình vật lý trị liệu."
+  },
+  "doctor_profile": {
+    "name": "Bác sĩ Trí",
+    "gender": "Nam",
+    "age": 47,
+    "seniority_level": "Bác sĩ Chuyên khoa I (21 năm kinh nghiệm)",
+    "speciality": "Cơ Xương Khớp / Bàn tay & Chi trên",
+    "communication_tone": "Nghiêm cẩn, sắc sảo, kiên nhẫn gặng hỏi thói quen sinh hoạt và việc dùng thuốc không rõ nguồn gốc"
+  },
+  "checklist": [
+    "1. Lý do khám và thời gian khởi phát",
+    "2. Tính chất đau và thời điểm đau tăng (đặc biệt là ban đêm)",
+    "3. Đánh giá mức độ hạn chế vận động và cảm giác yếu tay",
+    "4. Khai thác tiền sử chấn thương vùng vai",
+    "5. Khai thác thói quen nghề nghiệp và tư thế lao động",
+    "6. Tiền sử bệnh lý nền khớp vai",
+    "7. Các biện pháp tự điều trị tại nhà và đáp ứng",
+    "8. Khám thực thể: Xác định điểm đau chèn ép và tầm vận động (ROM)",
+    "9. Thực hiện các nghiệm pháp đặc hiệu (Neer, Hawkins-Kennedy) để kiểm tra gân chóp xoay",
+    "10. Giải thích kết quả Cận lâm sàng (X-quang, MRI) để phân biệt viêm và rách gân",
+    "11. Chẩn đoán xác định và giải thích cơ chế bệnh sinh",
+    "12. Kê đơn thuốc chi tiết (Kháng viêm, Giảm đau, Giãn cơ, Bảo vệ dạ dày)",
+    "13. Rà soát tiền sử dị ứng thuốc trước khi chốt đơn",
+    "14. Hướng dẫn vật lý trị liệu, bài tập phục hồi và dặn dò tái khám"
+  ],
+  "reveal_sequence": [
+    {
+      "checklist_item": "1. Lý do khám và thời gian khởi phát",
+      "reveal_keys": [
+        "chief_complaint",
+        "onset_duration"
+      ],
+      "reveal_detail": "Bệnh nhân mô tả đau nhức khớp vai, yếu tay, hạn chế vận động kéo dài 1 tháng, nặng hơn 1 tuần nay."
+    },
+    {
+      "checklist_item": "4. Khai thác tiền sử chấn thương vùng vai",
+      "reveal_keys": [
+        "past_surgeries_trauma"
+      ],
+      "reveal_detail": "Bệnh nhân kể về sự cố ngã chống tay khi chăm sóc trẻ năm 2021."
+    },
+    {
+      "checklist_item": "5. Khai thác thói quen nghề nghiệp và tư thế lao động",
+      "reveal_keys": [
+        "lifestyle_risk_factors"
+      ],
+      "reveal_detail": "Chia sẻ về công việc giáo viên mầm non, thường xuyên bế trẻ và đưa tay cao dọn dẹp."
+    },
+    {
+      "checklist_item": "6. Tiền sử bệnh lý nền khớp vai",
+      "reveal_keys": [
+        "chronic_conditions"
+      ],
+      "reveal_detail": "Tiết lộ tiền sử thoái hóa gân vai 2 năm nhưng không điều trị."
+    },
+    {
+      "checklist_item": "7. Các biện pháp tự điều trị tại nhà và đáp ứng",
+      "reveal_keys": [
+        "prior_pain_treatments"
+      ],
+      "reveal_detail": "Kể về việc chườm lạnh và tránh mang vác nặng nhưng không cải thiện tầm vận động."
+    },
+    {
+      "checklist_item": "12. Kê đơn thuốc chi tiết (Kháng viêm, Giảm đau, Giãn cơ, Bảo vệ dạ dày)",
+      "reveal_keys": [
+        "current_medications"
+      ],
+      "reveal_detail": "Bệnh nhân cung cấp thông tin đang dùng Celecoxib và tập vật lý trị liệu."
+    },
+    {
+      "checklist_item": "13. Rà soát tiền sử dị ứng thuốc trước khi chốt đơn",
+      "reveal_keys": [
+        "allergies_intolerances"
+      ],
+      "reveal_detail": "Cảnh báo dị ứng với Aspirin (phát ban, ngứa)."
+    }
+  ]
+}

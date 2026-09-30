@@ -1,0 +1,46 @@
+# KỊCH BẢN ĐỐI THOẠI KHÁM BỆNH: VIÊM QUANH KHỚP VAI / RÁCH GÂN CHÓP XOAY
+> **Mã kịch bản:** Benh01_KB05 (Chuyên khoa: I. Vai – Cánh tay – Khuỷu – Cổ tay – Bàn tay)
+> **Bác sĩ:** Bác sĩ Vũ Hữu Nam (Nam, Dứt khoát, giàu kinh nghiệm, nghiêm khắc chấn chỉnh việc tự ý dùng thuốc quá liều)
+> **Bệnh nhân:** Đặng Quốc Lâm (52 tuổi, Nam, Kinh doanh tự do, Điềm tĩnh, thật thà, xưng hô lễ phép, mô tả triệu chứng mạch lạc, lắng nghe bác sĩ.)
+> **Tổng số lượt thoại:** 38 lượt khám lâm sàng | **Cặp giới tính:** Nam – Nam (N-N)
+
+---
+
+- **`[00:00 - 00:19]` Bác sĩ Nam:** Chào anh Lâm, anh ngồi đi ạ. Anh là Đặng Quốc Lâm, 52 tuổi đúng không?
+- **`[00:19 - 00:29]` Anh Lâm:** Dạ vâng, đúng rồi bác sĩ Nam ạ.
+- **`[00:29 - 00:50]` Bác sĩ Nam:** Hôm nay anh thấy trong người thế nào? Anh kể tôi nghe về cái vai của mình nhé.
+- **`[00:50 - 01:10]` Anh Lâm:** Tôi bị đau âm ỉ ở vai khoảng một tháng nay, càng ngày càng nhức hơn.
+- **`[01:10 - 01:24]` Bác sĩ Nam:** Một tháng nay mức độ đau có thay đổi nhiều không anh?
+- **`[01:24 - 01:44]` Anh Lâm:** Dạ, nó cứ tăng dần lên, nhất là dạo gần đây tôi thấy đau nhiều hơn.
+- **`[01:44 - 02:07]` Bác sĩ Nam:** Nếu chấm điểm từ 0 đến 10, lúc này anh đau mấy điểm? Lúc đau nhất là bao nhiêu?
+- **`[02:07 - 02:28]` Anh Lâm:** Giờ tầm 5 đến 6 điểm, còn đêm nằm đau dữ dội thì lên 8, 9 điểm.
+- **`[02:28 - 02:48]` Bác sĩ Nam:** Anh thấy đau kiểu âm ỉ hay có lúc nhói buốt? Tay có bị yếu đi không?
+- **`[02:48 - 03:11]` Anh Lâm:** Nó nhức buốt, ê ẩm sâu bên trong. Lúc cử động đột ngột thì nhói lắm, tay cũng yếu.
+- **`[03:11 - 03:32]` Bác sĩ Nam:** Khi anh giơ tay qua đầu hoặc vận động vai thì cơn đau có tăng lên không?
+- **`[03:32 - 03:50]` Anh Lâm:** Đúng rồi, cứ giơ tay lên cao là tôi thấy đau nhói lên nhiều lắm.
+- **`[03:50 - 04:07]` Bác sĩ Nam:** Trước đây anh có từng bị ngã hay chấn thương gì ở vai không?
+- **`[04:07 - 04:28]` Anh Lâm:** Có bác sĩ, năm 2020 tôi bị ngã lúc chuyển hàng nên vai trái bị chấn thương.
+- **`[04:28 - 04:48]` Bác sĩ Nam:** Ngoài chấn thương đó, anh có mắc bệnh mạn tính hay thoái hóa khớp ở đâu không?
+- **`[04:48 - 05:03]` Anh Lâm:** Tôi bị thoái hóa gân khớp vai khoảng 3 năm nay rồi.
+- **`[05:03 - 05:22]` Bác sĩ Nam:** Anh đang làm công việc gì? Tư thế làm việc hằng ngày của anh ra sao?
+- **`[05:22 - 05:43]` Anh Lâm:** Tôi làm kinh doanh tự do, thường phải giơ tay lên cao sắp xếp kho hàng suốt.
+- **`[05:43 - 06:04]` Bác sĩ Nam:** Anh đã từng đi khám ở đâu về tình trạng này chưa? Họ chẩn đoán thế nào?
+- **`[06:04 - 06:27]` Anh Lâm:** 8 tháng trước tôi khám ở Bệnh viện Chấn thương Chỉnh hình TP.HCM, họ bảo viêm quanh khớp vai.
+- **`[06:27 - 06:45]` Bác sĩ Nam:** Đợt đó anh điều trị thế nào? Có đỡ không và theo trong bao lâu?
+- **`[06:45 - 07:07]` Anh Lâm:** Tôi tập vật lý trị liệu một tháng với uống thuốc, đỡ một phần nhưng giờ bị lại.
+- **`[07:07 - 07:20]` Bác sĩ Nam:** Khi đau ở nhà, anh thường làm gì để giảm đau?
+- **`[07:20 - 07:40]` Anh Lâm:** Tôi thường chườm lạnh với hạn chế mang vác nặng, thấy cũng dịu đi một chút.
+- **`[07:40 - 07:59]` Bác sĩ Nam:** Hiện tại anh có đang dùng thuốc gì không? Anh có dị ứng thuốc nào không?
+- **`[07:59 - 08:20]` Anh Lâm:** Tôi đang uống Celecoxib. Tôi bị dị ứng Aspirin, uống vào là phát ban, ngứa khắp người.
+- **`[08:20 - 08:39]` Bác sĩ Nam:** Anh ngồi thoải mái nhé, tôi chạm nhẹ vào vai xem anh đau chói ở đâu.
+- **`[08:39 - 08:49]` Anh Lâm:** Dạ vâng, bác sĩ kiểm tra giúp tôi.
+- **`[08:49 - 09:03]` Bác sĩ Nam:** Anh thử nâng cánh tay lên từ từ giúp tôi xem sao.
+- **`[09:03 - 09:20]` Anh Lâm:** Ái chà, đến khúc này là nhói buốt quá, không nhấc cao lên được.
+- **`[09:20 - 09:41]` Bác sĩ Nam:** Tôi xem kết quả MRI nhé. Hình ảnh cho thấy gân chóp xoay bị rách một phần.
+- **`[09:41 - 09:57]` Anh Lâm:** Rách một phần là sao hả bác sĩ? Có nặng lắm không ạ?
+- **`[09:57 - 10:20]` Bác sĩ Nam:** Nghĩa là gân bị tổn thương nhưng chưa đứt rời. Anh bị viêm quanh khớp vai kèm rách gân.
+- **`[10:20 - 10:36]` Anh Lâm:** Vậy giờ tôi có phải mổ hay chữa trị sao cho hết ạ?
+- **`[10:36 - 11:04]` Bác sĩ Nam:** Hiện rách nhẹ nên chưa cần mổ. Tôi kê đơn Celecoxib 200mg, uống 1 viên sau ăn và tập vật lý trị liệu.
+- **`[11:04 - 11:22]` Anh Lâm:** Dạ, vậy thì tốt quá. Tôi sẽ uống thuốc và tập tành cho mau khỏi.
+- **`[11:22 - 11:43]` Bác sĩ Nam:** Anh nhớ uống đúng giờ, tránh mang vác nặng. Hẹn gặp lại anh buổi tái khám tới.
+- **`[11:43 - 11:59]` Anh Lâm:** Dạ vâng, cảm ơn bác sĩ nhiều. Tôi chào bác sĩ tôi về ạ.

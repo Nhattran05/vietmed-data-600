@@ -1,0 +1,150 @@
+{
+  "metadata": {
+    "disease_stt": 2,
+    "disease_name": "Viêm quanh khớp vai thể đông cứng (Frozen shoulder)",
+    "specialty_group": "I. Vai – Cánh tay – Khuỷu – Cổ tay – Bàn tay",
+    "scenario_index": 1,
+    "total_turns": 36,
+    "duration_minutes": 12,
+    "execution_time_seconds": 234.98,
+    "model": "google/gemma-4-31b-it",
+    "provider": "openrouter",
+    "validation_passed": true,
+    "repair_attempts": 0
+  },
+  "patient_profile": {
+    "name": "Anh Phúc",
+    "gender": "Nam",
+    "age": 24,
+    "occupation": "Huấn luyện viên thể hình",
+    "chief_complaint": "Khớp vai cứng đơ, đau nhức tăng dần về đêm, khó chải đầu, gãi lưng và không thể đưa tay ra trước hoặc ra sau.",
+    "onset_duration": "Đau âm ỉ và cứng khớp tăng dần trong khoảng 3 tháng nay, hiện tại hạn chế vận động nghiêm trọng.",
+    "medical_history": {
+      "chronic_conditions": [
+        {
+          "condition": "Không có bệnh mạn tính nặng",
+          "duration": "0 năm",
+          "control_status": "Ổn định",
+          "treated_at": "Không áp dụng"
+        }
+      ],
+      "current_medications": [
+        {
+          "name": "Vật lý trị liệu kéo giãn",
+          "dosage": "30-60 phút/buổi",
+          "frequency": "1 lần/ngày",
+          "adherence": "Đang thực hiện",
+          "appearance": "Hướng dẫn vận động trị liệu bởi kỹ thuật viên"
+        },
+        {
+          "name": "Tiêm Corticoid nội khớp",
+          "dosage": "10-20mg",
+          "frequency": "Theo chỉ định bác sĩ",
+          "adherence": "Đang điều trị",
+          "appearance": "Dạng dung dịch tiêm trong suốt"
+        }
+      ],
+      "prior_pain_treatments": [
+        {
+          "treatment": "Cử động nhẹ trong giới hạn chịu đau, không bất động hoàn toàn",
+          "frequency": "Hàng ngày",
+          "outcome": "Cải thiện hạn chế nhưng vẫn còn đau",
+          "warning_flags": "Tránh vận động quá mức gây chấn thương thêm"
+        }
+      ],
+      "past_surgeries_trauma": [
+        {
+          "event": "Chấn thương rách nhẹ sụn chêm khớp gối do tập luyện cường độ cao",
+          "year": 2020,
+          "sequelae": "Đã hồi phục hoàn toàn"
+        }
+      ],
+      "allergies_intolerances": [
+        {
+          "allergen": "Không có",
+          "reaction": "Không có",
+          "severity": "Không áp dụng"
+        }
+      ],
+      "lifestyle_risk_factors": {
+        "tobacco": "Không hút thuốc",
+        "alcohol": "Uống rượu bia ít",
+        "occupational_posture": "Vận động khớp vai cường độ cao, lặp đi lặp lại trong huấn luyện thể hình",
+        "daily_water_intake": "3 lít/ngày"
+      },
+      "source_reference": "STT 2 - Viêm quanh khớp vai thể đông cứng (Frozen shoulder) (danh-sach-60-benh-khong-cap-cuu.md)"
+    },
+    "speaking_style": "Điềm tĩnh, thật thà, xưng hô lễ phép, mô tả triệu chứng mạch lạc, lắng nghe bác sĩ.",
+    "edge_case": "Chủ động trình bày sổ nhật ký theo dõi mức độ đau hàng ngày và hỏi bác sĩ về các bài tập kéo giãn tại nhà để tối ưu hóa hiệu quả vật lý trị liệu."
+  },
+  "doctor_profile": {
+    "name": "Bác sĩ Hùng",
+    "gender": "Nam",
+    "age": 36,
+    "seniority_level": "Bác sĩ điều trị (10 năm kinh nghiệm)",
+    "speciality": "Cơ Xương Khớp / Bàn tay & Chi trên",
+    "communication_tone": "Tế nhị, thấu cảm, không phán xét thói quen xấu của bệnh nhân, hướng dẫn phòng ngừa tái phát tỉ mỉ"
+  },
+  "checklist": [
+    "Hỏi lý do đến khám và thời gian khởi phát triệu chứng",
+    "Khai thác tính chất đau (vị trí, cường độ, thời điểm đau tăng)",
+    "Đánh giá mức độ hạn chế vận động trong sinh hoạt (chải đầu, gãi lưng)",
+    "Khai thác tiền sử bệnh lý mạn tính và các bệnh nền liên quan",
+    "Tìm hiểu thói quen nghề nghiệp và cường độ vận động khớp vai",
+    "Khai thác tiền sử chấn thương hoặc phẫu thuật vùng vai/chi trên",
+    "Hỏi về các phương pháp tự điều trị và thuốc đã sử dụng tại nhà",
+    "Khám thực thể: Xác định điểm đau chói và sưng nóng vùng khớp vai",
+    "Đánh giá biên độ vận động chủ động (gập, duỗi, xoay ngoài)",
+    "Đánh giá biên độ vận động thụ động (kiểm tra dấu hiệu cứng khớp)",
+    "Giải thích kết quả cận lâm sàng (X-quang loại trừ thoái hóa, MRI đánh giá bao khớp)",
+    "Chẩn đoán xác định: Viêm quanh khớp vai thể đông cứng",
+    "Kê đơn thuốc phối hợp: Kháng viêm, Giảm đau, Giãn cơ, Bảo vệ dạ dày",
+    "Hướng dẫn vật lý trị liệu kéo giãn và hẹn lịch tái khám"
+  ],
+  "reveal_sequence": [
+    {
+      "checklist_item": "Hỏi lý do đến khám và thời gian khởi phát triệu chứng",
+      "reveal_keys": [
+        "chief_complaint",
+        "onset_duration"
+      ],
+      "reveal_detail": "Bệnh nhân mô tả tình trạng khớp vai cứng đơ, đau tăng về đêm trong 3 tháng nay"
+    },
+    {
+      "checklist_item": "Khai thác tiền sử bệnh lý mạn tính và các bệnh nền liên quan",
+      "reveal_keys": [
+        "chronic_conditions"
+      ],
+      "reveal_detail": "Xác nhận không có bệnh mạn tính nặng như tiểu đường"
+    },
+    {
+      "checklist_item": "Tìm hiểu thói quen nghề nghiệp và cường độ vận động khớp vai",
+      "reveal_keys": [
+        "lifestyle_risk_factors"
+      ],
+      "reveal_detail": "Chia sẻ về nghề huấn luyện viên thể hình, vận động cường độ cao lặp đi lặp lại"
+    },
+    {
+      "checklist_item": "Khai thác tiền sử chấn thương hoặc phẫu thuật vùng vai/chi trên",
+      "reveal_keys": [
+        "past_surgeries_trauma"
+      ],
+      "reveal_detail": "Kể về chấn thương rách sụn chêm khớp gối năm 2020"
+    },
+    {
+      "checklist_item": "Hỏi về các phương pháp tự điều trị và thuốc đã sử dụng tại nhà",
+      "reveal_keys": [
+        "prior_pain_treatments"
+      ],
+      "reveal_detail": "Mô tả việc cử động nhẹ trong giới hạn chịu đau tại nhà"
+    },
+    {
+      "checklist_item": "Kê đơn thuốc phối hợp: Kháng viêm, Giảm đau, Giãn cơ, Bảo vệ dạ dày",
+      "reveal_keys": [
+        "current_medications",
+        "allergies_intolerances"
+      ],
+      "reveal_detail": "Thông tin về việc đang tiêm Corticoid, tập VLTL và không có dị ứng thuốc"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+# KỊCH BẢN ĐỐI THOẠI KHÁM BỆNH: VIÊM LỒI CẦU NGOÀI XƯƠNG CÁNH TAY (TENNIS ELBOW)
+> **Mã kịch bản:** Benh05_KB01 (Chuyên khoa: I. Vai – Cánh tay – Khuỷu – Cổ tay – Bàn tay)
+> **Bác sĩ:** Bác sĩ Nam (Nam, Dứt khoát, giàu kinh nghiệm, nghiêm khắc chấn chỉnh việc tự ý dùng thuốc quá liều)
+> **Bệnh nhân:** Anh Thành (24 tuổi, Nam, Shipper giao hàng, Điềm tĩnh, thật thà, xưng hô lễ phép, mô tả triệu chứng mạch lạc, lắng nghe bác sĩ.)
+> **Tổng số lượt thoại:** 35 lượt khám lâm sàng | **Cặp giới tính:** Nam – Nam (N-N)
+
+---
+
+- **`[00:00 - 00:20]` Bác sĩ Nam:** Chào anh Thành, mời anh ngồi. Hôm nay anh thấy trong người thế nào?
+- **`[00:20 - 00:47]` Anh Thành:** Chào bác sĩ, tôi bị đau nhức ở chỗ khuỷu tay này rồi lan xuống cánh tay ạ.
+- **`[00:47 - 01:11]` Bác sĩ Nam:** Anh cho tôi mượn sổ khám bệnh xem. Cơn đau này bắt đầu từ khi nào?
+- **`[01:11 - 01:31]` Anh Thành:** Dạ, tôi thấy đau âm ỉ tầm 3 tuần nay rồi bác sĩ.
+- **`[01:31 - 01:49]` Bác sĩ Nam:** Thời gian qua cảm giác đau có thay đổi gì không anh?
+- **`[01:49 - 02:10]` Anh Thành:** Tuần gần đây tôi làm nặng nên thấy nhức nhiều hơn, khó chịu lắm.
+- **`[02:10 - 02:29]` Bác sĩ Nam:** Khi anh cầm nắm đồ vật hay duỗi cổ tay ra thì sao?
+- **`[02:29 - 02:52]` Anh Thành:** Dạ đúng rồi, cứ cầm nắm hay duỗi tay là thấy đau chói lên luôn.
+- **`[02:52 - 03:13]` Bác sĩ Nam:** Anh đang làm công việc gì? Hằng ngày có phải bưng bê nhiều không?
+- **`[03:13 - 03:37]` Anh Thành:** Tôi làm shipper giao hàng, suốt ngày cứ phải bưng bê với lái xe liên tục.
+- **`[03:37 - 03:55]` Bác sĩ Nam:** Trước đây anh từng bị đau như thế này lần nào chưa?
+- **`[03:55 - 04:18]` Anh Thành:** Dạ có, một năm trước tôi cũng bị đau chỗ này, nghe bảo là viêm gân.
+- **`[04:18 - 04:36]` Bác sĩ Nam:** Anh có đang dùng thuốc gì hay tự chữa tại nhà không?
+- **`[04:36 - 04:57]` Anh Thành:** Tôi có uống thuốc Etoricoxib, đeo đai nẹp với chườm lạnh cho đỡ đau.
+- **`[04:57 - 05:12]` Bác sĩ Nam:** Anh có bị dị ứng với loại thuốc nào không?
+- **`[05:12 - 05:29]` Anh Thành:** Dạ không, tôi không bị dị ứng thuốc gì hết ạ.
+- **`[05:29 - 05:48]` Bác sĩ Nam:** Anh có tiền sử chấn thương hay phẫu thuật gì ở tay không?
+- **`[05:48 - 06:11]` Anh Thành:** Năm 2021 tôi có ngã xe máy, bị trầy xước với bong gân cổ tay.
+- **`[06:11 - 06:33]` Bác sĩ Nam:** Được rồi, để tôi kiểm tra. Tôi ấn nhẹ vào vùng ngoài khuỷu tay nhé.
+- **`[06:33 - 06:53]` Anh Thành:** Á! Đau quá bác sĩ ơi, đúng chỗ này nó nhói lên luôn.
+- **`[06:53 - 07:15]` Bác sĩ Nam:** Giờ anh cố duỗi ngược cổ tay lên trong khi tôi giữ lại xem sao.
+- **`[07:15 - 07:35]` Anh Thành:** Ui da, đau quá! Nó nhói lên dữ dội luôn bác sĩ ạ.
+- **`[07:35 - 07:56]` Bác sĩ Nam:** Bây giờ anh thử nắm chặt lấy bàn tay tôi xem có đau không?
+- **`[07:56 - 08:13]` Anh Thành:** Dạ đau lắm, nó cứ nhói ngay chỗ khuỷu tay này này.
+- **`[08:13 - 08:37]` Bác sĩ Nam:** Để tôi xem kết quả siêu âm. May là không bị gãy xương hay rách gân.
+- **`[08:37 - 08:55]` Anh Thành:** May quá, vậy là tôi không bị sao nặng hả bác sĩ?
+- **`[08:55 - 09:16]` Bác sĩ Nam:** Anh bị viêm lồi cầu ngoài xương cánh tay, hay gọi là Tennis Elbow.
+- **`[09:16 - 09:36]` Anh Thành:** Tên nghe lạ quá. Thế bệnh này có nguy hiểm không bác sĩ?
+- **`[09:36 - 09:58]` Bác sĩ Nam:** Không nguy hiểm tính mạng, nhưng nếu không chữa dứt điểm sẽ khó làm việc.
+- **`[09:58 - 10:18]` Anh Thành:** Tôi hiểu rồi. Vậy giờ phải làm sao để mau hết đau ạ?
+- **`[10:18 - 10:39]` Bác sĩ Nam:** Tôi kê đơn Etoricoxib 90mg, uống 1 lần mỗi ngày sau khi ăn no.
+- **`[10:39 - 10:58]` Anh Thành:** Thuốc này uống vào có bị tác dụng phụ gì không bác sĩ?
+- **`[10:58 - 11:21]` Bác sĩ Nam:** Anh uống đúng liều, kết hợp vật lý trị liệu và đeo đai nẹp nhé.
+- **`[11:21 - 11:39]` Anh Thành:** Dạ vâng, tôi sẽ làm theo. Cảm ơn bác sĩ nhiều lắm.
+- **`[11:39 - 12:00]` Bác sĩ Nam:** Anh giữ gìn sức khỏe, hẹn gặp lại anh tái khám vào tuần sau!

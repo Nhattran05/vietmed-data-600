@@ -1,0 +1,201 @@
+{
+  "metadata": {
+    "disease_stt": 1,
+    "disease_name": "Viêm quanh khớp vai / rách gân chóp xoay",
+    "specialty_group": "I. Vai – Cánh tay – Khuỷu – Cổ tay – Bàn tay",
+    "scenario_index": 4,
+    "total_turns": 35,
+    "duration_minutes": 12,
+    "execution_time_seconds": 226.75,
+    "model": "google/gemma-4-31b-it",
+    "provider": "openrouter",
+    "validation_passed": true,
+    "repair_attempts": 0
+  },
+  "patient_profile": {
+    "name": "Đỗ Phương Thủy",
+    "display_name": "Chị Thủy",
+    "gender": "Nữ",
+    "age": 45,
+    "occupation": "Quản lý nhà hàng",
+    "address": "Xã Phú Cát, Quốc Oai, Hà Nội",
+    "confirm_identity": true,
+    "chief_complaint": "Đau nhức khớp vai, đau tăng khi vận động hoặc giơ tay, kèm theo yếu tay, hạn chế tầm vận động và đau nhiều về đêm.",
+    "onset_duration": "Đau âm ỉ tăng dần trong 1 tháng nay, 1 tuần gần đây hạn chế vận động rõ rệt.",
+    "medical_history": {
+      "chronic_conditions": [
+        {
+          "condition": "Thoái hóa gân khớp vai theo tuổi",
+          "duration": "3 năm",
+          "control_status": "Không ổn định",
+          "treated_at": "Phòng khám Đa khoa"
+        }
+      ],
+      "current_medications": [
+        {
+          "name": "NSAID (Celecoxib)",
+          "dosage": "200mg",
+          "frequency": "1 lần/ngày sau ăn",
+          "adherence": "Tốt",
+          "appearance": "Viên nang cứng, màu vàng"
+        },
+        {
+          "name": "Vật lý trị liệu phục hồi tầm vận động",
+          "dosage": "30 phút/buổi",
+          "frequency": "3 lần/tuần",
+          "adherence": "Trung bình",
+          "appearance": "Không áp dụng"
+        }
+      ],
+      "prior_pain_treatments": [
+        {
+          "treatment": "Chườm lạnh",
+          "frequency": "2-3 lần/ngày trong 48h đầu khi đau cấp",
+          "outcome": "Giảm sưng nhẹ",
+          "warning_flags": "Không chườm trực tiếp đá lên da"
+        },
+        {
+          "treatment": "Nghỉ vận động vai và tránh mang vác nặng",
+          "frequency": "Hàng ngày",
+          "outcome": "Giảm đau tạm thời khi không cử động",
+          "warning_flags": "Không tự ý vận động mạnh đột ngột"
+        }
+      ],
+      "past_surgeries_trauma": [
+        {
+          "event": "Chấn thương vai do ngã trong lúc làm việc tại nhà hàng",
+          "year": 2021,
+          "sequelae": "Hạn chế tầm vận động khớp vai trái"
+        }
+      ],
+      "allergies_intolerances": [
+        {
+          "allergen": "NSAID (Aspirin)",
+          "reaction": "Phát ban, ngứa",
+          "severity": "Trung bình"
+        }
+      ],
+      "lifestyle_risk_factors": {
+        "tobacco": "Không hút thuốc",
+        "alcohol": "Uống rượu bia xã giao ít",
+        "occupational_posture": "Thường xuyên vận động lặp lại đưa tay qua đầu khi sắp xếp kho và quản lý vận hành nhà hàng",
+        "daily_water_intake": "1.5L - 2L/ngày"
+      },
+      "previous_medical_visits": [
+        {
+          "hospital": "Bệnh viện Chấn thương Chỉnh hình TP.HCM",
+          "specialty": "Cơ Xương Khớp",
+          "diagnosis": "Viêm quanh khớp vai",
+          "treatment_given": "Tiêm corticoid tại khớp vai và uống NSAID",
+          "treatment_duration": "Tiêm 1 mũi và uống thuốc trong 10 ngày",
+          "effectiveness": "Cải thiện một phần, giảm đau nhanh nhưng tái phát sau 3 tháng",
+          "visit_time": "6 tháng trước"
+        }
+      ],
+      "source_reference": "STT 1 - Viêm quanh khớp vai / rách gân chóp xoay (danh-sach-60-benh-khong-cap-cuu.md)",
+      "has_prior_medical_visit": true,
+      "doctor_asks_prior_visit": true
+    },
+    "speaking_style": "Điềm tĩnh, thật thà, xưng hô lễ phép, mô tả triệu chứng mạch lạc và lắng nghe bác sĩ một cách cầu thị.",
+    "edge_case": "Chủ động mang theo sổ nhật ký theo dõi mức độ đau hàng ngày và hỏi bác sĩ về các bài tập vật lý trị liệu cụ thể có thể tự thực hiện tại nhà để cải thiện tầm vận động."
+  },
+  "doctor_profile": {
+    "name": "Bác sĩ Lê Thị Thảo",
+    "display_name": "Bác sĩ Thảo",
+    "gender": "Nữ",
+    "age": 56,
+    "seniority_level": "Bác sĩ Chuyên khoa II / Trưởng khoa (30 năm kinh nghiệm)",
+    "speciality": "Cơ Xương Khớp / Bàn tay & Chi trên",
+    "communication_tone": "Ân cần, thấu cảm, giải thích cặn kẽ tầm quan trọng sống còn của việc tuân thủ phác đồ"
+  },
+  "checklist": [
+    "Xác nhận danh tính: Bác sĩ chào hỏi và đối chiếu họ tên, số tuổi của bệnh nhân",
+    "Lý do khám & khởi phát: Khai thác triệu chứng đau vai và thời gian xuất hiện",
+    "Tính chất cơn đau: Vị trí đau, mức độ đau, thời điểm đau tăng (đặc biệt về đêm)",
+    "Yếu tố tăng/giảm: Các vận động gây đau hoặc làm giảm đau",
+    "Tiền sử thói quen & nghề nghiệp: Tư thế làm việc, vận động lặp lại",
+    "Tiền sử chấn thương: Các tai nạn hoặc chấn thương vùng vai trong quá khứ",
+    "Tiền sử thăm khám trước đây: Hỏi cơ sở y tế đã khám và chẩn đoán khi đó",
+    "Đánh giá điều trị trước đây: Hỏi biện pháp điều trị khi đó là gì, có hiệu quả không và bệnh nhân đã theo phác đồ bao lâu",
+    "Tiền sử bệnh nền & thuốc đang dùng: Các bệnh mạn tính và thuốc điều trị hiện tại",
+    "Tiền sử tự điều trị tại nhà: Các biện pháp giảm đau tự áp dụng",
+    "Tiền sử dị ứng: Kiểm tra dị ứng thuốc, đặc biệt là nhóm NSAIDs",
+    "Khám thực thể & Nghiệm pháp: Kiểm tra tầm vận động (ROM), điểm đau, sức cơ",
+    "Giải thích cận lâm sàng & Chẩn đoán: Phân tích X-quang/MRI để xác định rách gân hay viêm",
+    "Kê đơn & Hướng dẫn: Đơn thuốc 4 nhóm, vật lý trị liệu và lịch tái khám"
+  ],
+  "reveal_sequence": [
+    {
+      "checklist_item": "Xác nhận danh tính: Bác sĩ chào hỏi và đối chiếu họ tên, số tuổi của bệnh nhân",
+      "reveal_keys": [
+        "patient_identity"
+      ],
+      "reveal_detail": "Xác nhận bệnh nhân Đỗ Phương Thủy, 45 tuổi"
+    },
+    {
+      "checklist_item": "Lý do khám & khởi phát: Khai thác triệu chứng đau vai và thời gian xuất hiện",
+      "reveal_keys": [
+        "chief_complaint",
+        "onset_duration"
+      ],
+      "reveal_detail": "Đau nhức khớp vai, tăng khi vận động, kéo dài 1 tháng, 1 tuần nay hạn chế rõ rệt"
+    },
+    {
+      "checklist_item": "Tính chất cơn đau: Vị trí đau, mức độ đau, thời điểm đau tăng (đặc biệt về đêm)",
+      "reveal_keys": [
+        "chief_complaint"
+      ],
+      "reveal_detail": "Đau âm ỉ, đau nhiều về đêm, yếu tay"
+    },
+    {
+      "checklist_item": "Tiền sử thói quen & nghề nghiệp: Tư thế làm việc, vận động lặp lại",
+      "reveal_keys": [
+        "lifestyle_risk_factors"
+      ],
+      "reveal_detail": "Quản lý nhà hàng, thường xuyên đưa tay qua đầu sắp xếp kho"
+    },
+    {
+      "checklist_item": "Tiền sử chấn thương: Các tai nạn hoặc chấn thương vùng vai trong quá khứ",
+      "reveal_keys": [
+        "past_surgeries_trauma"
+      ],
+      "reveal_detail": "Ngã năm 2021 khi làm việc tại nhà hàng, để lại di chứng hạn chế vận động vai trái"
+    },
+    {
+      "checklist_item": "Tiền sử thăm khám trước đây: Hỏi cơ sở y tế đã khám và chẩn đoán khi đó",
+      "reveal_keys": [
+        "previous_medical_visits"
+      ],
+      "reveal_detail": "Khám tại BV Chấn thương Chỉnh hình TP.HCM, chẩn đoán Viêm quanh khớp vai"
+    },
+    {
+      "checklist_item": "Đánh giá điều trị trước đây: Hỏi biện pháp điều trị khi đó là gì, có hiệu quả không và bệnh nhân đã theo phác đồ bao lâu",
+      "reveal_keys": [
+        "previous_medical_visits"
+      ],
+      "reveal_detail": "Tiêm corticoid và uống NSAID 10 ngày, giảm nhanh nhưng tái phát sau 3 tháng"
+    },
+    {
+      "checklist_item": "Tiền sử bệnh nền & thuốc đang dùng: Các bệnh mạn tính và thuốc điều trị hiện tại",
+      "reveal_keys": [
+        "chronic_conditions",
+        "current_medications"
+      ],
+      "reveal_detail": "Thoái hóa gân khớp vai 3 năm; đang dùng Celecoxib 200mg và tập VLTL"
+    },
+    {
+      "checklist_item": "Tiền sử tự điều trị tại nhà: Các biện pháp giảm đau tự áp dụng",
+      "reveal_keys": [
+        "prior_pain_treatments"
+      ],
+      "reveal_detail": "Chườm lạnh 48h đầu và nghỉ vận động, tránh mang vác nặng"
+    },
+    {
+      "checklist_item": "Tiền sử dị ứng: Kiểm tra dị ứng thuốc, đặc biệt là nhóm NSAIDs",
+      "reveal_keys": [
+        "allergies_intolerances"
+      ],
+      "reveal_detail": "Dị ứng Aspirin gây phát ban, ngứa mức độ trung bình"
+    }
+  ]
+}

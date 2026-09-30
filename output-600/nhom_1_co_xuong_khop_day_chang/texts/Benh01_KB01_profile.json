@@ -1,0 +1,163 @@
+{
+  "metadata": {
+    "disease_stt": 1,
+    "disease_name": "Viêm quanh khớp vai / rách gân chóp xoay",
+    "specialty_group": "I. Vai – Cánh tay – Khuỷu – Cổ tay – Bàn tay",
+    "scenario_index": 1,
+    "total_turns": 39,
+    "duration_minutes": 12,
+    "execution_time_seconds": 217.52,
+    "model": "google/gemma-4-31b-it",
+    "provider": "openrouter",
+    "validation_passed": true,
+    "repair_attempts": 0
+  },
+  "patient_profile": {
+    "name": "Anh Dũng",
+    "gender": "Nam",
+    "age": 24,
+    "occupation": "Nhân viên kinh doanh",
+    "chief_complaint": "Đau nhức khớp vai, cảm giác yếu tay, hạn chế tầm vận động khi giơ tay và đau tăng về đêm.",
+    "onset_duration": "Đau âm ỉ tăng dần trong 3 tuần qua, 1 tuần gần đây hạn chế vận động rõ rệt.",
+    "medical_history": {
+      "chronic_conditions": [
+        {
+          "condition": "Chấn thương cơ học vùng vai",
+          "duration": "1 năm",
+          "control_status": "Không ổn định",
+          "treated_at": "Phòng khám đa khoa"
+        }
+      ],
+      "current_medications": [
+        {
+          "name": "NSAID (Celecoxib)",
+          "dosage": "200mg",
+          "frequency": "1 lần/ngày",
+          "adherence": "Tốt",
+          "appearance": "Viên nang cứng, màu vàng"
+        },
+        {
+          "name": "Vật lý trị liệu",
+          "dosage": "30 phút/buổi",
+          "frequency": "3 lần/tuần",
+          "adherence": "Trung bình",
+          "appearance": "N/A"
+        }
+      ],
+      "prior_pain_treatments": [
+        {
+          "treatment": "Chườm lạnh và nghỉ vận động vai",
+          "frequency": "Hàng ngày trong 48h đầu sau đau",
+          "outcome": "Giảm đau tạm thời",
+          "warning_flags": "Không tự ý chườm nóng khi đang viêm cấp"
+        },
+        {
+          "treatment": "Tránh mang vác nặng",
+          "frequency": "Liên tục",
+          "outcome": "Hạn chế đau tăng",
+          "warning_flags": "Không tuân thủ tuyệt đối do đặc thù công việc"
+        }
+      ],
+      "past_surgeries_trauma": [
+        {
+          "event": "Ngã xe máy gây chấn thương khớp vai",
+          "year": 2021,
+          "sequelae": "Hạn chế tầm vận động nhẹ"
+        }
+      ],
+      "allergies_intolerances": [
+        {
+          "allergen": "NSAID (Aspirin)",
+          "reaction": "Phát ban, ngứa",
+          "severity": "Trung bình"
+        }
+      ],
+      "lifestyle_risk_factors": {
+        "tobacco": "Không",
+        "alcohol": "Xã giao",
+        "occupational_posture": "Vận động lặp lại đưa tay qua đầu khi sắp xếp hàng hóa/tài liệu, ngồi máy tính nhiều",
+        "daily_water_intake": "1.5L/ngày"
+      },
+      "source_reference": "STT 1 - Viêm quanh khớp vai / rách gân chóp xoay (danh-sach-60-benh-khong-cap-cuu.md)"
+    },
+    "speaking_style": "Điềm tĩnh, thật thà, xưng hô lễ phép, mô tả triệu chứng mạch lạc, lắng nghe bác sĩ.",
+    "edge_case": "Chủ động ghi chép lại nhật ký mức độ đau hàng ngày và xin bác sĩ hướng dẫn thêm các bài tập vật lý trị liệu tại nhà để cải thiện tầm vận động hiệu quả hơn."
+  },
+  "doctor_profile": {
+    "name": "Bác sĩ Đức",
+    "gender": "Nam",
+    "age": 44,
+    "seniority_level": "Bác sĩ Chuyên khoa I (18 năm kinh nghiệm)",
+    "speciality": "Cơ Xương Khớp / Bàn tay & Chi trên",
+    "communication_tone": "Đĩnh đạc, ân cần, giải thích nguyên nhân bằng hình ảnh đời thường, kiên nhẫn gặng hỏi từng động tác đau"
+  },
+  "checklist": [
+    "Hỏi lý do khám và thời điểm khởi phát đau vai",
+    "Khai thác tính chất đau (âm ỉ, nhói) và thời điểm đau tăng (về đêm)",
+    "Xác định các yếu tố làm tăng đau (giơ tay, vận động qua đầu)",
+    "Khai thác tiền sử chấn thương vùng vai trong quá khứ",
+    "Tìm hiểu thói quen nghề nghiệp và tư thế lao động hàng ngày",
+    "Khai thác các biện pháp tự điều trị tại nhà và mức độ đáp ứng",
+    "Kiểm tra tiền sử bệnh nền và các bệnh lý mạn tính liên quan",
+    "Khám thực thể: Xác định điểm đau chói và đánh giá tầm vận động khớp vai",
+    "Thực hiện các nghiệm pháp đặc hiệu cho gân chóp xoay (Empty can test, Drop arm test)",
+    "Giải thích kết quả cận lâm sàng (X-quang loại trừ thoái hóa, MRI xác định rách gân)",
+    "Chẩn đoán xác định: Viêm quanh khớp vai / Rách gân chóp xoay",
+    "Kê đơn thuốc: Kháng viêm (NSAIDs), giảm đau, giãn cơ và bảo vệ dạ dày",
+    "Hướng dẫn vật lý trị liệu và bài tập phục hồi chức năng tầm vận động",
+    "Dặn dò chế độ sinh hoạt, kiêng mang vác nặng và lịch tái khám"
+  ],
+  "reveal_sequence": [
+    {
+      "checklist_item": "Hỏi lý do khám và thời điểm khởi phát đau vai",
+      "reveal_keys": [
+        "chief_complaint",
+        "onset_duration"
+      ],
+      "reveal_detail": "Bệnh nhân trình bày đau nhức khớp vai, yếu tay, kéo dài 3 tuần"
+    },
+    {
+      "checklist_item": "Khai thác tính chất đau (âm ỉ, nhói) và thời điểm đau tăng (về đêm)",
+      "reveal_keys": [
+        "chief_complaint"
+      ],
+      "reveal_detail": "Mô tả chi tiết đau tăng về đêm và hạn chế vận động"
+    },
+    {
+      "checklist_item": "Khai thác tiền sử chấn thương vùng vai trong quá khứ",
+      "reveal_keys": [
+        "past_surgeries_trauma"
+      ],
+      "reveal_detail": "Tiết lộ sự cố ngã xe máy năm 2021 gây chấn thương vai"
+    },
+    {
+      "checklist_item": "Tìm hiểu thói quen nghề nghiệp và tư thế lao động hàng ngày",
+      "reveal_keys": [
+        "lifestyle_risk_factors"
+      ],
+      "reveal_detail": "Chia sẻ về công việc nhân viên kinh doanh, thường xuyên đưa tay qua đầu sắp xếp hàng hóa"
+    },
+    {
+      "checklist_item": "Khai thác các biện pháp tự điều trị tại nhà và mức độ đáp ứng",
+      "reveal_keys": [
+        "prior_pain_treatments"
+      ],
+      "reveal_detail": "Kể về việc chườm lạnh và cố gắng tránh mang vác nặng"
+    },
+    {
+      "checklist_item": "Kiểm tra tiền sử bệnh nền và các bệnh lý mạn tính liên quan",
+      "reveal_keys": [
+        "chronic_conditions"
+      ],
+      "reveal_detail": "Xác nhận tình trạng chấn thương cơ học vùng vai không ổn định trong 1 năm qua"
+    },
+    {
+      "checklist_item": "Kê đơn thuốc: Kháng viêm (NSAIDs), giảm đau, giãn cơ và bảo vệ dạ dày",
+      "reveal_keys": [
+        "current_medications",
+        "allergies_intolerances"
+      ],
+      "reveal_detail": "Thông báo đang dùng Celecoxib và đặc biệt là dị ứng với Aspirin"
+    }
+  ]
+}

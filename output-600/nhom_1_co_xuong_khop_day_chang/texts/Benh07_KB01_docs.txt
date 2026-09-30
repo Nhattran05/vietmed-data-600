@@ -1,0 +1,48 @@
+KỊCH BẢN ĐỐI THOẠI KHÁM BỆNH: VIÊM BAO GÂN DE QUERVAIN
+Mã kịch bản: Benh07_KB01 (Chuyên khoa: I. Vai – Cánh tay – Khuỷu – Cổ tay – Bàn tay)
+Bác sĩ: Bác sĩ Quang (Nam, Điềm đạm, giải thích rõ ràng cơ chế mòn/viêm bằng hình ảnh đời thường, kiên nhẫn lắng nghe)
+Bệnh nhân: Anh Lâm (24 tuổi, Nam, Kỹ sư xây dựng, Điềm tĩnh, thật thà, xưng hô lễ phép, mô tả triệu chứng mạch lạc và lắng nghe bác sĩ một cách cầu thị.)
+Tổng số lượt thoại: 40 lượt khám lâm sàng | Cặp giới tính: Nam – Nam (N-N)
+
+---
+
+[00:00 - 00:21] Bác sĩ Quang: Chào anh Lâm, mời anh ngồi. Hôm nay anh thấy trong người thế nào?
+[00:21 - 00:43] Anh Lâm: Chào bác sĩ, cái cổ tay cháu nó cứ sưng với đau nhức quá ạ.
+[00:43 - 01:00] Bác sĩ Quang: Anh chỉ chính xác chỗ bị đau cho tôi xem nào.
+[01:00 - 01:18] Anh Lâm: Dạ, nó đau ngay khúc gốc ngón cái này bác sĩ ạ.
+[01:18 - 01:36] Bác sĩ Quang: Tình trạng này bắt đầu xuất hiện từ khi nào vậy anh?
+[01:36 - 01:52] Anh Lâm: Cháu thấy đau âm ỉ tầm 3 tuần nay rồi ạ.
+[01:52 - 02:09] Bác sĩ Quang: Thời gian gần đây mức độ đau có tăng lên không?
+[02:09 - 02:27] Anh Lâm: Dạ, tuần vừa rồi cháu làm nhiều nên thấy đau nhói hơn.
+[02:27 - 02:43] Bác sĩ Quang: Khi anh nắm tay lại hoặc xoay cổ tay thì sao?
+[02:43 - 03:01] Anh Lâm: Cứ hễ xoay hay nắm chặt là nó đau điếng lên luôn.
+[03:01 - 03:22] Bác sĩ Quang: Tôi thấy anh làm kỹ sư xây dựng, công việc có vất vả không?
+[03:22 - 03:42] Anh Lâm: Dạ, cháu suốt ngày phải cầm máy đo, xoay tay liên tục ạ.
+[03:42 - 04:01] Bác sĩ Quang: Trước đây vùng cổ tay này anh có từng bị thương gì không?
+[04:01 - 04:21] Anh Lâm: Hồi năm 2021 cháu ngã ở công trường bị bong gân tay trái.
+[04:21 - 04:37] Bác sĩ Quang: Vết thương đó sau này có hồi phục hoàn toàn không?
+[04:37 - 04:54] Anh Lâm: Dạ, cái đó thì cháu khỏi hẳn từ lâu rồi ạ.
+[04:54 - 05:13] Bác sĩ Quang: Anh có đang tự dùng thuốc hay làm gì để giảm đau không?
+[05:13 - 05:34] Anh Lâm: Cháu có đeo cái nẹp cố định ngón cái hàng ngày bác sĩ ạ.
+[05:34 - 05:52] Bác sĩ Quang: Đeo nẹp xong anh thấy cảm giác đau có giảm bớt không?
+[05:52 - 06:09] Anh Lâm: Nó cũng đỡ đau một chút nhưng vẫn thấy sưng lắm.
+[06:09 - 06:31] Bác sĩ Quang: Để tôi kiểm tra nhé. Anh nắm nhẹ ngón cái vào lòng bàn tay nào.
+[06:31 - 06:41] Anh Lâm: Dạ, cháu nắm rồi đây ạ.
+[06:41 - 06:58] Bác sĩ Quang: Giờ anh nghiêng cổ tay về phía ngón út xem sao.
+[06:58 - 07:16] Anh Lâm: Ái chà! Làm thế này là nó đau nhói lên ngay ạ!
+[07:16 - 07:34] Bác sĩ Quang: Anh có cảm thấy ngón cái bị cứng, khó cử động không?
+[07:34 - 07:53] Anh Lâm: Có bác sĩ ạ, nó cứ cứng cứng, không xoay thoải mái được.
+[07:53 - 08:16] Bác sĩ Quang: Tôi xem kết quả siêu âm nhé. Chỗ bao gân này đang bị dày lên.
+[08:16 - 08:32] Anh Lâm: Cái này là sao hả bác sĩ? Cháu không rõ lắm.
+[08:32 - 08:52] Bác sĩ Quang: Nó giống như cái ống bị sưng, khiến gân khó trượt qua lại.
+[08:52 - 09:07] Bác sĩ Quang: Tôi chẩn đoán anh bị Viêm bao gân De Quervain.
+[09:07 - 09:25] Anh Lâm: Tên bệnh lạ quá, vậy giờ cháu phải làm sao để khỏi?
+[09:25 - 09:44] Bác sĩ Quang: Tôi sẽ kê đơn thuốc. Hiện anh có đang uống thuốc gì không?
+[09:44 - 09:59] Anh Lâm: Cháu đang uống Celecoxib, loại viên nang màu vàng ạ.
+[09:59 - 10:16] Bác sĩ Quang: Anh nhớ không được tháo nẹp khi vận động mạnh nhé.
+[10:16 - 10:32] Anh Lâm: Dạ, cháu luôn nhớ kỹ điều này để tránh đau thêm.
+[10:32 - 10:47] Bác sĩ Quang: Tôi kê tiếp Celecoxib 200mg, uống 1 lần mỗi ngày.
+[10:47 - 11:07] Bác sĩ Quang: Anh lưu ý nếu thấy phát ban hay ngứa thì báo tôi ngay.
+[11:07 - 11:25] Anh Lâm: Dạ vâng, cháu sẽ để ý kỹ rồi báo bác sĩ ạ.
+[11:25 - 11:41] Bác sĩ Quang: Anh uống thuốc đúng giờ và nhớ hẹn tái khám nhé.
+[11:41 - 11:59] Anh Lâm: Cháu cảm ơn bác sĩ nhiều. Chào bác sĩ cháu về ạ.

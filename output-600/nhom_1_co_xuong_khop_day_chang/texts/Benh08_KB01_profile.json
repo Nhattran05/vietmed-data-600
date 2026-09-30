@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "disease_stt": 8,
+    "disease_name": "Hội chứng ống cổ tay (Carpal tunnel)",
+    "specialty_group": "I. Vai – Cánh tay – Khuỷu – Cổ tay – Bàn tay",
+    "scenario_index": 1,
+    "total_turns": 38,
+    "duration_minutes": 12,
+    "execution_time_seconds": 196.79,
+    "model": "google/gemma-4-31b-it",
+    "provider": "openrouter",
+    "validation_passed": true,
+    "repair_attempts": 0
+  },
+  "patient_profile": {
+    "name": "Anh Nam",
+    "gender": "Nam",
+    "age": 24,
+    "occupation": "Nhân viên kinh doanh",
+    "chief_complaint": "Tê, châm chích và đau ở ngón cái, ngón trỏ, ngón giữa và một phần ngón áp út, kèm theo yếu lực cầm nắm gây dễ rơi đồ, triệu chứng tăng nặng về đêm.",
+    "onset_duration": "Xuất hiện âm ỉ khoảng 1 tháng nay, tăng dần mức độ tê bì và yếu cơ trong 2 tuần gần đây.",
+    "medical_history": {
+      "chronic_conditions": [
+        {
+          "condition": "Chèn ép dây thần kinh giữa trong ống cổ tay",
+          "duration": "1 năm",
+          "control_status": "Không kiểm soát",
+          "treated_at": "Phòng khám nội khoa"
+        }
+      ],
+      "current_medications": [
+        {
+          "name": "NSAID",
+          "dosage": "400mg",
+          "frequency": "2 lần/ngày",
+          "adherence": "Tốt",
+          "appearance": "Viên nén màu trắng, hình tròn"
+        },
+        {
+          "name": "Vitamin B6",
+          "dosage": "100mg",
+          "frequency": "1 lần/ngày",
+          "adherence": "Tốt",
+          "appearance": "Viên nang cứng, màu vàng nhạt"
+        }
+      ],
+      "prior_pain_treatments": [
+        {
+          "treatment": "Nẹp cổ tay ban đêm và tránh gập cổ tay kéo dài",
+          "frequency": "Hàng ngày",
+          "outcome": "Giảm nhẹ triệu chứng nhưng không dứt điểm",
+          "warning_flags": "Không có"
+        }
+      ],
+      "past_surgeries_trauma": [
+        {
+          "event": "Ngã chống tay khi chơi thể thao",
+          "year": 2020,
+          "sequelae": "Đã hồi phục hoàn toàn, không để lại di chứng"
+        }
+      ],
+      "allergies_intolerances": [
+        {
+          "allergen": "NSAID",
+          "reaction": "Phát ban, ngứa nhẹ",
+          "severity": "Trung bình"
+        }
+      ],
+      "lifestyle_risk_factors": {
+        "tobacco": "Không hút thuốc",
+        "alcohol": "Uống rượu bia xã giao",
+        "occupational_posture": "Sử dụng máy tính và điện thoại liên tục, gập cổ tay kéo dài khi làm việc",
+        "daily_water_intake": "1.5L - 2L/ngày"
+      },
+      "source_reference": "STT 8 - Hội chứng ống cổ tay (Carpal tunnel) (danh-sach-60-benh-khong-cap-cuu.md)"
+    },
+    "speaking_style": "Điềm tĩnh, thật thà, xưng hô lễ phép, mô tả triệu chứng mạch lạc, lắng nghe bác sĩ.",
+    "edge_case": "Chủ động đưa ra sổ nhật ký theo dõi mức độ tê bì hàng ngày và hỏi bác sĩ về các bài tập vận động cổ tay tại nhà để hỗ trợ cùng việc dùng NSAID."
+  },
+  "doctor_profile": {
+    "name": "Bác sĩ Minh",
+    "gender": "Nam",
+    "age": 39,
+    "seniority_level": "Bác sĩ điều trị (13 năm kinh nghiệm)",
+    "speciality": "Cơ Xương Khớp / Bàn tay & Chi trên",
+    "communication_tone": "Nhẹ nhàng, cẩn trọng, từ tốn, tạo cảm giác an tâm và thoải mái khi trao đổi triệu chứng nhạy cảm"
+  },
+  "checklist": [
+    "Hỏi lý do khám và thời điểm khởi phát triệu chứng",
+    "Xác định vị trí tê bì, châm chích cụ thể trên bàn tay",
+    "Đánh giá tính chất đau và thời điểm tăng nặng (đặc biệt là ban đêm)",
+    "Khai thác yếu lực cầm nắm và tình trạng rơi đồ vật",
+    "Tìm hiểu thói quen làm việc và tư thế sử dụng máy tính/điện thoại",
+    "Khai thác tiền sử bệnh lý nền và các chấn thương vùng cổ tay trước đây",
+    "Kiểm tra các phương pháp tự điều trị tại nhà và hiệu quả",
+    "Khám thực thể: Kiểm tra cảm giác vùng ngón cái, trỏ, giữa",
+    "Thực hiện nghiệm pháp Phalen (gập cổ tay đối chiếu)",
+    "Thực hiện nghiệm pháp Tinel (gõ vào ống cổ tay)",
+    "Đánh giá mức độ teo cơ mô ngón cái (nếu có)",
+    "Giải thích kết quả cận lâm sàng (Điện cơ EMG hoặc Siêu âm dây thần kinh giữa)",
+    "Kê đơn thuốc chi tiết (Kháng viêm, Vitamin B, Giảm đau, Bảo vệ dạ dày)",
+    "Hướng dẫn nẹp cổ tay, bài tập trượt dây thần kinh và lịch tái khám"
+  ],
+  "reveal_sequence": [
+    {
+      "checklist_item": "Hỏi lý do khám và thời điểm khởi phát triệu chứng",
+      "reveal_keys": [
+        "chief_complaint",
+        "onset_duration"
+      ],
+      "reveal_detail": "Bệnh nhân mô tả tê châm chích ngón 1,2,3 và thời gian kéo dài 1 tháng"
+    },
+    {
+      "checklist_item": "Tìm hiểu thói quen làm việc và tư thế sử dụng máy tính/điện thoại",
+      "reveal_keys": [
+        "lifestyle_risk_factors"
+      ],
+      "reveal_detail": "Bệnh nhân chia sẻ về nghề nghiệp nhân viên kinh doanh, dùng máy tính/điện thoại liên tục"
+    },
+    {
+      "checklist_item": "Khai thác tiền sử bệnh lý nền và các chấn thương vùng cổ tay trước đây",
+      "reveal_keys": [
+        "chronic_conditions",
+        "past_surgeries_trauma"
+      ],
+      "reveal_detail": "Tiết lộ về tình trạng chèn ép dây thần kinh giữa 1 năm trước và cú ngã năm 2020"
+    },
+    {
+      "checklist_item": "Kiểm tra các phương pháp tự điều trị tại nhà và hiệu quả",
+      "reveal_keys": [
+        "prior_pain_treatments"
+      ],
+      "reveal_detail": "Bệnh nhân kể về việc dùng nẹp cổ tay ban đêm nhưng không dứt điểm"
+    },
+    {
+      "checklist_item": "Kê đơn thuốc chi tiết (Kháng viêm, Vitamin B, Giảm đau, Bảo vệ dạ dày)",
+      "reveal_keys": [
+        "current_medications",
+        "allergies_intolerances"
+      ],
+      "reveal_detail": "Bệnh nhân thông báo đang dùng NSAID, Vitamin B6 và tiền sử dị ứng NSAID (phát ban)"
+    }
+  ]
+}

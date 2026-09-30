@@ -1,0 +1,143 @@
+{
+  "metadata": {
+    "disease_stt": 9,
+    "disease_name": "Ngón tay lò xo (viêm gân gấp ngón tay)",
+    "specialty_group": "I. Vai – Cánh tay – Khuỷu – Cổ tay – Bàn tay",
+    "scenario_index": 1,
+    "total_turns": 36,
+    "duration_minutes": 12,
+    "execution_time_seconds": 184.99,
+    "model": "google/gemma-4-31b-it",
+    "provider": "openrouter",
+    "validation_passed": true,
+    "repair_attempts": 0
+  },
+  "patient_profile": {
+    "name": "Anh Hải",
+    "gender": "Nam",
+    "age": 24,
+    "occupation": "Huấn luyện viên thể hình",
+    "chief_complaint": "Ngón tay bị cứng, đau, có cảm giác lục cục và kẹt khi gấp duỗi, đôi khi bị khóa ở tư thế gấp rồi bật mạnh ra.",
+    "onset_duration": "Triệu chứng xuất hiện âm ỉ khoảng 3 tuần nay, tăng dần mức độ cứng và kẹt ngón trong 1 tuần trở lại đây.",
+    "medical_history": {
+      "chronic_conditions": [
+        {
+          "condition": "Viêm bao gân gấp ngón tay",
+          "duration": "2 tháng",
+          "control_status": "Chưa kiểm soát",
+          "treated_at": "Chưa điều trị"
+        }
+      ],
+      "current_medications": [
+        {
+          "name": "NSAID (Celecoxib)",
+          "dosage": "200mg",
+          "frequency": "1 lần/ngày",
+          "adherence": "Đang tuân thủ",
+          "appearance": "Viên nang cứng, màu vàng"
+        }
+      ],
+      "prior_pain_treatments": [
+        {
+          "treatment": "Nẹp ngón tay và hạn chế cầm nắm chặt lặp lại",
+          "frequency": "Hàng ngày",
+          "outcome": "Giảm đau nhẹ nhưng vẫn bị kẹt ngón",
+          "warning_flags": "Không có"
+        }
+      ],
+      "past_surgeries_trauma": [
+        {
+          "event": "Chấn thương bong gân cổ tay khi tập tạ",
+          "year": 2021,
+          "sequelae": "Hồi phục hoàn toàn"
+        }
+      ],
+      "allergies_intolerances": [
+        {
+          "allergen": "Không có",
+          "reaction": "N/A",
+          "severity": "N/A"
+        }
+      ],
+      "lifestyle_risk_factors": {
+        "tobacco": "Không hút thuốc",
+        "alcohol": "Uống rượu bia ít",
+        "occupational_posture": "Cầm nắm tạ nặng và thực hiện các động tác nắm chặt lặp lại thường xuyên trong huấn luyện thể hình",
+        "daily_water_intake": "3 lít/ngày"
+      },
+      "source_reference": "STT 9 - Ngón tay lò xo (viêm gân gấp ngón tay) (danh-sach-60-benh-khong-cap-cuu.md)"
+    },
+    "speaking_style": "Điềm tĩnh, thật thà, xưng hô lễ phép, mô tả triệu chứng mạch lạc, lắng nghe bác sĩ.",
+    "edge_case": "Anh Hải chủ động ghi chép lại nhật ký mức độ kẹt ngón tay hàng ngày và hỏi bác sĩ về các bài tập vận động nhẹ tại nhà để hỗ trợ quá trình nẹp ngón tay hiệu quả hơn."
+  },
+  "doctor_profile": {
+    "name": "Bác sĩ Đức",
+    "gender": "Nam",
+    "age": 54,
+    "seniority_level": "Bác sĩ Chuyên khoa II / Trưởng khoa (28 năm kinh nghiệm)",
+    "speciality": "Cơ Xương Khớp / Bàn tay & Chi trên",
+    "communication_tone": "Ân cần, thấu cảm, giải thích cặn kẽ tầm quan trọng sống còn của việc tuân thủ phác đồ"
+  },
+  "checklist": [
+    "Lý do khám: Tình trạng cứng, kẹt ngón tay",
+    "Thời gian và diễn tiến: Thời điểm khởi phát và mức độ tăng dần",
+    "Tính chất triệu chứng: Cảm giác lục cục, hiện tượng khóa ngón (triggering)",
+    "Hoàn cảnh khởi phát: Mối liên hệ với hoạt động cầm nắm, tập luyện",
+    "Tiền sử thói quen: Nghề nghiệp, tư thế làm việc và cường độ tập luyện",
+    "Tiền sử bệnh lý & chấn thương: Các bệnh nền khớp/gân và chấn thương cũ",
+    "Tiền sử tự điều trị: Các biện pháp hỗ trợ tại nhà và mức độ đáp ứng",
+    "Khám thực thể 1: Xác định điểm đau chói tại ròng rọc A1 (gốc ngón tay)",
+    "Khám thực thể 2: Nghiệm pháp gấp duỗi chủ động và thụ động để tìm hiện tượng 'bật'",
+    "Giải thích cận lâm sàng: Kết quả siêu âm gân gấp hoặc X-quang loại trừ tổn thương xương",
+    "Chẩn đoán xác định: Ngón tay lò xo (Viêm bao gân gấp ngón tay)",
+    "Kê đơn thuốc: Kháng viêm (NSAID), giảm đau, giãn cơ và thuốc bảo vệ dạ dày",
+    "Hướng dẫn phục hồi chức năng: Nẹp ngón, bài tập kéo giãn nhẹ nhàng",
+    "Dặn dò theo dõi: Tái khám khi không đáp ứng thuốc hoặc chỉ định tiêm corticoid/phẫu thuật"
+  ],
+  "reveal_sequence": [
+    {
+      "checklist_item": "Lý do khám: Tình trạng cứng, kẹt ngón tay",
+      "reveal_keys": [
+        "chief_complaint"
+      ],
+      "reveal_detail": "Bệnh nhân mô tả ngón tay bị cứng, đau, có cảm giác lục cục và kẹt"
+    },
+    {
+      "checklist_item": "Thời gian và diễn tiến: Thời điểm khởi phát và mức độ tăng dần",
+      "reveal_keys": [
+        "onset_duration"
+      ],
+      "reveal_detail": "Triệu chứng âm ỉ 3 tuần, tăng dần trong 1 tuần gần đây"
+    },
+    {
+      "checklist_item": "Tiền sử thói quen: Nghề nghiệp, tư thế làm việc và cường độ tập luyện",
+      "reveal_keys": [
+        "lifestyle_risk_factors"
+      ],
+      "reveal_detail": "Huấn luyện viên thể hình, thường xuyên cầm nắm tạ nặng và nắm chặt lặp lại"
+    },
+    {
+      "checklist_item": "Tiền sử bệnh lý & chấn thương: Các bệnh nền khớp/gân và chấn thương cũ",
+      "reveal_keys": [
+        "chronic_conditions",
+        "past_surgeries_trauma"
+      ],
+      "reveal_detail": "Tiền sử viêm bao gân gấp 2 tháng chưa kiểm soát và chấn thương bong gân cổ tay 2021"
+    },
+    {
+      "checklist_item": "Tiền sử tự điều trị: Các biện pháp hỗ trợ tại nhà và mức độ đáp ứng",
+      "reveal_keys": [
+        "prior_pain_treatments"
+      ],
+      "reveal_detail": "Sử dụng nẹp ngón tay và hạn chế cầm nắm, giảm đau nhẹ nhưng vẫn kẹt"
+    },
+    {
+      "checklist_item": "Kê đơn thuốc: Kháng viêm (NSAID), giảm đau, giãn cơ và thuốc bảo vệ dạ dày",
+      "reveal_keys": [
+        "current_medications",
+        "allergies_intolerances"
+      ],
+      "reveal_detail": "Đang dùng Celecoxib 200mg/ngày và xác nhận không dị ứng thuốc"
+    }
+  ]
+}

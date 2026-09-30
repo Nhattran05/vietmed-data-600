@@ -1,0 +1,143 @@
+{
+  "metadata": {
+    "disease_stt": 10,
+    "disease_name": "Viêm bao hoạt dịch khuỷu tay (Olecranon bursitis)",
+    "specialty_group": "I. Vai – Cánh tay – Khuỷu – Cổ tay – Bàn tay",
+    "scenario_index": 1,
+    "total_turns": 36,
+    "duration_minutes": 12,
+    "execution_time_seconds": 172.74,
+    "model": "google/gemma-4-31b-it",
+    "provider": "openrouter",
+    "validation_passed": true,
+    "repair_attempts": 0
+  },
+  "patient_profile": {
+    "name": "Anh Trọng",
+    "gender": "Nam",
+    "age": 24,
+    "occupation": "Sinh viên đại học",
+    "chief_complaint": "Vùng mỏm khuỷu tay sưng nóng, đỏ và đau nhức, đặc biệt đau tăng khi tỳ khuỷu hoặc gấp duỗi cánh tay.",
+    "onset_duration": "Xuất hiện sưng đau từ 3 ngày trước, cảm giác nóng rát và khó vận động tăng dần trong 24 giờ qua.",
+    "medical_history": {
+      "chronic_conditions": [
+        {
+          "condition": "Viêm túi hoạt dịch mỏm khuỷu do tỳ đè lặp lại",
+          "duration": "2 năm",
+          "control_status": "Không ổn định",
+          "treated_at": "Phòng khám đa khoa"
+        }
+      ],
+      "current_medications": [
+        {
+          "name": "NSAID (Celecoxib)",
+          "dosage": "200mg",
+          "frequency": "1 lần/ngày",
+          "adherence": "Tốt",
+          "appearance": "Viên nang cứng, màu vàng"
+        }
+      ],
+      "prior_pain_treatments": [
+        {
+          "treatment": "Chườm lạnh và dùng đệm lót khuỷu tay",
+          "frequency": "2-3 lần/ngày",
+          "outcome": "Giảm sưng nhẹ nhưng vẫn đau khi tỳ",
+          "warning_flags": "Không có"
+        }
+      ],
+      "past_surgeries_trauma": [
+        {
+          "event": "Chấn thương trực tiếp vùng khuỷu tay do ngã khi chơi thể thao",
+          "year": 2021,
+          "sequelae": "Sưng nề mỏm khuỷu kéo dài"
+        }
+      ],
+      "allergies_intolerances": [
+        {
+          "allergen": "Penicillin",
+          "reaction": "Phát ban, ngứa",
+          "severity": "Trung bình"
+        }
+      ],
+      "lifestyle_risk_factors": {
+        "tobacco": "Không",
+        "alcohol": "Không",
+        "occupational_posture": "Thường xuyên tỳ khuỷu tay lên bàn khi học tập và sử dụng máy tính trong thời gian dài",
+        "daily_water_intake": "1.5L - 2L"
+      },
+      "source_reference": "STT 10 - Viêm bao hoạt dịch khuỷu tay (Olecranon bursitis) (danh-sach-60-benh-khong-cap-cuu.md)"
+    },
+    "speaking_style": "Điềm tĩnh, thật thà, xưng hô lễ phép, mô tả triệu chứng mạch lạc và lắng nghe bác sĩ một cách cầu thị.",
+    "edge_case": "Anh Trọng mang theo một cuốn sổ nhật ký ghi chép chi tiết mức độ đau và thời gian chườm lạnh hàng ngày, sau đó chủ động hỏi bác sĩ về các bài tập vận động nhẹ tại nhà để cải thiện tình trạng tỳ đè."
+  },
+  "doctor_profile": {
+    "name": "Bác sĩ Hùng",
+    "gender": "Nam",
+    "age": 41,
+    "seniority_level": "Bác sĩ Chuyên khoa I (15 năm kinh nghiệm)",
+    "speciality": "Cơ Xương Khớp / Bàn tay & Chi trên",
+    "communication_tone": "Thực tế, logic chặt chẽ, chú trọng hướng dẫn thay đổi thói quen sinh hoạt và bài tập phục hồi tại nhà"
+  },
+  "checklist": [
+    "Lý do khám và thời gian khởi phát triệu chứng",
+    "Mô tả tính chất sưng, nóng, đỏ, đau tại mỏm khuỷu",
+    "Yếu tố tăng giảm: Đau khi tỳ đè hoặc vận động gấp duỗi",
+    "Tiền sử chấn thương vùng khuỷu tay trước đây",
+    "Thói quen sinh hoạt và tư thế làm việc hàng ngày",
+    "Tiền sử bệnh lý mạn tính tại vùng khuỷu",
+    "Các biện pháp tự điều trị tại nhà và đáp ứng",
+    "Khám thực thể: Quan sát hình thái sưng nề và sờ nhiệt độ vùng mỏm khuỷu",
+    "Nghiệm pháp vận động: Đánh giá biên độ gấp duỗi và điểm đau chói",
+    "Giải thích cận lâm sàng: Siêu âm/X-quang loại trừ gãy xương hoặc tràn dịch nhiễm khuẩn",
+    "Chẩn đoán xác định: Viêm bao hoạt dịch mỏm khuỷu (Olecranon bursitis)",
+    "Kê đơn thuốc: Kháng viêm (NSAIDs), Giảm đau, Thuốc bảo vệ dạ dày (do dùng NSAIDs)",
+    "Hướng dẫn phục hồi: Chườm lạnh, dùng đệm lót, tránh tỳ đè",
+    "Dặn dò tái khám và theo dõi dấu hiệu nhiễm trùng (sốt, đỏ lan rộng)"
+  ],
+  "reveal_sequence": [
+    {
+      "checklist_item": "Lý do khám và thời gian khởi phát triệu chứng",
+      "reveal_keys": [
+        "chief_complaint",
+        "onset_duration"
+      ],
+      "reveal_detail": "Bệnh nhân mô tả sưng nóng đỏ đau mỏm khuỷu xuất hiện 3 ngày trước"
+    },
+    {
+      "checklist_item": "Tiền sử chấn thương vùng khuỷu tay trước đây",
+      "reveal_keys": [
+        "past_surgeries_trauma"
+      ],
+      "reveal_detail": "Bệnh nhân kể về cú ngã khi chơi thể thao năm 2021"
+    },
+    {
+      "checklist_item": "Thói quen sinh hoạt và tư thế làm việc hàng ngày",
+      "reveal_keys": [
+        "lifestyle_risk_factors"
+      ],
+      "reveal_detail": "Bệnh nhân chia sẻ thói quen tỳ khuỷu tay khi học tập và dùng máy tính"
+    },
+    {
+      "checklist_item": "Tiền sử bệnh lý mạn tính tại vùng khuỷu",
+      "reveal_keys": [
+        "chronic_conditions"
+      ],
+      "reveal_detail": "Tiết lộ tình trạng viêm túi hoạt dịch không ổn định trong 2 năm"
+    },
+    {
+      "checklist_item": "Các biện pháp tự điều trị tại nhà và đáp ứng",
+      "reveal_keys": [
+        "prior_pain_treatments"
+      ],
+      "reveal_detail": "Bệnh nhân kể về việc chườm lạnh và dùng đệm lót"
+    },
+    {
+      "checklist_item": "Kê đơn thuốc: Kháng viêm (NSAIDs), Giảm đau, Thuốc bảo vệ dạ dày (do dùng NSAIDs)",
+      "reveal_keys": [
+        "current_medications",
+        "allergies_intolerances"
+      ],
+      "reveal_detail": "Bệnh nhân cung cấp thông tin đang dùng Celecoxib và dị ứng Penicillin"
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "metadata": {
+    "disease_stt": 3,
+    "disease_name": "Hội chứng chèn ép khoang dưới mỏm cùng vai",
+    "specialty_group": "I. Vai – Cánh tay – Khuỷu – Cổ tay – Bàn tay",
+    "scenario_index": 1,
+    "total_turns": 36,
+    "duration_minutes": 12,
+    "execution_time_seconds": 227.88,
+    "model": "google/gemma-4-31b-it",
+    "provider": "openrouter",
+    "validation_passed": true,
+    "repair_attempts": 0
+  },
+  "patient_profile": {
+    "name": "Anh Tuấn",
+    "gender": "Nam",
+    "age": 24,
+    "occupation": "Sinh viên đại học",
+    "chief_complaint": "Đau vùng trước và bên vai, đau tăng khi giơ tay cao quá đầu, đau nhức về đêm kèm theo cảm giác yếu và hạn chế vận động khớp vai.",
+    "onset_duration": "Đau âm ỉ kéo dài 1 tháng nay, tăng dần mức độ và xuất hiện nhiều hơn trong 2 tuần gần đây.",
+    "medical_history": {
+      "chronic_conditions": [
+        {
+          "condition": "Hẹp khoang dưới mỏm cùng vai do vận động lặp lại tay qua đầu",
+          "duration": "1 năm",
+          "control_status": "Chưa kiểm soát",
+          "treated_at": "Phòng khám nội cơ xương khớp"
+        }
+      ],
+      "current_medications": [
+        {
+          "name": "NSAID (Celecoxib)",
+          "dosage": "200mg",
+          "frequency": "1 lần/ngày",
+          "adherence": "Tốt",
+          "appearance": "Viên nang cứng, màu vàng"
+        },
+        {
+          "name": "Vật lý trị liệu tăng sức mạnh chóp xoay",
+          "dosage": "30 phút/buổi",
+          "frequency": "3 lần/tuần",
+          "adherence": "Đang theo dõi",
+          "appearance": "Bài tập vận động có hướng dẫn"
+        }
+      ],
+      "prior_pain_treatments": [
+        {
+          "treatment": "Hạn chế động tác đưa tay qua đầu và chườm đá",
+          "frequency": "Hàng ngày",
+          "outcome": "Giảm đau tạm thời",
+          "warning_flags": "Không cải thiện triệt để"
+        }
+      ],
+      "past_surgeries_trauma": [
+        {
+          "event": "Chấn thương bong gân cổ tay khi chơi bóng rổ",
+          "year": 2019,
+          "sequelae": "Đã hồi phục hoàn toàn"
+        }
+      ],
+      "allergies_intolerances": [
+        {
+          "allergen": "Không có",
+          "reaction": "Không có",
+          "severity": "N/A"
+        }
+      ],
+      "lifestyle_risk_factors": {
+        "tobacco": "Không hút thuốc",
+        "alcohol": "Uống xã giao",
+        "occupational_posture": "Sinh viên, thường xuyên sử dụng máy tính và có thói quen vận động tay qua đầu khi sinh hoạt",
+        "daily_water_intake": "2L/ngày"
+      },
+      "source_reference": "STT 3 - Hội chứng chèn ép khoang dưới mỏm cùng vai (danh-sach-60-benh-khong-cap-cuu.md)"
+    },
+    "speaking_style": "Điềm tĩnh, thật thà, xưng hô lễ phép với bác sĩ, mô tả các triệu chứng đau và mức độ vận động của khớp vai một cách mạch lạc, biết lắng nghe và ghi chép hướng dẫn điều trị.",
+    "edge_case": "Anh Tuấn chủ động mang theo một cuốn sổ nhật ký ghi chép chi tiết mức độ đau theo ngày và hỏi bác sĩ xem có thể bổ sung thêm bài tập giãn cơ nào tại nhà để hỗ trợ cho lộ trình vật lý trị liệu tăng sức mạnh chóp xoay hiện tại không."
+  },
+  "doctor_profile": {
+    "name": "Bác sĩ Tuấn",
+    "gender": "Nam",
+    "age": 46,
+    "seniority_level": "Bác sĩ Chuyên khoa I (20 năm kinh nghiệm)",
+    "speciality": "Cơ Xương Khớp / Bàn tay & Chi trên",
+    "communication_tone": "Nghiêm cẩn, sắc sảo, kiên nhẫn gặng hỏi thói quen sinh hoạt và việc dùng thuốc không rõ nguồn gốc"
+  },
+  "checklist": [
+    "Hỏi lý do khám và vị trí đau cụ thể ở vùng vai",
+    "Khai thác thời gian khởi phát và diễn tiến của triệu chứng",
+    "Xác định tính chất đau và các yếu tố làm tăng/giảm đau",
+    "Khai thác thói quen sinh hoạt, tư thế làm việc và vận động",
+    "Hỏi về tiền sử chấn thương vùng vai và cổ tay",
+    "Khai thác các bệnh lý nền và tiền sử điều trị chuyên khoa",
+    "Tìm hiểu các biện pháp tự điều trị tại nhà và mức độ đáp ứng",
+    "Khám thực thể: Xác định điểm đau chói vùng dưới mỏm cùng vai",
+    "Đánh giá biên độ vận động khớp vai (vận động chủ động và thụ động)",
+    "Thực hiện các nghiệm pháp chèn ép (Neer test, Hawkins-Kennedy test)",
+    "Giải thích kết quả cận lâm sàng (X-quang/MRI) về hẹp khoang dưới mỏm cùng",
+    "Kê đơn thuốc chi tiết: Kháng viêm (NSAIDs), Giảm đau, Giãn cơ, Bảo vệ dạ dày",
+    "Hướng dẫn vật lý trị liệu tăng sức mạnh chóp xoay và tư thế sinh hoạt",
+    "Dặn dò theo dõi, tái khám và cảnh báo dấu hiệu thất bại điều trị bảo tồn"
+  ],
+  "reveal_sequence": [
+    {
+      "checklist_item": "Hỏi lý do khám và vị trí đau cụ thể ở vùng vai",
+      "reveal_keys": [
+        "chief_complaint"
+      ],
+      "reveal_detail": "Bệnh nhân mô tả đau vùng trước và bên vai"
+    },
+    {
+      "checklist_item": "Khai thác thời gian khởi phát và diễn tiến của triệu chứng",
+      "reveal_keys": [
+        "onset_duration"
+      ],
+      "reveal_detail": "Đau âm ỉ 1 tháng, tăng dần trong 2 tuần gần đây"
+    },
+    {
+      "checklist_item": "Xác định tính chất đau và các yếu tố làm tăng/giảm đau",
+      "reveal_keys": [
+        "chief_complaint"
+      ],
+      "reveal_detail": "Đau tăng khi giơ tay cao quá đầu, đau nhức về đêm"
+    },
+    {
+      "checklist_item": "Khai thác thói quen sinh hoạt, tư thế làm việc và vận động",
+      "reveal_keys": [
+        "lifestyle_risk_factors"
+      ],
+      "reveal_detail": "Sinh viên, dùng máy tính nhiều, thói quen vận động tay qua đầu"
+    },
+    {
+      "checklist_item": "Hỏi về tiền sử chấn thương vùng vai và cổ tay",
+      "reveal_keys": [
+        "past_surgeries_trauma"
+      ],
+      "reveal_detail": "Chấn thương bong gân cổ tay năm 2019"
+    },
+    {
+      "checklist_item": "Khai thác các bệnh lý nền và tiền sử điều trị chuyên khoa",
+      "reveal_keys": [
+        "chronic_conditions"
+      ],
+      "reveal_detail": "Hẹp khoang dưới mỏm cùng vai đã xác định tại phòng khám nội cơ xương khớp"
+    },
+    {
+      "checklist_item": "Tìm hiểu các biện pháp tự điều trị tại nhà và mức độ đáp ứng",
+      "reveal_keys": [
+        "prior_pain_treatments"
+      ],
+      "reveal_detail": "Hạn chế đưa tay qua đầu và chườm đá, giảm đau tạm thời"
+    },
+    {
+      "checklist_item": "Kê đơn thuốc chi tiết: Kháng viêm (NSAIDs), Giảm đau, Giãn cơ, Bảo vệ dạ dày",
+      "reveal_keys": [
+        "current_medications",
+        "allergies_intolerances"
+      ],
+      "reveal_detail": "Đang dùng Celecoxib 200mg, không dị ứng thuốc"
+    }
+  ]
+}

@@ -1,0 +1,219 @@
+{
+  "metadata": {
+    "disease_stt": 1,
+    "disease_name": "Viêm quanh khớp vai / rách gân chóp xoay",
+    "specialty_group": "I. Vai – Cánh tay – Khuỷu – Cổ tay – Bàn tay",
+    "scenario_index": 5,
+    "total_turns": 38,
+    "duration_minutes": 12,
+    "execution_time_seconds": 253.2,
+    "model": "google/gemma-4-31b-it",
+    "provider": "openrouter",
+    "validation_passed": true,
+    "repair_attempts": 0
+  },
+  "patient_profile": {
+    "name": "Đặng Quốc Lâm",
+    "display_name": "Anh Lâm",
+    "gender": "Nam",
+    "age": 52,
+    "occupation": "Kinh doanh tự do",
+    "address": "Xã Tiền Phong, Mê Linh, Hà Nội",
+    "confirm_identity": true,
+    "chief_complaint": "Đau nhức khớp vai, đau tăng khi vận động hoặc giơ tay, kèm theo yếu tay và hạn chế tầm vận động, thường đau nhiều về đêm.",
+    "onset_duration": "Đau âm ỉ tăng dần trong 1 tháng nay, gần đây hạn chế vận động rõ rệt hơn.",
+    "medical_history": {
+      "chronic_conditions": [
+        {
+          "condition": "Thoái hóa gân khớp vai theo tuổi",
+          "duration": "3 năm",
+          "control_status": "Không ổn định",
+          "treated_at": "Phòng khám đa khoa"
+        }
+      ],
+      "current_medications": [
+        {
+          "name": "NSAID (Celecoxib)",
+          "dosage": "200mg",
+          "frequency": "1 viên/ngày sau ăn",
+          "adherence": "Tốt",
+          "appearance": "Viên nang cứng, màu vàng nhạt"
+        }
+      ],
+      "prior_pain_treatments": [
+        {
+          "treatment": "Chườm lạnh và nghỉ vận động vai",
+          "frequency": "Hàng ngày trong 48h đầu khi đau cấp",
+          "outcome": "Giảm đau tạm thời",
+          "warning_flags": "Không chườm trực tiếp đá lên da"
+        },
+        {
+          "treatment": "Hạn chế mang vác nặng",
+          "frequency": "Liên tục",
+          "outcome": "Hạn chế tăng đau",
+          "warning_flags": "Không tự ý vận động mạnh khi chưa tập vật lý trị liệu"
+        }
+      ],
+      "past_surgeries_trauma": [
+        {
+          "event": "Chấn thương khớp vai do ngã trong lúc vận chuyển hàng hóa",
+          "year": 2020,
+          "sequelae": "Hạn chế tầm vận động khớp vai trái"
+        }
+      ],
+      "allergies_intolerances": [
+        {
+          "allergen": "Aspirin",
+          "reaction": "Phát ban, ngứa toàn thân",
+          "severity": "Trung bình"
+        }
+      ],
+      "lifestyle_risk_factors": {
+        "tobacco": "Hút thuốc lá 10 năm",
+        "alcohol": "Uống rượu bia xã giao khi gặp đối tác",
+        "occupational_posture": "Thường xuyên vận động lặp lại đưa tay qua đầu khi sắp xếp kho hàng",
+        "daily_water_intake": "1.5L - 2L/ngày"
+      },
+      "previous_medical_visits": [
+        {
+          "hospital": "Bệnh viện Chấn thương Chỉnh hình TP.HCM",
+          "specialty": "Cơ Xương Khớp",
+          "diagnosis": "Viêm quanh khớp vai",
+          "treatment_given": "Vật lý trị liệu phục hồi tầm vận động và thuốc giảm đau",
+          "treatment_duration": "Tập vật lý trị liệu 1 tháng",
+          "effectiveness": "Cải thiện một phần nhưng tái phát khi làm việc nặng",
+          "visit_time": "8 tháng trước"
+        }
+      ],
+      "source_reference": "STT 1 - Viêm quanh khớp vai / rách gân chóp xoay (danh-sach-60-benh-khong-cap-cuu.md)",
+      "has_prior_medical_visit": true,
+      "doctor_asks_prior_visit": true
+    },
+    "speaking_style": "Điềm tĩnh, thật thà, xưng hô lễ phép, mô tả triệu chứng mạch lạc, lắng nghe bác sĩ.",
+    "edge_case": "Chủ động mang theo sổ nhật ký ghi chép mức độ đau hàng ngày và hỏi bác sĩ về các bài tập vật lý trị liệu cụ thể tại nhà để phục hồi tầm vận động vai."
+  },
+  "doctor_profile": {
+    "name": "Bác sĩ Vũ Hữu Nam",
+    "display_name": "Bác sĩ Nam",
+    "gender": "Nam",
+    "age": 49,
+    "seniority_level": "Bác sĩ Chuyên khoa II / Trưởng khoa (23 năm kinh nghiệm)",
+    "speciality": "Cơ Xương Khớp / Bàn tay & Chi trên",
+    "communication_tone": "Dứt khoát, giàu kinh nghiệm, nghiêm khắc chấn chỉnh việc tự ý dùng thuốc quá liều"
+  },
+  "checklist": [
+    "Xác nhận danh tính: Bác sĩ chào hỏi và đối chiếu họ tên, số tuổi của bệnh nhân",
+    "Lý do khám: Khai thác triệu chứng đau nhức khớp vai và hoàn cảnh khởi phát",
+    "Thời gian diễn tiến: Xác định thời lượng đau và sự thay đổi mức độ theo thời gian",
+    "Đo lường cường độ đau VAS: Hỏi điểm đau hiện tại và điểm đau dữ dội nhất trong 4 tuần qua",
+    "Đặc tính cơn đau: Khai thác cảm giác buốt, nhói, đau về đêm và tình trạng yếu cơ",
+    "Yếu tố tăng giảm: Xác định các tư thế vận động gây đau (ví dụ: giơ tay qua đầu)",
+    "Tiền sử chấn thương: Khai thác các tai nạn cũ liên quan đến khớp vai",
+    "Tiền sử bệnh nền: Hỏi về các bệnh mạn tính, thoái hóa khớp",
+    "Thói quen và tư thế lao động: Khai thác công việc, tư thế làm việc lặp lại và lối sống",
+    "Tiền sử thăm khám trước đây: Hỏi cơ sở y tế đã khám và chẩn đoán khi đó",
+    "Đánh giá điều trị trước đây: Hỏi biện pháp điều trị khi đó là gì, có hiệu quả không và bệnh nhân đã theo phác đồ bao lâu",
+    "Tiền sử tự điều trị tại nhà: Các biện pháp giảm đau tự áp dụng và kết quả",
+    "Tiền sử dị ứng và thuốc đang sử dụng: Kiểm tra dị ứng thuốc và các thuốc đang uống",
+    "Khám thực thể: Kiểm tra điểm đau chói, đánh giá biên độ vận động khớp vai",
+    "Nghiệm pháp vận động: Thực hiện các test chuyên biệt cho gân chóp xoay",
+    "Giải thích cận lâm sàng: Phân tích kết quả X-quang hoặc MRI để xác định mức độ rách gân",
+    "Chẩn đoán xác định và giải thích bệnh lý: Kết luận Viêm quanh khớp vai/Rách gân chóp xoay",
+    "Kê đơn thuốc và hướng dẫn điều trị: Đơn thuốc 4 nhóm, bảo vệ dạ dày, vật lý trị liệu và lịch tái khám"
+  ],
+  "reveal_sequence": [
+    {
+      "checklist_item": "Xác nhận danh tính: Bác sĩ chào hỏi và đối chiếu họ tên, số tuổi của bệnh nhân",
+      "reveal_keys": [
+        "patient_identity"
+      ],
+      "reveal_detail": "Xác nhận bệnh nhân Đặng Quốc Lâm, 52 tuổi"
+    },
+    {
+      "checklist_item": "Lý do khám: Khai thác triệu chứng đau nhức khớp vai và hoàn cảnh khởi phát",
+      "reveal_keys": [
+        "chief_complaint"
+      ],
+      "reveal_detail": "Đau nhức khớp vai, đau tăng khi vận động/giơ tay, yếu tay, hạn chế vận động, đau về đêm"
+    },
+    {
+      "checklist_item": "Thời gian diễn tiến: Xác định thời lượng đau và sự thay đổi mức độ theo thời gian",
+      "reveal_keys": [
+        "onset_duration"
+      ],
+      "reveal_detail": "Đau âm ỉ tăng dần trong 1 tháng nay, gần đây hạn chế vận động rõ rệt"
+    },
+    {
+      "checklist_item": "Đo lường cường độ đau VAS: Hỏi điểm đau hiện tại và điểm đau dữ dội nhất trong 4 tuần qua",
+      "reveal_keys": [
+        "pain_intensity_vas"
+      ],
+      "reveal_detail": "Cung cấp điểm VAS tương ứng với mức độ đau âm ỉ và đau cấp"
+    },
+    {
+      "checklist_item": "Đặc tính cơn đau: Khai thác cảm giác buốt, nhói, đau về đêm và tình trạng yếu cơ",
+      "reveal_keys": [
+        "pain_quality_dn4",
+        "mental_sleep_impact"
+      ],
+      "reveal_detail": "Mô tả tính chất đau nhức, ảnh hưởng đến giấc ngủ đêm"
+    },
+    {
+      "checklist_item": "Yếu tố tăng giảm: Xác định các tư thế vận động gây đau (ví dụ: giơ tay qua đầu)",
+      "reveal_keys": [
+        "chief_complaint"
+      ],
+      "reveal_detail": "Đau tăng khi giơ tay hoặc vận động"
+    },
+    {
+      "checklist_item": "Tiền sử chấn thương: Khai thác các tai nạn cũ liên quan đến khớp vai",
+      "reveal_keys": [
+        "past_surgeries_trauma"
+      ],
+      "reveal_detail": "Ngã khi vận chuyển hàng năm 2020, gây hạn chế vận động vai trái"
+    },
+    {
+      "checklist_item": "Tiền sử bệnh nền: Hỏi về các bệnh mạn tính, thoái hóa khớp",
+      "reveal_keys": [
+        "chronic_conditions"
+      ],
+      "reveal_detail": "Thoái hóa gân khớp vai theo tuổi trong 3 năm, kiểm soát không ổn định"
+    },
+    {
+      "checklist_item": "Thói quen và tư thế lao động: Khai thác công việc, tư thế làm việc lặp lại và lối sống",
+      "reveal_keys": [
+        "lifestyle_risk_factors"
+      ],
+      "reveal_detail": "Kinh doanh tự do, thường xuyên đưa tay qua đầu sắp xếp kho, hút thuốc 10 năm, uống rượu bia"
+    },
+    {
+      "checklist_item": "Tiền sử thăm khám trước đây: Hỏi cơ sở y tế đã khám và chẩn đoán khi đó",
+      "reveal_keys": [
+        "previous_medical_visits"
+      ],
+      "reveal_detail": "Khám tại BV Chấn thương Chỉnh hình TP.HCM, chẩn đoán Viêm quanh khớp vai cách đây 8 tháng"
+    },
+    {
+      "checklist_item": "Đánh giá điều trị trước đây: Hỏi biện pháp điều trị khi đó là gì, có hiệu quả không và bệnh nhân đã theo phác đồ bao lâu",
+      "reveal_keys": [
+        "previous_medical_visits"
+      ],
+      "reveal_detail": "Vật lý trị liệu 1 tháng và thuốc giảm đau; cải thiện một phần nhưng tái phát khi làm nặng"
+    },
+    {
+      "checklist_item": "Tiền sử tự điều trị tại nhà: Các biện pháp giảm đau tự áp dụng và kết quả",
+      "reveal_keys": [
+        "prior_pain_treatments"
+      ],
+      "reveal_detail": "Chườm lạnh 48h đầu, hạn chế mang vác nặng, giảm đau tạm thời"
+    },
+    {
+      "checklist_item": "Tiền sử dị ứng và thuốc đang sử dụng: Kiểm tra dị ứng thuốc và các thuốc đang uống",
+      "reveal_keys": [
+        "current_medications",
+        "allergies_intolerances"
+      ],
+      "reveal_detail": "Dùng Celecoxib 200mg/ngày; dị ứng Aspirin (phát ban, ngứa)"
+    }
+  ]
+}

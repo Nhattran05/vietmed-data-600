@@ -1,0 +1,162 @@
+{
+  "metadata": {
+    "disease_stt": 6,
+    "disease_name": "Viêm lồi cầu trong xương cánh tay (Golfer's Elbow)",
+    "specialty_group": "I. Vai – Cánh tay – Khuỷu – Cổ tay – Bàn tay",
+    "scenario_index": 1,
+    "total_turns": 36,
+    "duration_minutes": 12,
+    "execution_time_seconds": 169.08,
+    "model": "google/gemma-4-31b-it",
+    "provider": "openrouter",
+    "validation_passed": true,
+    "repair_attempts": 0
+  },
+  "patient_profile": {
+    "name": "Anh Bình",
+    "gender": "Nam",
+    "age": 24,
+    "occupation": "Lập trình viên phần mềm",
+    "chief_complaint": "Đau mặt trong khuỷu tay lan xuống cẳng tay, đau tăng khi nắm, xoay cẳng tay hoặc gấp cổ tay và đau khi ấn vào vùng lồi cầu trong.",
+    "onset_duration": "Đau âm ỉ tăng dần trong 3 tuần nay, trở nên khó chịu hơn khi làm việc với máy tính kéo dài.",
+    "medical_history": {
+      "chronic_conditions": [
+        {
+          "condition": "Viêm gân gấp cổ tay do vận động lặp lại",
+          "duration": "1 năm",
+          "control_status": "Chưa kiểm soát",
+          "treated_at": "Phòng khám nội khoa"
+        }
+      ],
+      "current_medications": [
+        {
+          "name": "NSAID (Etoricoxib)",
+          "dosage": "90mg",
+          "frequency": "1 lần/ngày",
+          "adherence": "Tốt",
+          "appearance": "Viên nén màu trắng, hình tròn"
+        },
+        {
+          "name": "Vật lý trị liệu",
+          "dosage": "30 phút/buổi",
+          "frequency": "3 lần/tuần",
+          "adherence": "Đang theo dõi",
+          "appearance": "N/A"
+        }
+      ],
+      "prior_pain_treatments": [
+        {
+          "treatment": "Chườm lạnh và nghỉ tay",
+          "frequency": "2-3 lần/ngày",
+          "outcome": "Giảm đau tạm thời",
+          "warning_flags": "Không tự ý dùng thuốc giảm đau liều cao kéo dài"
+        },
+        {
+          "treatment": "Hạn chế vặn cẳng tay",
+          "frequency": "Hàng ngày",
+          "outcome": "Ít cải thiện",
+          "warning_flags": "Không áp dụng nẹp sai tư thế"
+        }
+      ],
+      "past_surgeries_trauma": [
+        {
+          "event": " Bong gân cổ tay trái do ngã",
+          "year": 2018,
+          "sequelae": "Hồi phục hoàn toàn"
+        }
+      ],
+      "allergies_intolerances": [
+        {
+          "allergen": "Aspirin",
+          "reaction": "Phát ban, ngứa",
+          "severity": "Trung bình"
+        }
+      ],
+      "lifestyle_risk_factors": {
+        "tobacco": "Không",
+        "alcohol": "Hiếm khi",
+        "occupational_posture": "Sử dụng máy tính cường độ cao, đánh máy liên tục, tư thế cổ tay gập",
+        "daily_water_intake": "1.5L - 2L"
+      },
+      "source_reference": "STT 6 - Viêm lồi cầu trong xương cánh tay (Golfer's Elbow) (danh-sach-60-benh-khong-cap-cuu.md)"
+    },
+    "speaking_style": "Điềm tĩnh, thật thà, xưng hô lễ phép, mô tả triệu chứng mạch lạc, lắng nghe bác sĩ.",
+    "edge_case": "Anh Bình chủ động mang theo sổ nhật ký ghi chép chi tiết mức độ đau hàng ngày và hỏi bác sĩ về các bài tập kéo giãn tại nhà để hỗ trợ quá trình vật lý trị liệu."
+  },
+  "doctor_profile": {
+    "name": "Bác sĩ Hoàng",
+    "gender": "Nam",
+    "age": 45,
+    "seniority_level": "Bác sĩ Chuyên khoa I (19 năm kinh nghiệm)",
+    "speciality": "Cơ Xương Khớp / Bàn tay & Chi trên",
+    "communication_tone": "Đĩnh đạc, ân cần, giải thích nguyên nhân bằng hình ảnh đời thường, kiên nhẫn gặng hỏi từng động tác đau"
+  },
+  "checklist": [
+    "Hỏi lý do khám và vị trí đau khởi phát",
+    "Khai thác tính chất đau và thời gian diễn tiến",
+    "Xác định các yếu tố làm tăng hoặc giảm đau",
+    "Tìm hiểu thói quen nghề nghiệp và tư thế làm việc",
+    "Khai thác tiền sử bệnh lý nền liên quan đến gân cơ",
+    "Kiểm tra tiền sử chấn thương hoặc phẫu thuật vùng chi trên",
+    "Hỏi về các biện pháp tự điều trị tại nhà và hiệu quả",
+    "Khám thực thể: Xác định điểm đau chói tại lồi cầu trong",
+    "Nghiệm pháp vận động: Đau khi gập cổ tay và xoay cẳng tay chống lại lực cản",
+    "Kiểm tra sức nắm của bàn tay",
+    "Giải thích kết quả cận lâm sàng (Siêu âm/MRI gân gấp cổ tay)",
+    "Chẩn đoán xác định: Viêm lồi cầu trong xương cánh tay (Golfer's Elbow)",
+    "Kê đơn thuốc phối hợp: Kháng viêm, giảm đau, giãn cơ, bảo vệ dạ dày",
+    "Hướng dẫn phục hồi chức năng, chườm lạnh và điều chỉnh tư thế làm việc"
+  ],
+  "reveal_sequence": [
+    {
+      "checklist_item": "Hỏi lý do khám và vị trí đau khởi phát",
+      "reveal_keys": [
+        "chief_complaint"
+      ],
+      "reveal_detail": "Bệnh nhân mô tả đau mặt trong khuỷu tay lan xuống cẳng tay"
+    },
+    {
+      "checklist_item": "Khai thác tính chất đau và thời gian diễn tiến",
+      "reveal_keys": [
+        "onset_duration"
+      ],
+      "reveal_detail": "Đau âm ỉ tăng dần trong 3 tuần, khó chịu khi dùng máy tính"
+    },
+    {
+      "checklist_item": "Tìm hiểu thói quen nghề nghiệp và tư thế làm việc",
+      "reveal_keys": [
+        "lifestyle_risk_factors"
+      ],
+      "reveal_detail": "Lập trình viên, đánh máy cường độ cao, tư thế cổ tay gập"
+    },
+    {
+      "checklist_item": "Khai thác tiền sử bệnh lý nền liên quan đến gân cơ",
+      "reveal_keys": [
+        "chronic_conditions"
+      ],
+      "reveal_detail": "Tiền sử viêm gân gấp cổ tay 1 năm chưa kiểm soát"
+    },
+    {
+      "checklist_item": "Kiểm tra tiền sử chấn thương hoặc phẫu thuật vùng chi trên",
+      "reveal_keys": [
+        "past_surgeries_trauma"
+      ],
+      "reveal_detail": "Bong gân cổ tay trái năm 2018 đã hồi phục"
+    },
+    {
+      "checklist_item": "Hỏi về các biện pháp tự điều trị tại nhà và hiệu quả",
+      "reveal_keys": [
+        "prior_pain_treatments"
+      ],
+      "reveal_detail": "Chườm lạnh, nghỉ tay (giảm tạm thời), hạn chế vặn cẳng tay (ít cải thiện)"
+    },
+    {
+      "checklist_item": "Kê đơn thuốc phối hợp: Kháng viêm, giảm đau, giãn cơ, bảo vệ dạ dày",
+      "reveal_keys": [
+        "current_medications",
+        "allergies_intolerances"
+      ],
+      "reveal_detail": "Đang dùng Etoricoxib, vật lý trị liệu; dị ứng Aspirin (phát ban, ngứa)"
+    }
+  ]
+}

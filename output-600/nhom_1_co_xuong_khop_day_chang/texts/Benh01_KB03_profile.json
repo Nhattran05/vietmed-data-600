@@ -1,0 +1,194 @@
+{
+  "metadata": {
+    "disease_stt": 1,
+    "disease_name": "Viêm quanh khớp vai / rách gân chóp xoay",
+    "specialty_group": "I. Vai – Cánh tay – Khuỷu – Cổ tay – Bàn tay",
+    "scenario_index": 3,
+    "total_turns": 36,
+    "duration_minutes": 12,
+    "execution_time_seconds": 141.49,
+    "model": "google/gemma-4-31b-it",
+    "provider": "openrouter",
+    "validation_passed": true,
+    "repair_attempts": 0
+  },
+  "patient_profile": {
+    "name": "Vũ Thành Long",
+    "display_name": "Anh Long",
+    "gender": "Nam",
+    "age": 38,
+    "occupation": "Giáo viên trung học",
+    "address": "Xã Hải Bối, Đông Anh, Hà Nội",
+    "confirm_identity": true,
+    "chief_complaint": "Đau nhức khớp vai, tăng khi vận động hoặc giơ tay, kèm theo yếu tay, hạn chế tầm vận động và đau nhiều về đêm.",
+    "onset_duration": "Đau âm ỉ tăng dần trong 1 tháng nay, 1 tuần gần đây hạn chế vận động rõ rệt.",
+    "medical_history": {
+      "chronic_conditions": [
+        {
+          "condition": "Thoái hóa gân khớp vai",
+          "duration": "2 năm",
+          "control_status": "Không ổn định",
+          "treated_at": "Phòng khám đa khoa"
+        }
+      ],
+      "current_medications": [
+        {
+          "name": "NSAID (Celecoxib)",
+          "dosage": "200mg",
+          "frequency": "1 lần/ngày sau ăn",
+          "adherence": "Tốt",
+          "appearance": "Viên nang hình oval, màu vàng"
+        }
+      ],
+      "prior_pain_treatments": [
+        {
+          "treatment": "Chườm lạnh và nghỉ vận động vai",
+          "frequency": "Trong 48h đầu khi đau tăng",
+          "outcome": "Giảm đau tạm thời",
+          "warning_flags": "Không dùng nhiệt nóng khi đang viêm cấp"
+        },
+        {
+          "treatment": "Tránh mang vác nặng",
+          "frequency": "Hàng ngày",
+          "outcome": "Hạn chế cơn đau khởi phát",
+          "warning_flags": "Không tự ý nắn bóp mạnh"
+        }
+      ],
+      "past_surgeries_trauma": [
+        {
+          "event": "Ngã chống tay khi chơi thể thao",
+          "year": 2020,
+          "sequelae": "Đau âm ỉ vùng khớp vai trái"
+        }
+      ],
+      "allergies_intolerances": [
+        {
+          "allergen": "Aspirin",
+          "reaction": "Phát ban, ngứa",
+          "severity": "Trung bình"
+        }
+      ],
+      "lifestyle_risk_factors": {
+        "tobacco": "Không",
+        "alcohol": "Uống xã giao",
+        "occupational_posture": "Giáo viên thường xuyên viết bảng, vận động lặp lại đưa tay qua đầu khi giảng bài",
+        "daily_water_intake": "1.5L - 2L/ngày"
+      },
+      "previous_medical_visits": [
+        {
+          "hospital": "Bệnh viện Đại học Y Dược TP.HCM",
+          "specialty": "Cơ Xương Khớp",
+          "diagnosis": "Viêm quanh khớp vai",
+          "treatment_given": "Vật lý trị liệu phục hồi tầm vận động và uống NSAID",
+          "treatment_duration": "Tập vật lý trị liệu 1 tháng",
+          "effectiveness": "Cải thiện một phần nhưng tái phát khi làm việc cường độ cao",
+          "visit_time": "6 tháng trước"
+        }
+      ],
+      "source_reference": "STT 1 - Viêm quanh khớp vai / rách gân chóp xoay (danh-sach-60-benh-khong-cap-cuu.md)",
+      "has_prior_medical_visit": true,
+      "doctor_asks_prior_visit": true
+    },
+    "speaking_style": "Điềm tĩnh, thật thà, xưng hô lễ phép, mô tả triệu chứng mạch lạc và lắng nghe bác sĩ một cách cầu thị.",
+    "edge_case": "Chủ động mang theo sổ nhật ký theo dõi mức độ đau hàng ngày và hỏi bác sĩ về các bài tập vật lý trị liệu cụ thể tại nhà để phục hồi tầm vận động vai."
+  },
+  "doctor_profile": {
+    "name": "Bác sĩ Phan Ngọc Hà",
+    "display_name": "Bác sĩ Hà",
+    "gender": "Nữ",
+    "age": 52,
+    "seniority_level": "Bác sĩ Chuyên khoa II / Trưởng khoa (26 năm kinh nghiệm)",
+    "speciality": "Cơ Xương Khớp / Bàn tay & Chi trên",
+    "communication_tone": "Dứt khoát, giàu kinh nghiệm, nghiêm khắc chấn chỉnh việc tự ý dùng thuốc quá liều"
+  },
+  "checklist": [
+    "Xác nhận danh tính: Bác sĩ chào hỏi và đối chiếu họ tên, số tuổi của bệnh nhân",
+    "Lý do khám & khởi phát: Khai thác triệu chứng đau vai, thời điểm và hoàn cảnh xuất hiện",
+    "Tính chất cơn đau: Đau âm ỉ hay dữ dội, mức độ đau về đêm và yếu tố tăng/giảm",
+    "Đánh giá chức năng: Tình trạng yếu tay và mức độ hạn chế tầm vận động",
+    "Tiền sử chấn thương: Các sự kiện ngã hoặc chấn thương vùng vai trong quá khứ",
+    "Tiền sử thói quen & nghề nghiệp: Tư thế làm việc, vận động lặp lại, thói quen sinh hoạt",
+    "Tiền sử bệnh nền: Các bệnh lý mạn tính liên quan đến xương khớp",
+    "Tiền sử thăm khám trước đây: Hỏi cơ sở y tế đã khám và chẩn đoán khi đó",
+    "Đánh giá điều trị trước đây: Hỏi biện pháp điều trị khi đó là gì, có hiệu quả không và bệnh nhân đã theo phác đồ bao lâu",
+    "Tiền sử tự điều trị tại nhà: Các biện pháp giảm đau tự áp dụng và phản ứng",
+    "Khám thực thể & nghiệm pháp: Kiểm tra điểm đau, tầm vận động chủ động/thụ động và các test chóp xoay",
+    "Giải thích kết quả Cận lâm sàng: Phân tích hình ảnh MRI/X-quang để xác định mức độ rách gân/viêm",
+    "Kê đơn thuốc chi tiết: Nhóm kháng viêm, giảm đau, giãn cơ, bảo vệ dạ dày và kiểm tra dị ứng",
+    "Hướng dẫn phục hồi chức năng: Bài tập vận động, tư vấn tư thế làm việc và lịch tái khám"
+  ],
+  "reveal_sequence": [
+    {
+      "checklist_item": "Xác nhận danh tính: Bác sĩ chào hỏi và đối chiếu họ tên, số tuổi của bệnh nhân",
+      "reveal_keys": [
+        "patient_identity"
+      ],
+      "reveal_detail": "Xác nhận bệnh nhân Vũ Thành Long, 38 tuổi"
+    },
+    {
+      "checklist_item": "Lý do khám & khởi phát: Khai thác triệu chứng đau vai, thời điểm và hoàn cảnh xuất hiện",
+      "reveal_keys": [
+        "chief_complaint",
+        "onset_duration"
+      ],
+      "reveal_detail": "Đau nhức khớp vai, tăng khi vận động, kéo dài 1 tháng, 1 tuần gần đây hạn chế rõ"
+    },
+    {
+      "checklist_item": "Tính chất cơn đau: Đau âm ỉ hay dữ dội, mức độ đau về đêm và yếu tố tăng/giảm",
+      "reveal_keys": [
+        "chief_complaint"
+      ],
+      "reveal_detail": "Đau âm ỉ tăng dần, đau nhiều về đêm, đau khi giơ tay"
+    },
+    {
+      "checklist_item": "Tiền sử chấn thương: Các sự kiện ngã hoặc chấn thương vùng vai trong quá khứ",
+      "reveal_keys": [
+        "past_surgeries_trauma"
+      ],
+      "reveal_detail": "Ngã chống tay khi chơi thể thao năm 2020, đau âm ỉ vai trái"
+    },
+    {
+      "checklist_item": "Tiền sử thói quen & nghề nghiệp: Tư thế làm việc, vận động lặp lại, thói quen sinh hoạt",
+      "reveal_keys": [
+        "lifestyle_risk_factors"
+      ],
+      "reveal_detail": "Giáo viên thường xuyên viết bảng, đưa tay qua đầu khi giảng bài"
+    },
+    {
+      "checklist_item": "Tiền sử bệnh nền: Các bệnh lý mạn tính liên quan đến xương khớp",
+      "reveal_keys": [
+        "chronic_conditions"
+      ],
+      "reveal_detail": "Thoái hóa gân khớp vai 2 năm, kiểm soát không ổn định"
+    },
+    {
+      "checklist_item": "Tiền sử thăm khám trước đây: Hỏi cơ sở y tế đã khám và chẩn đoán khi đó",
+      "reveal_keys": [
+        "previous_medical_visits"
+      ],
+      "reveal_detail": "Khám tại BV Đại học Y Dược TP.HCM, chẩn đoán Viêm quanh khớp vai"
+    },
+    {
+      "checklist_item": "Đánh giá điều trị trước đây: Hỏi biện pháp điều trị khi đó là gì, có hiệu quả không và bệnh nhân đã theo phác đồ bao lâu",
+      "reveal_keys": [
+        "previous_medical_visits"
+      ],
+      "reveal_detail": "Vật lý trị liệu 1 tháng và uống NSAID, cải thiện một phần nhưng tái phát"
+    },
+    {
+      "checklist_item": "Tiền sử tự điều trị tại nhà: Các biện pháp giảm đau tự áp dụng và phản ứng",
+      "reveal_keys": [
+        "prior_pain_treatments"
+      ],
+      "reveal_detail": "Chườm lạnh, nghỉ vận động, tránh mang vác nặng"
+    },
+    {
+      "checklist_item": "Kê đơn thuốc chi tiết: Nhóm kháng viêm, giảm đau, giãn cơ, bảo vệ dạ dày và kiểm tra dị ứng",
+      "reveal_keys": [
+        "current_medications",
+        "allergies_intolerances"
+      ],
+      "reveal_detail": "Đang dùng Celecoxib 200mg; Dị ứng Aspirin gây phát ban, ngứa"
+    }
+  ]
+}
